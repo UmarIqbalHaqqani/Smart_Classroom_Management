@@ -1,0 +1,122 @@
+.facebook_app_id, 
+.facebook_app_secret, 
+.twitter_oauth_token, 
+.twitter_token_secret, 
+.twitter_callback_url, 
+.gplus_client_id, 
+.gplus_client_secret, 
+.gplus_redirect_uri, 
+.linkedin_client_id, 
+.linkedin_client_secret, 
+.linkedin_redirect_uri,
+.microsoft_client_id,
+.microsoft_client_secret,
+.microsoft_redirect_uri,
+.microsoft_app_id,
+.microsoft_app_secret{
+  display: none;
+}
+
+.loginpress-social-login-tab-wrapper:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#loginpress_social_login_help{
+  display: none;
+}
+
+.loginpress-social-tabs {
+	display: none;
+    border-top: 0;
+    background: #fff;
+}
+
+.loginpress-tabs.loginpress-social-active{
+	display: block;
+}
+
+.loginpress-social-tabs >*:first-child{
+	padding-top: 10px !important;
+}
+
+body .loginpress-accordions{
+	display: block;
+    padding: 10px;
+    color: #000;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-decoration: none;
+    position: relative;
+    color: #516885 !important;
+    font-family: "Poppins", sans-serif;
+    padding: 10px 40px 10px 0px;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.loginpress-accordions:hover, 
+.loginpress-accordions.loginpress-accordions-acive {
+	color: #F6366A !important;
+}
+
+.loginpress-accordions:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+.loginpress-accordions .loginpress-arrow{
+	position: absolute;
+    top: 12px;
+    width: 30px;
+	height: 30px;
+	right: 0;
+	-webkit-transition: all  0.3s ease-in-out;
+	transition:  all 0.3s ease-in-out;
+	background: url(../img/accordion-right-arrow.svg) center center no-repeat;
+}
+
+.loginpress-accordions .loginpress-arrow:before{
+	display: none;
+}
+
+.loginpress-accordions.loginpress-accordions-acive .loginpress-arrow{
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.loginpress-social-accordions:not(:first-child){
+    border-top: 1px solid #D2DDF2;
+}
+
+.loginpress-social-tabs >*:first-child{
+	padding-top: 10px !important;
+}
+.loginpress-social-tabs a{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #F6366A;
+}
+
+.loginpress-social-tabs a:hover{
+    text-decoration: none;
+}
+
+.loginpress-social-tabs, 
+.loginpress-social-tabs p, 
+.loginpress-social-tabs ul{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #516885;
+}
+
+.loginpress-social-tabs h4{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    color: #516885;
+    margin: 15px 0 0px;
+}

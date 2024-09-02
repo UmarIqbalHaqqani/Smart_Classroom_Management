@@ -1,0 +1,758 @@
+.loginpress-pro-30-wrapper{
+    background-color: #fff;
+		border: 2px solid #D2DDF2;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-ms-border-radius: 8px;
+		-o-border-radius: 8px;
+		border-radius: 8px;
+		max-width: 528px;
+		min-height: 365px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 30px 30px 35px 30px;
+		display: flex;
+}
+.loginpress-pro-30-wrapper.loginpress-pro-30-update-addons-wrapper{
+    align-items: flex-start;
+}
+.loginpress-pro-30-inner-wrapper {
+    width: 100%;
+    margin: auto;
+}
+#loginpress-pro-setup-30-update-free:first-child, #loginpress-pro-setup-30-update-addons:first-child, #loginpress-pro-setup-30-finish:first-child{
+	margin-top: 0;
+}
+.loginpress-pro-30-update-addons-wrapper tbody {
+  	border: 1px solid #ffffff00 !important;
+}
+
+.loginpress-pro-30-finish-wrapper {
+	display: none;
+}
+#loginPressConfetti{
+	position: fixed;
+	inset: 0;
+	z-index: 11111;
+	width: 100%;
+	height: 100%;
+}
+#loginpress-pro-setup-30-update-free[disabled], 
+#loginpress-pro-setup-30-update-addons[disabled], 
+#loginpress-pro-setup-30-finish[disabled]{
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+#loginpress-pro-setup-30-update-free, #loginpress-pro-setup-30-update-addons, #loginpress-pro-setup-30-finish {
+	cursor: pointer;
+	border: 0;
+    padding: 20px 30px 20px 30px;
+    background-color: #5C7697;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    transition: all 0.3s;
+    display: inline-block;
+    max-width: 250px;
+    width: 100%;
+    cursor: pointer;
+	width: fit-content;
+	z-index: 6;
+	margin: 20px auto 0;
+	display: block;
+}
+
+.loginpress-pro-loader-wrapper-30 {
+	width: 170px;
+	height: 170px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -85px;
+	margin-left: -85px;
+}
+
+.loginpress-pro-circular-loader-30 {
+	-webkit-animation: rotate-30 2s ease-in-out infinite, color 6s ease-in-out infinite;
+	animation: rotate-30 2s ease-in-out infinite, color 6s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+.loginpress-pro-loader-path-30 {
+	stroke-dasharray: 150, 200;
+	stroke-dashoffset: -10;
+	-webkit-animation: dash-30 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	animation: dash-30 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+@-webkit-keyframes rotate-30 {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes loader-spin-30 {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes dash-30 {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124;
+	}
+}
+
+.loginpress-plugin-info-30 {
+	text-align: center;
+	padding: 2%;
+	font-size: 30px;
+	color: #23282d;
+}
+
+.loginpress-main-container {
+  	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.loginpress-main-container * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.loginpress-plugin-info {
+	text-align: center;
+	padding: 5%;
+	font-size: 30px;
+	color: #23282d;
+}
+
+.loginpress-installation {
+	background-color: #f1f1f1;
+	border: 1px solid #d8d8d8;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	max-width: 488px;
+	min-height: 365px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.loginpress-install {
+	display: table-cell;
+	vertical-align: middle;
+	height: 305px;
+	width: 428px;
+}
+
+.loginpress-install img {
+ 	margin: 0 0 10px;
+}
+
+.loginpress-install p {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	color: #aaa;
+}
+
+.loginpress-install .loginpress-copyright {
+  	font-size: 16px;
+}
+
+.loginpress-install .loginpress-copyright a {
+	color: #7a7a7a;
+	text-decoration: none;
+}
+
+.loginpress-btn {
+	cursor: pointer;
+	border: 1px solid rgb(0, 103, 153);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	background-color: #0085ba;
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0, 103, 153, 0.004);
+	box-shadow: 0px 2px 0px 0px rgba(0, 103, 153, 0.004);
+	min-width: 216px;
+	height: 47px;
+	z-index: 6;
+	margin: 20px auto 0;
+	display: block;
+	color: #feffff;
+	font-size: 21px;
+	line-height: 40px;
+  	text-decoration: none;
+}
+
+.loginpress-logo-container-30 {
+	position: relative;
+	width: 185px;
+	height: 185px;
+	text-align: center;
+	line-height: 185px;
+	margin: 0 auto;
+}
+
+.loginpress-logo-container-30 svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.loginpress-logo-container-30 img {
+  	vertical-align: middle;
+}
+
+.loader-path {
+	stroke-dasharray: 150, 200;
+	stroke-dashoffset: -10;
+	-webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+.activating p {
+  	font-size: 20px;
+}
+
+.activated p {
+	font-size: 20px;
+	color: #00c853;
+}
+
+@-webkit-keyframes rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124;
+	}
+}
+
+@keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124;
+	}
+}
+
+@-webkit-keyframes color {
+	0% {
+		stroke: #d8d8d8;
+	}
+	40% {
+		stroke: #d8d8d8;
+	}
+	66% {
+		stroke: #d8d8d8;
+	}
+	80%, 90% {
+		stroke: #d8d8d8;
+	}
+}
+
+@keyframes color {
+	0% {
+		stroke: #d8d8d8;
+	}
+	40% {
+		stroke: #d8d8d8;
+	}
+	66% {
+		stroke: #d8d8d8;
+	}
+	80%, 90% {
+		stroke: #d8d8d8;
+	}
+}
+
+.circle-loader-30 {
+	margin: 0 0 30px 0;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+	border-left-color: #00c853;
+	animation-name: loader-spin;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.circle-loader-30, .circle-loader-30:after {
+	border-radius: 50%;
+	width: 148px;
+	height: 148px;
+}
+
+.load-complete-30 {
+	-webkit-animation: none;
+	animation: none;
+	border-color: #00c853;
+	transition: border 500ms ease-out;
+}
+
+.loginpress-pro-30-update-main-wrapper .checkmark {
+  	display: none;
+}
+
+.loginpress-pro-30-update-main-wrapper .checkmark.draw:after {
+	animation-duration: 800ms;
+	animation-timing-function: ease;
+	animation-name: checkmark;
+	transform: scaleX(-1) rotate(135deg);
+}
+
+.loginpress-pro-30-update-main-wrapper .checkmark:after {
+	opacity: 1;
+	height: 4em;
+	width: 2em;
+	transform-origin: left top;
+	border-right: 2px solid #00c853;
+	border-top: 2px solid #00c853;
+	content: '';
+	left: 42px;
+	top: 70px;
+	position: absolute;
+}
+
+@keyframes loader-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes checkmark {
+	0% {
+		height: 0;
+		width: 0;
+		opacity: 1;
+	}
+	20% {
+		height: 0;
+		width: 2em;
+		opacity: 1;
+	}
+	40% {
+		height: 4em;
+		width: 2em;
+		opacity: 1;
+	}
+	100% {
+		height: 4em;
+		width: 2em;
+		opacity: 1;
+	}
+}
+@keyframes checkmark2 {
+	0% {
+		height: 0;
+		width: 0;
+		opacity: 1;
+	}
+	20% {
+		height: 0;
+		width: 4px;
+		opacity: 1;
+	}
+	40% {
+		height: 8px;
+		width: 4px;
+		opacity: 1;
+	}
+	100% {
+		height: 8px;
+		width: 4px;
+		opacity: 1;
+	}
+}
+
+.loginpress-install {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1000;
+}
+.loginpressAddons-install{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	background: #f1f1f1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	z-index: 1000;
+}
+.addon-activating .loginpressAddons-install{
+	display: flex !important;
+	width: 100%;
+	height: 100%;
+}
+.loginpressAddons-install .circle-loader-30, .loginpressAddons-install .circle-loader-30:after {
+	border-radius: 50%;
+	width: 16px;
+	height: 16px;
+	margin: 0;
+}
+.status{
+  	position: relative;
+}
+.loginpress-logo-container-30 {
+	position: relative;
+	width: 185px;
+	height: 185px;
+	text-align: center;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loginpress-logo-container-30 svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.loader-path-30 {
+	stroke-dasharray: 150, 200;
+	stroke-dashoffset: -10;
+	-webkit-animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	animation: dash 1.5s ease-in-out infinite, color 6s ease-in-out infinite;
+	stroke-linecap: round;
+}
+
+@-webkit-keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124;
+	}
+}
+
+@keyframes dash {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+	50% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -35;
+	}
+	100% {
+		stroke-dasharray: 89, 200;
+		stroke-dashoffset: -124;
+	}
+}
+.loginpress-pro-30-update-addons-list{
+	width: 220px;
+	text-align: left;
+	margin: 40px auto 0;
+	table-layout: fixed;
+	overflow: hidden;
+	
+}
+.loginpress-pro-30-update-addons-list tr:first-child th{
+	border: none;
+    border-bottom: 1px solid #DEE5F2 !important;
+    background-color: #DEE5F2 !important;
+    font-size: 16px;
+    line-height: 24px;
+    color: #516885;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    border-bottom: none !important;
+    text-align: center;
+	padding: 10px 18px;
+}
+.loginpress-pro-30-update-addons-list tr td{
+	padding: 15px 15px;
+	box-sizing: border-box;
+	text-transform: capitalize;
+}
+.loginpress-pro-30-update-addons-list tr:first-child th:first-child{
+	
+	border-top-left-radius: 10px;
+}
+.loginpress-pro-30-update-addons-list tr:first-child th:last-child{
+	
+	border-top-right-radius: 10px;
+}
+.loginpress-pro-30-update-addons-list tr td:first-child,.loginpress-pro-30-update-addons-list tr th:first-child{
+  	width: 10px;
+}
+.loginpress-pro-30-update-addons-list tr td:nth-child(2),.loginpress-pro-30-update-addons-list tr th:nth-child(2){
+  	width: 160px;
+}
+.loginpress-pro-30-update-addons-list tr td:nth-child(3),.loginpress-pro-30-update-addons-list tr th:nth-child(3){
+  	width: 170px;
+}
+.loginpress-pro-30-update-addons-list li{
+	font-size: 20px;
+	line-height: 1.333;
+	position: relative;
+	padding-left: 30px;
+	transition: all 0.3s ease-in-out;
+}
+/* \2713 */
+.loginpress-pro-30-update-addons-list li:before{
+	content: "";
+	width: 20px;
+	height: 20px;
+	background: #ddd;
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: baseline;
+	position: relative;
+	top: 4px;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	left: 0;
+	transition: all 0.3s ease-in-out;
+}
+.loginpress-pro-30-update-addons-list li.addon-activated:before{
+	content: "\2713";
+	background: #5fcf80;
+}
+.loginpress-pro-30-update-addons-list li{
+	color: #adadad;
+	transition: all 0.3s ease-in-out;
+}
+.loginpress-pro-30-update-addons-list li.addon-activating{
+  	color: #222;
+}
+.loginpress-pro-30-update-addons-list li.addon-activated{
+	color: #5c5c5c;
+}
+.loginpress-pro-30-update-addons-list{
+	width: 100%;
+	border: 1px solid #9c9c9c !important;
+	border-collapse: collapse;
+}
+/* .loginpress-pro-30-update-addons-list tr {
+	text-align: center;
+} */
+.loginpress-pro-setup-30-wrapper .heading-wrapper .loginpress-plugin-info-30{
+    font-size: 22px;
+    line-height: 32px;
+    color: #516885;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+.loginpress-pro-30-update-addons-list tr td{
+	font-size: 15px;
+	font-weight: 500;
+	border: 1px solid #DEE5F2 ;
+	padding: 15px 15px;
+	border-right: none !important;
+    font-size: 14px;
+    line-height: 24px;
+    color: #5C7697 !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    border-top: none !important;
+	text-align: center;
+}
+.loginpress_page_loginpress-setup-30 #wpwrap{
+	background: #f1f5fe;
+}
+.loginpress-pro-30-update-addons-list tr+tr .status:last-child{
+	border-right: 1px solid #DEE5F2 !important;
+
+}
+.loginpress-pro-30-update-addons-list tr td:first-child{
+	width: 20px;
+	color: #23282d;
+}
+.checkbox{
+	width: 15px;
+	height: 15px;
+	display: block;
+	text-align: center;
+	background: #d0d0d0;
+	color: transparent;
+	transition: all 0.3s ease-in-out;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.loginpress-pro-30-update-addons-list tr.addon-activated td{
+  	color: #5fcf80;
+}
+.loginpress-pro-30-update-addons-list tr th{
+	padding: 5px 5px;
+	color: #23282d;
+}
+.loginpress-pro-30-update-addons-list tr.addon-activated .checkbox{
+	background: #5fcf80;
+	color: #fff;
+}
+.loginpress-pro-30-update-addons-list tr.addon-activated .checkbox:before{
+
+}
+.loginpress-pro-30-all-update{
+	color: #5fcf80;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	display: none;
+	margin-top: 30px;
+	text-align: center;
+}
+.loginpress-pro-30-finish-wrapper h2{
+	font-size: 30px;
+	color: #23282d;
+}
+.loginpress-pro-30-update-addons-list tr .status{
+  	text-align: center;
+}
+.addon-activated .circle-loader-30{
+	animation: none;
+	border-color: #00c853;
+}
+.addon-activated .circle-loader-30{
+  	animation: none;
+}
+.loginpressAddons-install .checkmark{
+  	display: none;
+}
+.loginpressAddons-install .checkmark:after{
+	height: 8px;
+	width: 4px;
+	left: 2px;
+	top: 9px;
+	transform-origin: left top;
+	border-right: 2px solid #00c853;
+	border-top: 2px solid #00c853;
+	position: absolute;
+	content: '';
+}
+.addon-activated .checkmark{
+  	display: block;
+}
+.addon-activated .checkmark.draw:after {
+	animation-duration: 800ms;
+	animation-timing-function: ease;
+	animation-name: checkmark2;
+	transform: scaleX(-1) rotate(135deg);
+}
+/* loading dots */
+
+.loginpress-pro-setup-30-loading {
+	color: #014e73 !important;
+}
+.loginpress-pro-setup-30-loading:after {
+	content: ' . .';
+	animation: dots 1s steps(5, end) infinite;}
+
+@keyframes dots {
+	0%, 20% {
+		color: rgba(0,0,0,0);
+		text-shadow:
+		.25em 0 0 rgba(0,0,0,0),
+		.5em 0 0 rgba(0,0,0,0);
+	}
+	40% {
+		color: white;
+		text-shadow:
+		.25em 0 0 rgba(0,0,0,0),
+		.5em 0 0 rgba(0,0,0,0);
+	}
+	60% {
+		text-shadow:
+		.25em 0 0 white,
+		.5em 0 0 rgba(0,0,0,0);
+	}
+	80%, 100% {
+		text-shadow:
+		.25em 0 0 white,
+		.5em 0 0 white;
+	}
+}

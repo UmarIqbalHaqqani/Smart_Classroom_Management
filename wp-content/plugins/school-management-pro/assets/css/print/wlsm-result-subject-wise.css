@@ -1,0 +1,86 @@
+@media print {
+	body {
+		font-size: 12pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+	.text-secondary {
+		color: #6c757d !important;
+	}
+	.text-dark {
+		color: #343a40 !important;
+	}
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+	.wlsm-results-subject-wise-table th,
+	.wlsm-results-subject-wise-table td {
+		font-size: 12pt !important;
+		padding: 5pt 8pt;
+		background-color: #fff !important;
+		border-color: #444 !important;
+		color: #000 !important;
+	}
+	.wlsm-print-results-subject-wise-container ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 2pt 0;
+	}
+	.wlsm-print-results-subject-wise-container li {
+		font-size: 12pt;
+		padding: 0;
+		margin: 2pt 0;
+		border-bottom: 1px solid #ddd;
+	}
+	.wlsm-print-results-subject-wise-container ul {
+		margin-bottom: 10pt;
+	}
+	.text-dark {
+		color: #000 !important;
+	}
+	.wlsm-print-results-subject-wise-container .wlsm-results-subject-wise-heading {
+		margin-bottom: 3pt;
+		font-weight: 600;
+		font-size: 16pt;
+		text-align: center;
+	}
+	.wlsm-print-results-subject-wise-container .wlsm-results-subject-wise-heading span {
+		border-bottom: 1pt solid #000;
+	}
+	.wlsm-print-results-subject-wise-container .wlsm-print-photo-box {
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		width: 20mm !important;
+		height: 25mm !important;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.wlsm-print-results-subject-wise-container .wlsm-print-photo {
+		width: 100%;
+		height: 100%;
+	}
+	.wlsm-student-side-lists {
+		display: flex;
+		margin-top: 10pt;
+	}
+	.wlsm-student-side-lists ul:nth-child(2),
+	.wlsm-student-side-lists ul:nth-child(3) {
+		margin-left: 30pt;
+	}
+	.wlsm-to-right {
+		margin-left: auto;
+	}
+	@page {
+		size: A4 portrait;
+	}
+	@media print {
+		div.page-break {
+		  page-break-after: always;
+		}
+	  }
+}

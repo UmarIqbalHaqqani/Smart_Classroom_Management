@@ -1,0 +1,1 @@
+jQuery((function(e){e(document.body).on("click",".ekit_elementor_template_edit_link",(function(t){t.preventDefault();let n=e(this).closest(".elementor-control").prev().find('select[data-setting="ekit_pc_elementor_template"]');window.open(ElementorConfig.home_url+"?p="+n.val()+"&elementor","_blank")}))}));

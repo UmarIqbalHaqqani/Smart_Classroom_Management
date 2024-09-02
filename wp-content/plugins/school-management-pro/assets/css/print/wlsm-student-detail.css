@@ -1,0 +1,44 @@
+@media print {
+    body {
+        font-size: 12pt;
+        margin: 0;
+        padding: 0;
+        color: #000;
+    }
+    .wlsm-font-bold {
+        font-weight: 600;
+    }
+    .text-secondary {
+        color: #6c757d !important;
+    }
+    .text-dark {
+        color: #343a40 !important;
+    }
+    .table-responsive {
+        display: table;
+        overflow: unset;
+    }
+    .wlsm-student-detail-details{
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e4e4e4 !important;
+    }
+    li.student-detail_list {
+    border-bottom: 1px solid #6c757d;
+    padding: 5px;
+    list-style: none;
+    }
+
+    .wlsm-student-detail-photo-box img{
+        width: 90%;
+        /* height: 150px;
+        width: 250px; */
+    }
+    @page {
+        size: A4 portrait;
+    }
+}
+
+

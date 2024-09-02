@@ -1,0 +1,840 @@
+Version 10.3.9 [06-04-2024]
+========
+* Added: school categories added.
+* Added: lessons permission added.
+* Added: student type is dynamic.
+
+Version 10.3.8 [06-03-2024]
+========
+* Fixed: lessions issue fixed.
+* Fixed: Study material issue fixed.
+* Fixed: parent dash issue fixed in fee history.
+* Fixed: QR Code save settings issue fixed.
+* Fixed: Stripe issue fixed.
+* Added: Activity permission.
+
+Version 10.3.7 [1-2-2024]
+========
+* Added: bulk delete invoices
+* Added: invoice edit permission.
+* Fixed: transport period issue fixed.
+* Fixed: yearly fees not calculating in student dash.
+* Fixed: school header and logo size fixed.
+
+Version 10.3.6 [20-1-2024]
+========
+* Fixed: Pesapal api updated.
+* Changed: transport fare combine with registration fee.
+* Changed: student dash fee counter.
+* Fixed: Fix case sensitivity issue in subject type comparison.
+* changed : Medium list is now dynamic in back-end and student registration.
+* added : sm activity function added with fees.
+* added : sm activity invoice will be created according to fee from student registration.
+* changed : student registration form is organized.
+* Fixed: School Registration Front end phone, email and address save issue fixed
+* Fixed: Activity saved issue is fixed
+* Fixed: add period column to routes table
+
+Version 10.3.4 [20-12-2023]
+========
+* Fixed: PHP v8.3 updated.
+
+Version 10.3.3 [12-12-2023]
+========
+* Fixed: hostel dashboard counter added.
+* Fixed: admission form have hostel types boys and girls now.
+* Updated: In hostel added rooms counts.
+* Updated: staff holiday and late options added.
+* Updated: translation pot file updated.
+* Updated: transport fair will generate an invoice on student admission.
+
+Version 10.3.2 [20-11-2023]
+========
+* Fixed: Admit card subjects was not showing
+* Added: Attendance api holidays and late counts.
+
+Version 10.3.1 [17-11-2023]
+========
+* Fixed: Update attendance sheet tables to use smaller font size.
+* Fixed: study material api url parameter added.
+
+Version 10.3.0 [10-10-2023]
+========
+* Added: student Report added.
+* Fixed: New student subject issue fixed.
+* Fixed: school logo and signature image remove issue fixed.
+* Added: boys and girls counter added in stats.
+* Added: fee report partially paid status added.
+* Added: Student register subjects select added.
+* Added: Student bulk import parent email, username, password.
+* Added: background upload settings added for id card, invoice and result.
+* Added: result bulk export with students.
+* Added: result bulk import with students.
+* Added: students birthdays table added.
+
+* Added: students attendance late option and late reason.
+* fixed: students attendance doubled attendance.
+
+Version 10.2.9 [21-09-2023]
+========
+* Added: Qr code payment option added.
+* Added: invoices visibility and export added.
+
+Version 10.2.8 [29-08-2023]
+========
+* Added: Zoom api issue fixed
+
+Version 10.2.7 [25-08-2023]
+========
+* Added: result sort code fixed.
+* Added: Zoom api updated to oauth 2.0.
+
+Version 10.2.6 [06-07-2023]
+========
+* Added: Exam academic report.
+* Updated: In attendance students are sorted by roll number.
+
+Version 10.2.5 [16-05-2023]
+========
+* Fixed: Inquiry shortcode sections issue fixed.
+* Fixed: Student subjects added to student registration.
+* Fixed: Setting school logo error fixed.
+
+Version 10.2.4 [24-04-2023]
+========
+* Added: Student absent email template.
+* Added: invoices dashboard previous_session invoice pending amount.
+* Added: bulk print invoice partially paid filter.
+* Updated: certificate Size changed to A4 and scaled up.
+* Added: Student registration fee type added.
+* Added: Student registration shortcode student fee show and hide option added
+* Added: auto update checker moved to license page.
+* updated: Staff timetable days name has fixed.
+
+Version 10.2.3 [10-04-2023]
+========
+* Fixed  : exam class select.
+* Fixed  : attendance bulk import added.
+* Fixed  : Exam active and inactive will take affect in result assessment too.
+* Updated: Exams only show according to user session.
+* Updated: In library added book total, book price, number of issued book
+* Updated: book can not be issue more then book quantity.
+* Updated: Exam result will show according to sessions.
+* Updated: Exam edit issue is patched.
+
+Version 10.2.2 [21-03-2023]
+========
+* Added: Fee type total added.
+* Added: stats added students Promotion and inactive students.
+* Added: stats Daily Payments stats updated.
+* Added: Fee type 4 months added period added.
+* Fixed: Staff Import role and permissions issue Fixed.
+* Fixed: API issue fixed (paid invoice was showing unpaid status).
+
+Version 10.2.1 [03-03-2023]
+========
+* Fixed: Student dashboard overall exam result.
+* Fixed: Examination subject code issue (subject code change).
+* Fixed: Student dashboard exam result total marks not showing
+* Updated: Inquiry Email validation updated (one inquiry with one email address).
+
+Version 10.2.0 [18-2-2023]
+========
+* Added: Student dashboard subject-wise attendance.
+* Fixed: Student dashboard attendance bug fixed.
+* Fixed: rwf currency symbol changed.
+* Fixed: Invoice total amount bug fixed.
+* Fixed: Kivalosolutions sms sending issue fixed.
+* Fixed: Style issue fixed for lessons shortcode.
+* Fixed: Parents currency symbol issue have been fixed.
+* Fixed: Export income data issue without the date filter.
+
+Version 10.1.9 [4-2-2023]
+========
+* Added: php version 8.2 tested
+* Fixed: zoom live classes issue.
+* Added: Lessons.
+* Fixed: Exam total marks and obtained marks.
+* added: exam result session field added.
+
+Version 10.1.8 [27-12-2022]
+========
+* Added: Staff Time Table.
+* Added: assign fee type on admission
+* Added: exam total marks show and hide.
+* fixed: fix registration show and hide gender issue.
+* fixed: show student name on logout.
+
+Version 10.1.7 [05-12-2022]
+========
+* Added: PHP 8.1 support added.
+* Changed: enrollment Number made Optional and removed from the several places.
+
+Version 10.1.6 [16-11-2022]
+========
+* Added: exam result answer key upload option added.
+* Added: exam result answer key upload format changed to pdf.
+
+Version 10.1.5 [31-10-2022]
+========
+* Added: student id proof view
+* Added: School description
+* Added: notice description with title
+* Added: study material downloadable checkbox
+* Added: homework downloadable checkbox
+* Added: School description, notice description with title, study material downloadable, homework downloadable parameters also added in school plugin api
+* Added: invoice history currency sign is fixed
+
+Version 10.1.4 [24-08-2022]
+========
+* Added: Google play store app url option.
+* Added: Front-end inquiry form redirect option added to settings.
+* Added: Bulk Print results
+
+Version 10.1.3 [1-08-2022]
+========
+* Updated: registration form settings.
+* Fixed  : Survey notice was showing in school setting sometimes.
+* Fixed  : QR Code was not displaying on admit card properly.
+* Fixed  : QR Code was not displaying on exam result card properly.
+* Fixed  : Exam result teacher and school remark notice fixed.
+* Updated: father and mother name is changed to possessive form.
+* Updated: Gmail email Setup information.
+
+Version 10.1.2 [15-07-2022]
+========
+* Fixed  : Exam results Psychomotor save issue.
+* Fixed  : Student attendance issue (holidays was counting in absents).
+* Fixed  : Student attendance issue fixed in student dashboard.
+* Fixed  : Staff attendance issue (holidays was counting in absents).
+* Changed: Roll number is now section wise.
+* Fixed  : Noticeboard issue.
+* Fixed  : next sms api added.
+
+Version 10.1.1 [23-06-2022]
+========
+* Fixed  : Bulk print admit card in examination fixed.
+* Fixed  : Exam result update, school and teacher remark issue fixed.
+* Fixed  : School management Link fixed in Activation page.
+* Added  : In Payment history date filter added with total amount of between dates.
+* Added  : Registration survey field added.
+
+Version 10.1.0 [15-06-2022]
+========
+* Added  : QR code added to certificate.
+* Added  : QR code added to exam result.
+* Updated: expense total according to date range.
+
+Version 10.0.0 [09-06-2022]
+========
+* Added  : invoice payment history added
+* Fixed  : Expenses not showing for old invoices
+* Fixed  : exam results admission number and fathers name issue fixed
+
+Version 9.9.9 [02-06-2022]
+========
+* Added  : payment history receiver name.
+* Fixed  : expense list issue.
+* Updated: Now you can create 0 amount and 100 Discount invoice.
+* fixed  : notice class issue has been fixed.
+* Added  : Expense Daily total card added.
+
+Version 9.9.8 [30-05-2022]
+========
+* Added : Fee submission name and admission number search.
+* Added : Invoice amount Discount calculation.
+* Fixed : Expense export issue has been resolved.
+* Fixed : Student dashboard exam result father name now showing.
+* Fixed : Exam results ranks same percentage will have same ranks.
+
+Version 9.9.7 [04-05-2022]
+========
+*Removed: some issue fixed.
+*Added: paystack zar currency support added.
+
+Version 9.9.6 [29-04-2022]
+========
+*Removed: nexmo sms api removed due to some issue.
+
+Version 9.9.5 [22-04-2022]
+========
+* Updated: textlocal sms api
+
+Version 9.9.4 [07-04-2022]
+========
+* Updated: expenses will show according to sessions.
+* Fixed  : fee structure issue fixed on student dashboard
+* Added  : bulk invoice payment option added.
+* Fixed  : Extra fee was not adding when registering student.
+* Updated: student status can be seen in students table.
+* Added  : bdBulkSms api.
+* Fixed  : invoice students issue when section is selected.
+* Fixed  : amount will be comma separated if value is greater then 3 number.
+* Added  : due amount added to payments history.
+* Added  : Father\'s colum in invoice table.
+
+Version 9.9.3 [24-03-2022]
+========
+* Added: staff users can register from the front-end.
+* Fixed: homework issue.
+* Added: father's in exam results
+
+Version 9.9.2 [14-03-2022]
+========
+* Added: Daily Total amount received in account dashboard
+* Added: Daily payments history table.
+* Added: students table student type shorting.
+* Added: income date filter.
+* Added: expenses date filter.
+* Added: invoices date filter.
+* Added: Manage exam group section added now group can be selected through drop down.
+
+Version 9.9.1 [15-02-2022]
+========
+* Fixed: Total paid Translation issue fixed.
+* Fixed: Student Dashboard Attendance issue fixed.
+
+Version 9.9.1 [08-02-2022]
+========
+* Fixed: student dashboard leave translation for "Leave for Multiple Days" and 'Leave for Single Day'.
+* Fixed: payment history export invoice title issue.
+* Fixed: attachment class not found issue.
+* Fixed: homework submission issue on student dashboard.
+
+Version 9.9 [03-01-2022]
+========
+* Added: income and expense file attachment option.
+* Fixed: template id added in notification.
+* removed: invoice attachment due to file size limit.
+
+Version 9.8 [29-12-2021]
+========
+* Fixed: student dashboard homework issue.
+* Fixed: added missing translation strings.
+* Added: added invoice email attachment when invoice is created.
+* Fixed: currency symbol issue in bulk print.
+* Fixed: student dashboard issues.
+
+Version 9.7 [17-12-2021]
+========
+* Fixed: exam table issue ( sometime exam wont create).
+* Fixed: invoice history short code updated
+* Fixed: missing translation strings.
+* Fixed: tested up to php 8.0 version.
+* Fixed: admission number and enrollment number dashboard setting added.
+* added: admission form student type is added.
+
+Version 9.6 [26-11-2021]
+========
+* Added: Invoice history short code added.
+* Fixed: Invoice payment amount bug fixed.
+* Fixed: Invoice amount issue when importing bulk students.
+* Added: admission and enrollment number settings added for student dashboard.
+* Fixed: analysis typo fixed.
+* Added: section to inquiry form.
+* Added: homework notice sms template.
+
+Version 9.5 [19-11-2021]
+========
+* Added: now you can also assign holidays when taking student attendance.
+* Added: section issue has been fixed for wordpress.com host users.
+* Added: invoice issue where when you have invoice copy enabled it was showing the doubled amount.
+* Fixed: inquiries data not been save after update.
+* Fixed: invoice currency symbol issue fixed.
+
+Version 9.4 [08-10-2021]
+========
+* Added  : Assign Fee Types on Promotion and Generate Invoices on Promotion settings added for Promotion invoice and fee types.
+
+Version 9.4 [08-10-2021]
+========
+* Added  : invoice auto generation according to fee type periods.
+* Added  : invoice auto generation settings in sm school.
+* Added  : Sms api sendpk.com.
+* Added  : In Accounting payments history date filter added.
+* Added  : Payment history Export.
+* Added  : Now you can bulk print admit cards.
+* Removed: Payment history when printing invoices. You can still check them and print from payments history.
+* Fixed  : Invoice Number was Skipping this bug has been been fixed now.
+* Added  : inquiries reference field when viewing inquiries.
+* Fixed  : Front-end exam result view bug fixed.
+* Added  : Now you can print Fee invoices in bulk with the class, section and paid filter.
+* Added  : Homework submission route added to rest api. [ {{BASE_URL}}/wp-json/sm/student/submit-homework-request ].
+
+Version 9.3 [20-09-2021]
+========
+* Added: Bulk import books.
+* Added: Bulk import Staff.
+* Fixed: Sections occur when updating plugin issue from old plugin version .
+
+Version 9.2 [15-09-2021]
+========
+* Updated: Now currency is saved by school wise.
+* Updated: Now multiple days can be selected when created timetable.
+* Updated: Now multiple classes can be selected when assigning subject to classes.
+* Fixed  : Live classes assigned live classes for bigbluebutton fixed.
+* Added  : Attendance monthly view, now students can check specific month attendance.
+* Fixed  : for some user when class is selected sections was not showing.
+
+Version 9.1 [8-09-2021]
+========
+* Fixed  : When creating fee type Fee invoice calculation amount calculation layout changed.
+* Fixed  : Exam notices.
+* Fixed  : Big blue button API re-added  with cleaner interface with zoom live classes.
+* Fixed  : Student csv bulk import issue Fixed.
+* Updated: when importing student fee type will assign to student.
+* Updated: when importing or registering student combine fee type invoice title has changed.
+* Updated: Invoices will be created according to fee types, when students are imported in bulk.
+* Updated: Live classes sections filter added.
+* Fixed  : In some cases When collecting invoice 1 was added to amount.
+* Updated: Registration form settings now will apply for this shortcode as well now [school_management_registration].
+* Fixed: invoice number was jumping in fee type invoice.
+
+Version 8.7 [28-06-2021]
+========
+* Added  : Noticeboard now you can select multiple students.
+* Added  : students absent placeholder fixed.
+
+Version 8.6 [24-06-2021]
+========
+* Added  : student overall result.
+* updated:  student dashboard exam result.
+
+Version 8.5 [16-06-2021]
+========
+* Added  : Psychomotor analysis to exam result.
+* Added  : Psychomotor analysis to exam result assessment.
+
+========
+* Fixed  : Invoice Number Skipping bug fixed.
+* Updated: Amount by fee structure it will show the pending amount.
+
+Version 8.3 [2-06-2021]
+========
+* updated: msgclub api update.
+* Fixed: attendance showing only one day.
+* Fixed: Staff can take subject wise attendance.
+
+Version 8.2 [19-05-2021]
+========
+* Fixed: Attendance bug fixes.
+* Fixed: Point SMS api Updated.
+* Added: Template ID added
+* Fixed: staff user always can see hostels.
+* Fixed: update notification disabled for all roles except admin.
+* Fixed: MsgClub sms template
+
+Version 8.1 [30-04-2021]
+========
+* Added  : Hostel module is added with school package.
+* Added  : now room can be assigned when student register
+* updated: fee periods
+
+Version 8.0 [16-04-2021]
+========
+* Added  : Show teacher remark added in exam result (Optional )
+* Added  : Show school remark added in exam result (Optional )
+* Updated: In Exam Subject Remark Made Optional settings
+* Updated: Teacher and school remark setting will take effect for exam result and student result assessment both.
+* Added  : Hostel management addon added to the school management plugin ( This is added as an extra plugin. )
+* Added  : In single fee invoice total amount added
+
+Version 7.9 [05-04-2021]
+========
+* Fixed  : Attendance can not see February attendance issue fixed.
+* Added  : Discount is added in Student admission form in back-end for invoices.
+* Added  : New bulksmsgateway SMS API Added.
+* Updated: Fee type list will now show total as well.
+* Updated: Discount is now in percentage instead of the amount.
+* Added  : Student Due Date Invoice SMS notification template.
+* Added  : Student Due Date Invoice Email notification template.
+* Updated: Student Invoice layout.
+
+Version 7.8 [23-03-2021]
+========
+* Added  : Registration setting for student approval.
+* Updated: Zabra datepicker library.
+* Added  : If school is inactive school admin can not access the school.
+* Updated: Fee Type minor bug fixed.
+* Updated: Fee invoice new feature added for fee type list in one invoice.
+* Changed: On student admission auto fee generate feature is changed now it creates combine fee invoices if (student dashboard is not checked).
+* Added  : Now if school is inactive students can not login in that school.
+* Fixed  : Student auto generate Roll number bug fixed (it was not increasing after 10).
+
+Version 7.7 [23-02-2021]
+========
+* Added  : Subject wise attendance
+* Fixed  : Multi school students registration shortcode notices.
+* Fixed  : Noticeboard bug fixed.
+* Updated: Payment method Have more information about supported countries.
+* Updated: school-management.pot file updated languages translation.
+
+Version 7.6 [04-02-2021]
+========
+* Fixed  : In fee type fee title was not showing.
+* Fixed  : You can enter student full name in all languages now.
+
+Version 7.5 [02-02-2021]
+========
+* Added  : kivalosolutions franse sms api
+* Added  : gatewaysms sms api
+* Changed: Price links and locations added for Sms carriers.
+* Changed: Now you can change student class as well.
+* Fixed  : In fee type fee title was not showing.
+* Fixed  : You can enter student full name in all languages now.
+
+Version 7.4 [29-01-2021]
+========
+* Added  : SSLCommerz Payment Gateway.
+
+Version 7.3 [23-01-2021]
+========
+* Added  : Study material now support videos as well.
+* Changed: Study material now you have to select class and subject (sections can be selected all or single).
+* Fixed  : Noticeboard bug Fixed ( Notices was not showing on student dashboard ).
+* Added  : zoom api settings tab added to sm school settings ( Guide how to setup Zoom api keys ).
+* Added  : zoom api settings input link is added for staff users.
+* Changed: In zoom live classes - now class, subject and teacher field is required.
+* Added  : Settings added for Auto generate roll number.
+
+Version 7.2 [19-01-2021]
+========
+* Added : India Text sms api added.
+* Fixed : inquiry class issue fixed.
+* Changed : Noticeboard setting is Changed classes to Stduents.
+* Changed : You can select multiple classes in fee type.
+* Added : Class colum is add in fee type.
+* Added : Now you can select section and students in noticeboard.
+
+Version 7.1 [29-12-2020]
+========
+* Changed: twillio api update.
+* Changed: Zoom Live classes are separated by staff users.
+
+Version 7.0 [24-12-2020]
+========
+* Fixed : Fee type bug fixed.
+* Fixed : url redirect bug fixed.
+
+Version 6.8 [17-12-2020]
+========
+* Updated : Class wise fee type.
+* Updated : gender show hide option
+* Updated : fee receipt layout.
+* Updated : admission for updated.
+
+Version 6.7 [24-11-2020]
+========
+* Updated : SMS Settings Intechno point & MsgClub.
+
+Version 6.6 [18-11-2020]
+========
+* Added : New Role permission.
+* Added : You can select subject in homework.
+* Added : Stats added in Accounting.
+
+Version 6.5 [14-10-2020]
+========
+* Fixed: Exam Results Bug Fixed.
+* Added: Changelog Setting.
+
+Version 6.4 [10-10-2020]
+========
+* Fixed: Student Bulk Import admission date fix.
+* Added: Subjet Wise remark system.
+* Added: Library Book issued label and quantity.
+* Added: Update Notice fixed.
+* Added: Email setup helper links.
+* Fixed: Zoom live class validation error fixed.
+
+Version 6.3 [25-09-2020]
+========
+* Fixed: Mobile view.
+* Added: School details on student dashboard.
+* Fixed: Stduent Login redirect.
+
+Version 6.2 [18-09-2020]
+========
+* Fixed: databse issue.
+* added: French Translation.
+
+Version 6.1 [25-08-2020]
+========
+* Added: dashboard customization.
+
+Version 6.0 [25-08-2020]
+========
+* Added: Now invoices wll auto generate
+* Added: Dashboard disabled in fee type.
+
+Ver 5.9 (08 Aug 2020)
+========
+* Added:   vinuthan sms api.
+
+Ver 5.8 (23 July 2020)
+========
+* Updated: Stduent dashboard.
+* Added:   Admin now able to print student admission form detail.
+
+Ver 5.7 (16 July 2020)
+========
+* Updated: Homework module.
+* Removed: Settings to hide Transport and library.
+
+Ver 5.6 (26 june 2020)
+========
+* Added new featue now staff user can
+
+Ver 5.4 (09 june 2020)
+========
+* Added option for Stduent registration form to able show and hide individual field.
+* Added refrence field in inquiry form.
+* Added Transport and Library Menu hide option.
+
+Ver 5.3 (21 May 2020)
+========
+* Added API support for android/iOS apps.
+
+Ver 5.2 (18 May 2020)
+========
+* Added PHP incompatibility message for Zoom API.
+
+Ver 5.1 (15 May 2020)
+========
+* Added Zoom conference API for creating live classes.
+
+Ver 5.0 (06 May 2020)
+========
+* Added bank transfer payment method.
+
+Ver 4.9 (01 May 2020)
+========
+* Improved student dashboard design.
+* Fixed typos.
+* Added setting to enter redirect URL after logout.
+
+Ver 4.8 (07 April 2020)
+========
+* Fixed mobile display issues.
+
+Ver 4.7 (04 March 2020)
+========
+* Added books issued in student dashboard.
+* Fixed staff attendance table design.
+
+Ver 4.6 (25 Feburary 2020)
+========
+* Added redirect URL settings for registration form.
+* Added subject-wise results assessment.
+* Print subject-wise final marksheet.
+* Added exam group field for exams.
+
+Ver 4.5 (21 Feburary 2020)
+========
+* Added GDPR text settings for inquiry.
+* Fixed exam overall grade bug.
+* Fixed typos.
+* PHP 5.6 compatibility issue fixed.
+* Added registration shortcode and settings.
+* Auto generate admission number settings.
+
+Ver 4.4 (17 Feburary 2020)
+========
+* Fixed CSS issues.
+
+Ver 4.3 (14 Feburary 2020)
+========
+* Fixed minor bugs.
+* Added bulk delete option for students table.
+* Added attendance percentage on student dashboard.
+* Added ID number, ID proof, extra note fields for student.
+* Added separate permissions to delete students, invoices, sections.
+* Class teacher restricted to class students and class attendance.
+
+Ver 4.2 (07 Feburary 2020)
+========
+* Added class teacher and bus in-charge field for staff record
+* Improved class sections table
+* Added student leave request and approval feature
+* Added staff leave request and approval feature
+* Added more placeholder fields for certificate generation
+* Added events feature
+
+Ver 4.1 (31 January 2020)
+========
+* Added noticeboard in parent dashboard
+* Export exam results with ranks
+* Added description field in staff detail
+* Added logging feature
+
+Ver 4.0 (22 January 2020)
+========
+* Added inquiry settings
+* Added inquiry email and SMS templates for inquisitor and admin
+* Added custom message after inquiry submission
+
+Ver 3.9 (20 January 2020)
+========
+* Added multi-selector for assigning classes
+* Added student rank in exam results
+* Export/Import exam results
+
+Ver 3.8 (16 January 2020)
+========
+* Updated Intechno Point SMS API
+
+Ver 3.7 (13 January 2020)
+========
+* Added staff attendance
+* Added Paytm payment gateway
+
+Ver 3.6 (10 January 2020)
+========
+* Added exam results assessment
+
+Ver 3.5 (08 January 2020)
+========
+* Improved file upload validation
+
+Ver 3.4 (06 January 2020)
+========
+* Added homework section
+
+Ver 3.3 (27 December 2019)
+========
+* Added EBulkSMS SMS carrier
+
+Ver 3.2 (25 December 2019)
+========
+* Uninstall/Reset bug fixed
+
+Ver 3.1 (23 December 2019)
+========
+* Added transport management
+
+Ver 3.0 (20 December 2019)
+========
+* Send test email for each template
+* Send test SMS for each template
+* Added paystack payment method
+
+Ver 2.9 (14 December 2019)
+========
+* Noticeboard shortcode bug fixed
+* Library books issued quantity bug fixed
+
+Ver 2.8 (12 December 2019)
+========
+* Added float value support for obtained marks
+
+Ver 2.7 (10 December 2019)
+========
+* Added books issued quantity limit
+* New permission added for viewing payment stats on dashboard
+* Added textlocal SMS provider
+* Minor bugs fixes
+
+Ver 2.6 (04 December 2019)
+========
+* Changed expense and income stats by session in dashboard
+* Added library stats in dashboard
+* Documentation updated
+
+Ver 2.5 (02 December 2019)
+========
+* Added payment date field when adding offline payment
+* Added students library cards feature
+
+Ver 2.4 (28 November 2019)
+========
+* Added settings to show charts on dashboard
+* Added chart.js library for charts
+* Added library management
+
+Ver 2.3 (22 November 2019)
+========
+* Added exams stats on dashboard
+* Added total fees structure amount
+* Added monthly admissions and payments charts
+* Added monthly expense and income charts
+
+Ver 2.2 (19 November 2019)
+========
+* Added city, state and country fields for students
+* Added search filter for city, state and country
+* New feature: class specific notices
+* Update: Student dashboard design
+
+Ver 2.1 (15 November 2019)
+========
+* Bulk import students from CSV file
+
+Ver 2.0 (13 November 2019)
+========
+* Improved exam dashboard
+* Added new menu for admit cards and exam results
+* Account settings in student and parent dashboard
+* Added grade criteria for exams
+* Added shortcode for exam results
+* Added shortcode for certificate
+
+Ver 1.9 (07 November 2019)
+========
+* Added teacher name in class time table
+* Added new SMS to parents templates
+* Added MsgClub SMS carrier
+* Added exam results management
+* Added Pesapal payment gateway
+* Added Msg91 SMS carrier
+* Added enrollment prefix settings
+
+Ver 1.8 (31 October 2019)
+========
+* Added class timetable
+
+Ver 1.7 (24 October 2019)
+========
+* Send custom email and SMS to students
+* Improved student dashboard design
+* Added student absent SMS notification to parent
+
+Ver 1.6 (21 October 2019)
+========
+* Generate student certificate
+
+Ver 1.5 (12 October 2019)
+========
+* Add PayPal payment gateway
+* Minor bug fixes
+
+Ver 1.4 (07 October 2019)
+========
+* Print ID cards in bulk
+* Updated documentation
+
+Ver 1.3 (01 October 2019)
+========
+* Added fee types
+* Added fee structure for students at the time of admission
+* View student fee structure when creating an invoice
+
+Ver 1.2 (28 September 2019)
+========
+* Added print preview
+* Export student records, inquiries to CSV
+* Export invoices, expenses and income to CSV
+* GDPR compliance for inquiry form
+
+Ver 1.1 (26 September 2019)
+========
+* Improved dashboard design
+* Added parent login and dashboard
+* Added fees shortcode session wise
+* Added exam time table shortcode school wise
+* Added exam admit card shortcode
+* Added print preview for ID card
+* Added admission from inquiry
+
+Ver 1.0 (23 September 2019)
+========
+* New release

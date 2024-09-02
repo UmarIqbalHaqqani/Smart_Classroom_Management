@@ -1,0 +1,57 @@
+@media print {
+	body {
+		font-size: 16pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+	.text-secondary {
+		color: #6c757d !important;
+	}
+	.text-dark {
+		color: #343a40 !important;
+	}
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+	.wlsm-view-exam-results-table th,
+	.wlsm-view-exam-results-table td {
+		font-size: 15pt !important;
+		background-color: #fff !important;
+		border-color: #444 !important;
+		color: #000 !important;
+	}
+	.wlsm-print-exam-results-container ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 2pt 0;
+	}
+	.wlsm-print-exam-results-container li {
+		font-size: 16pt;
+		padding: 0;
+		margin: 2pt 0;
+		border-bottom: 1px solid #ddd;
+	}
+	.wlsm-print-exam-results-container ul {
+		margin-bottom: 12pt;
+	}
+	.text-dark {
+		color: #000 !important;
+	}
+	.wlsm-print-exam-results-container .wlsm-exam-results-heading {
+		margin-bottom: 5pt;
+		font-weight: 600;
+		font-size: 20pt;
+		text-align: center;
+	}
+	.wlsm-print-exam-results-container .wlsm-exam-results-heading span {
+		border-bottom: 1pt solid #000;
+	}
+	@page {
+		size: A4 portrait;
+	}
+}

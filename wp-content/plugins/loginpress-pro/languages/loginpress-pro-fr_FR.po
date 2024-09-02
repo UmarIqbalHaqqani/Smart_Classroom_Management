@@ -1,0 +1,1500 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LoginPress Pro\n"
+"POT-Creation-Date: 2021-01-18 15:22+0500\n"
+"PO-Revision-Date: 2021-01-18 16:56+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: loginpress-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: addons/auto-login/auto-login.php:131
+msgid "Auto Login"
+msgstr ""
+
+#: addons/auto-login/auto-login.php:132
+#, php-format
+msgid ""
+"Autologin lets you (Administrator) generate a unique URL for your certain "
+"users who you don't want to provide a password to login to your site. You "
+"will get a list of all the users who you have given auto-generated login "
+"links. You can disable someone's access by deleting that user from the list. "
+"%3$s %3$s WordPress Login Screen is customizable through %1$sWordPress "
+"Customizer%2$s."
+msgstr ""
+"Autologin vous permet (administrateur) de générer une URL unique pour "
+"certains utilisateurs que vous ne souhaitez pas fournir un mot de passe pour "
+"vous connecter à votre site. Vous obtiendrez une liste de tous les "
+"utilisateurs que vous avez donné des liens de connexion générés "
+"automatiquement. Vous pouvez désactiver l’accès de quelqu’un en supprimant "
+"cet utilisateur de la liste. %3$s %3$s'écran de connexion WordPress est "
+"personnalisable grâce à %1$sWordPress Customizer%2$s."
+
+#: addons/auto-login/auto-login.php:150
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:124
+msgid "Search Username"
+msgstr "Recherche Nom d'utilisateur"
+
+#: addons/auto-login/auto-login.php:151
+msgid "Search Username for making a login magic link for that user."
+msgstr ""
+"Rechercher Nom d'utilisateur permettant de créer un lien magique de "
+"connexion pour cet utilisateur."
+
+#: addons/auto-login/auto-login.php:190
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:156
+msgid "User ID"
+msgstr "Utilisateur ID"
+
+#: addons/auto-login/auto-login.php:191
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:313
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:324
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:157
+#: addons/login-widget/classes/class-loginpress-widget.php:372
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: addons/auto-login/auto-login.php:192
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:158
+msgid "Email"
+msgstr "Email"
+
+#: addons/auto-login/auto-login.php:193
+msgid "Autologin URL"
+msgstr "URL de connexion automatique"
+
+#: addons/auto-login/auto-login.php:194
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:217
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:223
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:258
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:264
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:316
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:327
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:161
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:198
+msgid "Action"
+msgstr "Action"
+
+#: addons/auto-login/auto-login.php:235 addons/auto-login/auto-login.php:309
+msgid "Email User"
+msgstr ""
+
+#: addons/auto-login/auto-login.php:239 addons/auto-login/auto-login.php:309
+msgid "Link Duration"
+msgstr "Durée du lien"
+
+#: addons/auto-login/auto-login.php:240 addons/auto-login/auto-login.php:309
+msgid "New"
+msgstr "Nouveau"
+
+#: addons/auto-login/auto-login.php:241 addons/auto-login/auto-login.php:309
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:184
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:211
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:257
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:301
+msgid "Delete"
+msgstr "Effacer"
+
+#: addons/auto-login/auto-login.php:245
+msgid "No user found"
+msgstr "Aucun utilisateur trouvé"
+
+#. translators: Blog name.
+#: addons/auto-login/auto-login.php:387
+#, php-format
+msgctxt "Blogname"
+msgid "[%s] Auto Login Link"
+msgstr "[%s] Lien de connexion automatique"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:112
+msgid "Hide Login"
+msgstr "Masquer Connexion"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:131
+msgid "Rename Login Slug"
+msgstr "Renommer Login Slug"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:132
+msgid "mylogin"
+msgstr "mylogin"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:139
+msgid "Send Email"
+msgstr "Envoyer un email"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:145
+#: addons/login-widget/classes/class-loginpress-widget.php:374
+msgid "Email Address"
+msgstr "Adresse Email"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:147
+msgid "Add email, Use comma ( , ) to add more than 1 recipients."
+msgstr ""
+"Ajouter e-mail, Utilisez virgule ( , ) pour ajouter plus de 1 destinataires."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:293
+msgid ""
+"Hide login lets you change the login page URL to anything you want. It will "
+"give a hard time to spammers who keep hitting to your login page. This is "
+"helpful for Brute force attacks. One caution to use this add-on is you need "
+"to remember the custom login url after you change it. We have an option to "
+"email your custom login url so you remember it."
+msgstr ""
+"Masquer la connexion vous permet de modifier l'URL de la page de connexion "
+"en tout ce que vous voulez. Cela va donner du fil à retordre aux spammeurs "
+"qui ne cessent de frapper votre page de connexion. Ceci est utile pour les "
+"attaques par force brute. Une précaution à prendre pour utiliser ce module "
+"est que vous devez vous rappeler l'URL de connexion personnalisée après "
+"l'avoir modifiée. Nous avons la possibilité d'envoyer par courrier "
+"électronique votre URL de connexion personnalisée afin que vous puissiez "
+"vous en souvenir."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:297
+#, php-format
+msgid ""
+"To set a networkwide default, go to <a href=\"%s\">Network Settings</a>."
+msgstr ""
+"Pour définir une valeur par défaut pour l'ensemble du réseau, accédez à <a "
+"href=\"%s\"> Paramètres réseau </a>."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:331
+msgid "Generate Slug (Randomly)"
+msgstr "Générer un slug (au hasard)"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:335
+msgid "Reset Login Slug"
+msgstr "Réinitialiser Login Slug"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:358
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:362
+#, php-format
+msgid "Your default login page: %1$s. Bookmark this page!"
+msgstr "Votre page de connexion par défaut: %1$s. Marquer cette page!"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:366
+#, php-format
+msgid "Here is your login page now: %1$s. Bookmark this page!"
+msgstr "Voici votre page de connexion maintenant:%1$s. Marquer cette page!"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:373
+msgid "Rename your wp-login.php"
+msgstr "Renommez votre wp-login.php"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:448
+msgid "Email will be sent to the address defined below."
+msgstr "Un email sera envoyé à l'adresse définie ci-dessous."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:452
+msgid "Please write down the correct email for sending the email."
+msgstr "S'il vous plaît écrivez le bon email pour envoyer l'email."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:456
+msgid "Send email after changing the wp-login.php slug?"
+msgstr "Envoyer un email après avoir changé le slug wp-login.php?"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:476
+msgid "Email sent."
+msgstr "Email envoyé."
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:480
+msgid "Write a Email\tAddress where send the New generated URL"
+msgstr "Écrivez une adresse email où envoyer l'URL générée"
+
+#: addons/hide-login/classes/class-loginpress-hidelogin.php:498
+msgid "This feature is not enabled."
+msgstr "Cette fonctionnalité n'est pas activée."
+
+#: addons/hide-login/hide-login.php:95
+msgid ""
+"LoginPress Hide Login could not be activated because you already have "
+"active. Please uninstall Login Rename Plugin to use LoginPress Hide Login"
+msgstr ""
+"LoginPress masquer la connexion n'a pas pu être activée car vous êtes déjà "
+"actif. Veuillez désinstaller Login Rename Plugin pour utiliser LoginPress "
+"Hide Hide Login"
+
+#: addons/limit-login-attempts/classes/class-ajax.php:97
+msgid "IP status updated."
+msgstr "État IP mis à jour."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:229
+msgid "IP is required field."
+msgstr "IP est nécessaire champ."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:233
+#: addons/limit-login-attempts/classes/class-ajax.php:363
+#: addons/limit-login-attempts/classes/class-ajax.php:378
+msgid "Your IP format is not correct."
+msgstr "Votre format IP n’est pas correct."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:245
+msgid ""
+"IP Address already exists, Successfully moved from blacklist to whitelist."
+msgstr ""
+"Adresse IP existe déjà, avec succès déplacé de la liste noire à la liste "
+"blanche."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:255
+msgid "Successfully IP Address added in white list."
+msgstr "Adresse IP réussie ajoutée dans la liste blanche."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:263
+msgid "IP Address already exists in whitelist."
+msgstr "Adresse IP existe déjà dans la liste blanche."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:276
+msgid ""
+"IP Address already exists, Successfully moved from whitelist to blacklist."
+msgstr ""
+"Adresse IP existe déjà, avec succès déplacé de liste blanche à liste noire."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:286
+msgid "Successfully IP Address added in blacklist."
+msgstr "Adresse IP réussie ajoutée dans la liste noire."
+
+#: addons/limit-login-attempts/classes/class-ajax.php:294
+msgid "IP Address already exists in blacklist."
+msgstr "Adresse IP existe déjà dans la liste noire."
+
+#: addons/limit-login-attempts/classes/class-attempts.php:231
+#: addons/limit-login-attempts/classes/class-attempts.php:235
+msgid "You are not allowed to access admin panel"
+msgstr "Vous n'êtes pas autorisé à accéder au panneau d'administration"
+
+#: addons/limit-login-attempts/classes/class-attempts.php:262
+msgid "You are blacklisted to access the Login Panel"
+msgstr "Vous êtes sur la liste noire pour accéder au panneau de connexion"
+
+#: addons/limit-login-attempts/classes/class-attempts.php:422
+#, php-format
+msgid "%1$sERROR:%2$s You have only %3$s attempts"
+msgstr "%1$s ERREUR: %2$s vous n’avez que %3$s tentatives"
+
+#: addons/limit-login-attempts/classes/class-attempts.php:435
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: addons/limit-login-attempts/classes/class-attempts.php:437
+msgid "XMLRPC"
+msgstr "XMLRPC"
+
+#: addons/limit-login-attempts/classes/class-attempts.php:439
+msgid "WP Login"
+msgstr "WP Login"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:129
+msgid "Limit Login Attempts"
+msgstr "Limit Login Attempts"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:130
+#, php-format
+msgid ""
+"%1$s%3$sSettings%4$s %5$sAttempt Details%4$s %6$sWhitelist%4$s %7$sBlacklist"
+"%4$s%2$s"
+msgstr ""
+"%1$s%3$sRéglages%4$s %5$sDétails de la tentative%4$s %6$sListe Blanche%4$s "
+"%7$sListe Noire%4$s%2$s"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:150
+msgid "Attempts Allowed"
+msgstr "Essais permis"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:151
+msgid "How many attempts allows"
+msgstr "Combien de tentatives permet"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:158
+msgid "Minutes Lockout"
+msgstr "Minutes Lockout"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:159
+msgid "How many minutes lockout."
+msgstr "Combien de minutes de lock-out."
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:166
+msgid "IP Address"
+msgstr "Adresse IP"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:172
+msgid "Disable XML RPC Request"
+msgstr "Désactiver la demande XML RPC"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:173
+msgid ""
+"The XMLRPC is a system that allows remote updates to WordPress from other "
+"applications."
+msgstr ""
+"Le XMLRPC est un système qui permet des mises à jour à distance de WordPress "
+"à partir d’autres applications."
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:184
+#: addons/social-login/social-login.php:233
+msgid "Remove Record On Uninstall"
+msgstr "Supprimer l'enregistrement sur désinstaller"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:185
+msgid ""
+"This tool will remove all LoginPress - Limit Login Attempts record upon "
+"uninstall."
+msgstr ""
+"Cet outil supprimera tous les enregistrements LoginPress - Limit Login "
+"Attempts lors de la désinstallation."
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:216
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:222
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:257
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:263
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:311
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:322
+msgid "IP"
+msgstr "IP"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:299
+msgid "Bulk Action"
+msgstr "Action groupée"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:300
+msgid "Unlock"
+msgstr "Déverrouiller"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:301
+msgid "White List"
+msgstr "Liste blanche"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:302
+msgid "Black List"
+msgstr "Liste noire"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:312
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:323
+msgid "Date & Time"
+msgstr "Date & Heure"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:314
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:325
+#: addons/login-widget/classes/class-loginpress-widget.php:383
+msgid "Password"
+msgstr "Mot de passe"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:315
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:326
+msgid "Gateway"
+msgstr "Passerelle"
+
+#: addons/limit-login-attempts/classes/class-loginpress-limit-login-attempts.php:382
+msgid ""
+"<p class=\"description\"><button class=\"button loginpress-attempts-"
+"whitelist add_white_list\" data-action=\"white_list\" type=\"button\" data-"
+"nonce=\""
+msgstr ""
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:106
+msgid "Login Redirects"
+msgstr "Login Redirects"
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:107
+#, php-format
+msgid "%1$s%3$sSpecific User%4$s %5$sSpecific Roles%4$s%2$s "
+msgstr "%1$s%3$sUtilisateur Spécifique%4$s %5$sRôles Specifique%4$s%2$s "
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:125
+msgid "Search Username for apply redirects on that."
+msgstr "Rechercher Nom d'utilisateur pour appliquer les redirections sur cela."
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:159
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:196
+msgid "Login URL"
+msgstr "Login URL"
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:160
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:197
+msgid "Logout URL"
+msgstr "Déconnexion URL"
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:184
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:211
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:257
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:301
+msgid "Update"
+msgstr "Mise à jour"
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:194
+msgid "No"
+msgstr "Non"
+
+#: addons/login-redirects/classes/class-loginpress-login-redirects.php:195
+msgid "Role"
+msgstr "Rôle"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:25
+msgid "Displays a login widget in the sidebar."
+msgstr "Affiche un widget de connexion dans la barre latérale."
+
+#: addons/login-widget/classes/class-loginpress-widget.php:29
+msgid "LoginPress: Login Widget"
+msgstr "LoginPress: Login Widget"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:57
+msgid "Logged-out Title"
+msgstr "Titre déconnecté"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:58
+#: addons/login-widget/classes/class-loginpress-widget.php:290
+msgid "Login"
+msgstr "Connexion"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:62
+msgid "Logged-out Links (Text | href)"
+msgstr "Liens déconnectés (Texte | href)"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:67
+msgid "Show lost password link"
+msgstr "Afficher le lien du mot de passe perdu"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:72
+msgid "Lost password text"
+msgstr "Texte de mot de passe perd"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:73
+#: addons/login-widget/classes/class-loginpress-widget.php:253
+msgid "Lost your password?"
+msgstr "Mot de passe oublié ?"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:77
+msgid "Show register link"
+msgstr "Voir le lien enregistrement"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:79
+#, php-format
+msgid "%1$sAnyone can register%2$s must be enabled."
+msgstr "%1$sTout le monde peut enregistrer%2$s doit être activé."
+
+#: addons/login-widget/classes/class-loginpress-widget.php:83
+msgid "Register text"
+msgstr "Enregistrer le texte"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:84
+#: addons/login-widget/classes/class-loginpress-widget.php:235
+msgid "Register"
+msgstr "S'inscrire"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:88
+msgid "Show \"Remember me\" checkbox"
+msgstr "Afficher la case à cocher \"Se souvenir de moi\""
+
+#: addons/login-widget/classes/class-loginpress-widget.php:93
+msgid "Login Redirect URL"
+msgstr "Adresse de redirection à la connexion"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:96
+#: addons/login-widget/classes/class-loginpress-widget.php:126
+msgid "Current page URL"
+msgstr "URL de page actuelle"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:103
+msgid "Logged-in title"
+msgstr "Titre du widget lorsque l'utilisateur est connecté"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:104
+#: addons/login-widget/classes/class-loginpress-widget.php:289
+msgid "Welcome %username%"
+msgstr "Bienvenue %username%"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:108
+msgid "Logged-in Links (Text | HREF | Capability)"
+msgstr "Liens connectés (Texte | HREF | Capacité)"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:109
+#, php-format
+msgid ""
+"%1$sCapability%2$s (optional) refers to the type of user who can view the "
+"link."
+msgstr ""
+"%1$sCapacité%2$s (facultatif) fait référence au type d'utilisateur qui peut "
+"afficher le lien."
+
+#: addons/login-widget/classes/class-loginpress-widget.php:110
+msgid ""
+"Dashboard | %admin_url%\n"
+"Profile | %admin_url%/profile.php\n"
+"Logout | %logout_url%"
+msgstr ""
+"Tableau de bord | %admin_url%\n"
+"Profil | %admin_url%/profile.php\n"
+"Déconnexion | %logout_url%"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:114
+msgid "Show logged-in user avatar"
+msgstr "Afficher l'avatar de l'utilisateur"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:119
+msgid "Logged-in user avatar size"
+msgstr "Taille de l'avatar utilisateur connecté"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:124
+msgid "Logout Redirect URL"
+msgstr "Adresse de redirection à la déconnexion"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:134
+msgid "Error Messages"
+msgstr "Messages d'erreur"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:135
+#, php-format
+msgid "You can change the Error messages from %1$sLoginPress Customizer%2$s"
+msgstr ""
+"Vous pouvez modifier les messages d'erreur à partir de %1$sLoginPress "
+"Customizer%2$s"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:140
+msgid "Error Background Color"
+msgstr "Couleur Fond de Erreur"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:145
+msgid "Error Text Color"
+msgstr "Couleur des Messages d'Erreur"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:376
+msgid "Username or Email Address"
+msgstr "Nom d'utilisateur ou adresse e-mail"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:384
+msgid "Remember Me"
+msgstr "Souviens-toi de moi"
+
+#: addons/login-widget/classes/class-loginpress-widget.php:385
+msgid "Login &rarr;"
+msgstr "Se connecter &rarr;"
+
+#: addons/login-widget/login-widget.php:59
+#: addons/social-login/social-login.php:496
+msgid "or"
+msgstr "ou"
+
+#: addons/login-widget/login-widget.php:66
+#: addons/login-widget/login-widget.php:68
+#: addons/social-login/social-login.php:509
+#: addons/social-login/social-login.php:512
+msgid "Login with Google"
+msgstr "Connexion avec Google"
+
+#: addons/login-widget/login-widget.php:81
+#: addons/login-widget/login-widget.php:83
+#: addons/social-login/social-login.php:530
+#: addons/social-login/social-login.php:532
+msgid "Login with Facebook"
+msgstr "Connexion avec Facebook"
+
+#: addons/login-widget/login-widget.php:94
+#: addons/login-widget/login-widget.php:96
+#: addons/social-login/social-login.php:550
+#: addons/social-login/social-login.php:553
+msgid "Login with Twitter"
+msgstr "Connexion avec Twitter"
+
+#: addons/login-widget/login-widget.php:107
+#: addons/login-widget/login-widget.php:109
+#: addons/social-login/social-login.php:571
+#: addons/social-login/social-login.php:574
+msgid "Login with LinkedIn"
+msgstr "Connexion avec LinkedIn"
+
+#: addons/login-widget/login-widget.php:175
+#, php-format
+msgid "%1$sError:%2$s Invalid Username."
+msgstr "%1$sError:%2$s Nom d'utilisateur invalide."
+
+#: addons/login-widget/login-widget.php:177
+#, php-format
+msgid "%1$sError:%2$s Invalid Password."
+msgstr "%1$sError:%2$s Mot de passe invalide."
+
+#: addons/login-widget/login-widget.php:179
+#, php-format
+msgid "%1$sError:%2$s The username field is empty."
+msgstr "%1$sError:%2$s Le champ Nom d'utilisateur est vide."
+
+#: addons/login-widget/login-widget.php:181
+#, php-format
+msgid "%1$sError:%2$s The password field is empty."
+msgstr "%1$sError:%2$s Le champ du mot de passe est vide."
+
+#: addons/login-widget/login-widget.php:183
+#, php-format
+msgid "%1$sError:%2$s The email address isn't correct.."
+msgstr "%1$sError:%2$s L'adresse email n'est pas correcte .."
+
+#: addons/login-widget/login-widget.php:327
+msgid "Please enter your username and password to login."
+msgstr ""
+"Veuillez saisir votre identifiant et mot de passe afin de vous connecter."
+
+#: addons/protect-content/classes/meta-boxes.php:39
+msgid "LoginPress Protected Content"
+msgstr "LoginPress Contenu protégé"
+
+#: addons/protect-content/classes/meta-boxes.php:96
+#, php-format
+msgid "Users must login to view this %s"
+msgstr "Les utilisateurs doivent se connecter pour afficher ce %s"
+
+#: addons/protect-content/classes/meta-boxes.php:106
+msgid "Redirect to login page"
+msgstr "Rediriger vers la page de connexion"
+
+#: addons/protect-content/classes/meta-boxes.php:113
+msgid "Visible to specific users"
+msgstr "Visible pour des utilisateurs spécifiques"
+
+#: addons/protect-content/classes/meta-boxes.php:119
+msgid "Visible to these users"
+msgstr "Visible pour ces utilisateurs"
+
+#: addons/protect-content/classes/meta-boxes.php:121
+msgid "comma seperated usernames"
+msgstr "noms d'utilisateur séparés de virgule"
+
+#: addons/protect-content/classes/meta-boxes.php:129
+msgid "Visible to only specific user roles"
+msgstr "Rôles utilisateur visibles à des utilisateurs spécifiques"
+
+#: addons/protect-content/classes/meta-boxes.php:135
+msgid "Visible to these user roles"
+msgstr ""
+
+#: addons/protect-content/classes/meta-boxes.php:149
+msgid "command+click to select multiple options"
+msgstr ""
+
+#: addons/protect-content/classes/meta-boxes.php:261
+#: addons/protect-content/classes/shortcodes.php:55
+msgid "log_in"
+msgstr ""
+
+#: addons/protect-content/classes/meta-boxes.php:261
+#: addons/protect-content/classes/shortcodes.php:55
+msgid "to see this content"
+msgstr ""
+
+#: addons/protect-content/classes/protect-content-main.php:116
+msgid "Please login first to visit the protected page"
+msgstr ""
+
+#: addons/protect-content/protect-content.php:95
+msgid "Protected Content"
+msgstr ""
+
+#: addons/protect-content/protect-content.php:96
+msgid ""
+"When using the [loginpress_protect] .... [/loginpress_protect] Shortcode, "
+"this is the message displayed when a user does not have the appropriate "
+"permissions."
+msgstr ""
+
+#: addons/protect-content/protect-content.php:113
+msgid "Protected Message"
+msgstr ""
+
+#: addons/protect-content/protect-content.php:118
+msgid "Login Page Protected Message"
+msgstr ""
+
+#: addons/social-login/classes/loginpress-social-check.php:39
+msgid ""
+"The Facebook SDK requires PHP version 5.4 or higher. Please notify about "
+"this error to site admin."
+msgstr ""
+"Le SDK de Facebook nécessite PHP version 5.4 ou supérieure. Veuillez "
+"informer cette erreur à l'administrateur du site."
+
+#: addons/social-login/classes/loginpress-utilities.php:249
+#, php-format
+msgid "%1$sERROR%2$s: Invalid `Client ID` or `Client Secret` combination?"
+msgstr "%1$sERROR%2$s: Invalide 'Client ID' ou 'Client Secret' combinaison?"
+
+#: addons/social-login/social-login.php:132
+msgid "Facebook Login"
+msgstr "Connexion Facebook"
+
+#: addons/social-login/social-login.php:133
+msgid "Enable Facebook Login"
+msgstr "Activer la connexion Facebook"
+
+#: addons/social-login/social-login.php:138
+msgid "Facebook App ID"
+msgstr "Facebook App ID"
+
+#: addons/social-login/social-login.php:139
+msgid "Enter your Facebook App ID."
+msgstr "Entrez votre secret Facebook App."
+
+#: addons/social-login/social-login.php:144
+msgid "Facebook App Secret"
+msgstr "Facebook App secret"
+
+#: addons/social-login/social-login.php:145
+msgid "Enter your Facebook App Secret."
+msgstr "Entrez votre secret Facebook App."
+
+#: addons/social-login/social-login.php:150
+msgid "Twitter Login"
+msgstr "Connexion Twitter"
+
+#: addons/social-login/social-login.php:151
+msgid "Enable Twitter Login"
+msgstr "Activer la connexion Twitter"
+
+#: addons/social-login/social-login.php:156
+msgid "Twitter API key"
+msgstr "Clé API Twitter"
+
+#: addons/social-login/social-login.php:157
+msgid "Enter Your Consumer API key."
+msgstr "Entrez votre clé API consommateur."
+
+#: addons/social-login/social-login.php:162
+msgid "Twitter API secret key"
+msgstr "Clé secrète Twitter API"
+
+#: addons/social-login/social-login.php:163
+msgid "Enter Your Consumer API secret key."
+msgstr "Entrez votre clé secrète API consommateur."
+
+#: addons/social-login/social-login.php:168
+msgid "Twitter Callback URL"
+msgstr "URL de rappel Twitter"
+
+#: addons/social-login/social-login.php:169
+msgid "Enter Your Callback URL "
+msgstr "Entrez votre URL de rappel "
+
+#: addons/social-login/social-login.php:174
+msgid "Google Login"
+msgstr "Connexion Google"
+
+#: addons/social-login/social-login.php:175
+msgid "Enable Google Login"
+msgstr "Activer la connexion Google"
+
+#: addons/social-login/social-login.php:180
+#: addons/social-login/social-login.php:204
+msgid "Client ID"
+msgstr "Client ID"
+
+#: addons/social-login/social-login.php:181
+#: addons/social-login/social-login.php:205
+msgid "Enter Your Client ID."
+msgstr "Entrez votre ID Client."
+
+#: addons/social-login/social-login.php:186
+#: addons/social-login/social-login.php:210
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: addons/social-login/social-login.php:187
+#: addons/social-login/social-login.php:211
+msgid "Enter Your Client Secret."
+msgstr "Entrez votre secret de client."
+
+#: addons/social-login/social-login.php:192
+#: addons/social-login/social-login.php:216
+msgid "Redirect URI"
+msgstr "URL de redirection"
+
+#: addons/social-login/social-login.php:193
+msgid "Enter Your Redirect URI:"
+msgstr "Entrez votre URI Redirect:"
+
+#: addons/social-login/social-login.php:198
+msgid "LinkedIn Login"
+msgstr "Connexion LinkedIn"
+
+#: addons/social-login/social-login.php:199
+msgid "Enable LinkedIn Login"
+msgstr "Activer la connexion LinkedIn"
+
+#: addons/social-login/social-login.php:217
+msgid "Enter Your Redirect URI: "
+msgstr "Entrez votre URI Redirect: "
+
+#: addons/social-login/social-login.php:222
+msgid "Enable Social Login on"
+msgstr "Activer la connexion sociale sur"
+
+#: addons/social-login/social-login.php:223
+msgid "Enable Social Login on Login and Register form"
+msgstr ""
+"Activer la connexion sociale sur le formulaire de connexion et "
+"d'enregistrement"
+
+#: addons/social-login/social-login.php:234
+msgid ""
+"This tool will remove all LoginPress - Social Logins record upon uninstall."
+msgstr ""
+"Cet outil supprimera tous les enregistrement de connexions sociales "
+"LoginPress - Social Logins lors de la désinstallation."
+
+#: addons/social-login/social-login.php:254
+msgid "Social Login"
+msgstr "Connexion Sociale"
+
+#: addons/social-login/social-login.php:255
+#, php-format
+msgid "%1$s%3$sSettings%4$s %5$sHelp%4$s%2$s"
+msgstr "%1$s%3$sSettings%4$s %5$sHelp%4$s%2$s"
+
+#: classes/loginpress-addon-updater.php:154
+#, php-format
+msgid ""
+"There is a new version of %1$s availablee. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Il existe une nouvelle version de%1$s disponible. <a target=\"_ blank\" "
+"class =\"thickbox\" href =\"%2$s\"> View version%3$s Details</a>."
+
+#: classes/loginpress-addon-updater.php:161
+#, php-format
+msgid ""
+"There is a new version of %1$s availablee. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Il existe une nouvelle version de%1$s disponible. <a target =\"_ blank\" "
+"class=\"thickbox\" href =\"%2$s\"> View version%3$s Details </a> ou < a href "
+"=\"%4$s\">mise à jour maintenant</a>."
+
+#: classes/loginpress-addon-updater.php:235
+#: lib/LOGINPRESS_PRO_SL_Plugin_Updater.php:399
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"Vous n’avez pas la permission d’installer les mises à jour de l’extension"
+
+#: classes/loginpress-addon-updater.php:235
+#: lib/LOGINPRESS_PRO_SL_Plugin_Updater.php:399
+msgid "Error"
+msgstr "Erreur"
+
+#: classes/loginpress-approve-user.php:71
+msgid "  Users' registration is pending for your approval."
+msgstr ""
+
+#: classes/loginpress-approve-user.php:78
+msgid "Users' registration approval rejected."
+msgstr ""
+
+#: classes/loginpress-approve-user.php:86
+msgid "Users' registration approval accepted."
+msgstr ""
+
+#: classes/loginpress-approve-user.php:119
+msgid "Not Approved"
+msgstr ""
+
+#: classes/loginpress-approve-user.php:163
+#, php-format
+msgid ""
+"Registration successful.%1$s%1$s An email has been sent to the site "
+"administrator. The administrator will review the information that has been "
+"submitted and either approved or deny your request. You will receive an "
+"email with instructions on what you will need to do next.%1$s Thanks for "
+"your patience."
+msgstr ""
+
+#: classes/loginpress-approve-user.php:194
+msgid "Approve"
+msgstr ""
+
+#: classes/loginpress-approve-user.php:203
+msgid "Unapprove"
+msgstr ""
+
+#: classes/loginpress-approve-user.php:243
+msgid ""
+"<strong>ERROR:</strong> Your account has to be confirmed by an administrator "
+"before you can login."
+msgstr ""
+
+#. translators: Blog name.
+#: classes/loginpress-approve-user.php:287
+#, php-format
+msgctxt "Blogname"
+msgid "[%s] Registration approved"
+msgstr ""
+
+#. translators: Blog name.
+#: classes/loginpress-approve-user.php:486
+#, php-format
+msgctxt "Blogname"
+msgid "[%s] Registration unapproved"
+msgstr ""
+
+#: classes/loginpress-customize.php:38
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: classes/loginpress-customize.php:45 classes/loginpress-recaptcha.php:597
+msgid "<strong>ERROR:</strong> Please verify reCAPTCHA"
+msgstr "<strong> ERREUR: </ strong>, vérifiez reCAPTCHA"
+
+#: classes/loginpress-customize.php:53
+msgid "reCAPTCHA Error Message:"
+msgstr "reCAPTCHA Message d'erreur:"
+
+#: classes/loginpress-customize.php:70
+msgid "Select reCAPTCHA size:"
+msgstr "Sélectionnez la taille du reCAPTCHA:"
+
+#: classes/loginpress-customize.php:75
+msgid "Size is only apply on \"V2-I'm not robot\" reCaptcha type."
+msgstr ""
+"La taille ne s'applique que sur le type reCaptcha \"V2-I'm not robot\"."
+
+#: classes/loginpress-customize.php:94
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: classes/loginpress-customize.php:109
+msgid "Select Google Font"
+msgstr "Sélectionnez Google Font"
+
+#: classes/loginpress-customize.php:133
+msgid ""
+"Hint: The password should be at least twelve characters long. To make it "
+"stronger, use upper and lower case letters, numbers, and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Astuce: Supprimez le mot de passe qui est pré-inscrit et remplacez le par le "
+"vôtre.<br><br>Pour rendre votre mot de passe plus sûr, utilisez des lettres "
+"majuscule et minuscule, des nombres, et des symboles tels que ! \" ? $ % ^ "
+"&amp; )."
+
+#: classes/loginpress-customize.php:142
+msgid "Reset Password Hint:"
+msgstr "Réinitialiser mot de passe Astuce:"
+
+#: classes/loginpress-customize.php:147
+msgid "You can change the Hint text that is comes on reset password page."
+msgstr ""
+"Vous pouvez changer le texte d'allusion qui est vient sur la page de mot de "
+"passe de réinitialisation."
+
+#: classes/loginpress-main.php:230
+msgid ""
+"Activate your license to get automatic plugin updates and premium support."
+msgstr ""
+"Activez votre licence pour obtenir des mises à jour automatiques de plug-in "
+"et une assistance premium."
+
+#: classes/loginpress-main.php:231
+msgid "License Manager"
+msgstr "Gestionnaire de Licence"
+
+#: classes/loginpress-main.php:399 classes/loginpress-main.php:406
+msgid "Company"
+msgstr "Entreprise"
+
+#: classes/loginpress-main.php:400 classes/loginpress-main.php:411
+msgid "Persona"
+msgstr "Personne"
+
+#: classes/loginpress-main.php:401 classes/loginpress-main.php:402
+msgid "Corporate"
+msgstr "D'entreprise"
+
+#: classes/loginpress-main.php:403
+msgid "Startup"
+msgstr "Commencez"
+
+#: classes/loginpress-main.php:404
+msgid "Wedding"
+msgstr "Mariage"
+
+#: classes/loginpress-main.php:405
+msgid "Wedding #2"
+msgstr "Mariage #2"
+
+#: classes/loginpress-main.php:407
+msgid "Bikers"
+msgstr "Motards"
+
+#: classes/loginpress-main.php:408
+msgid "Fitness"
+msgstr "Aptitude"
+
+#: classes/loginpress-main.php:409
+msgid "Shopping"
+msgstr "Achats"
+
+#: classes/loginpress-main.php:410
+msgid "Writers"
+msgstr "Écrivains"
+
+#: classes/loginpress-main.php:412
+msgid "Geek"
+msgstr "Geek"
+
+#: classes/loginpress-main.php:413
+msgid "Innovation"
+msgstr "Innovation"
+
+#: classes/loginpress-main.php:414
+msgid "Photographers"
+msgstr "Les photographes"
+
+#: classes/loginpress-main.php:415
+msgid "Animated Wapo"
+msgstr "Wapo animé"
+
+#: classes/loginpress-main.php:416
+msgid "Animated Wapo 2"
+msgstr ""
+
+#: classes/loginpress-main.php:435
+msgid "Custom Design"
+msgstr "Design personnalisé"
+
+#: classes/loginpress-main.php:549 classes/loginpress-main.php:645
+msgid ""
+"If this error keeps displaying, please contact our support at wpbrigade.com!"
+msgstr ""
+"Si cette erreur ne cesse de s'afficher, veuillez contacter notre assistance "
+"à wpbrigade.com!"
+
+#: classes/loginpress-main.php:556 classes/loginpress-main.php:605
+#: classes/loginpress-main.php:652 classes/loginpress-main.php:701
+msgid "An error occurred, please try again."
+msgstr "Une erreur est survenue, veuillez réessayer."
+
+#: classes/loginpress-main.php:556 classes/loginpress-main.php:652
+msgid ""
+"An error occurred, please try again. If this error keeps displaying, please "
+"contact our support at wpbrigade.com!"
+msgstr ""
+"Une erreur est survenue, veuillez réessayer. Si cette erreur ne cesse de "
+"s'afficher, veuillez contacter notre assistance à wpbrigade.com!"
+
+#: classes/loginpress-main.php:572 classes/loginpress-main.php:668
+#, php-format
+msgid "Your license key expired on %s."
+msgstr "Votre clé de licence a expiré le% s."
+
+#: classes/loginpress-main.php:579 classes/loginpress-main.php:675
+#: classes/loginpress-main.php:895
+msgid "Your license key has been disabled."
+msgstr "Votre clé de licence a été désactivée."
+
+#: classes/loginpress-main.php:584 classes/loginpress-main.php:680
+msgid "Your license key is Invalid."
+msgstr "Votre clé de licence est invalide."
+
+#: classes/loginpress-main.php:590 classes/loginpress-main.php:686
+msgid "Your license is not active for this URL."
+msgstr "Votre licence n'est pas active pour cette URL."
+
+#: classes/loginpress-main.php:595 classes/loginpress-main.php:691
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "Cela semble être une clé de licence non valide pour %s."
+
+#: classes/loginpress-main.php:600 classes/loginpress-main.php:696
+msgid "Your license key has reached its activation limit."
+msgstr "Votre clé de licence a atteint sa limite d'activation."
+
+#: classes/loginpress-main.php:888
+#, php-format
+msgid ""
+"Your license key has been deactivated on %s. Please Activate your license "
+"key to continue using Automatic Updates and Premium Support."
+msgstr ""
+"Votre clé de licence a été désactivée sur% s. Veuillez activer votre clé de "
+"licence pour continuer à utiliser les mises à jour automatiques et le "
+"support Premium."
+
+#: classes/loginpress-recaptcha.php:98
+msgid "Force Login"
+msgstr "Forcer Login"
+
+#: classes/loginpress-recaptcha.php:99
+msgid "Force user to login before viewing the site?"
+msgstr "Forcer l'utilisateur à se connecter avant de voir le site?"
+
+#: classes/loginpress-recaptcha.php:104
+msgid "Enable User Verification"
+msgstr ""
+
+#: classes/loginpress-recaptcha.php:105
+msgid "Admin will verify each user registration request on the site."
+msgstr ""
+
+#: classes/loginpress-recaptcha.php:110
+msgid "Enable reCAPTCHA"
+msgstr "Activer reCAPTCHA"
+
+#: classes/loginpress-recaptcha.php:111
+msgid "Enable LoginPress reCaptcha"
+msgstr "Activer LoginPress reCaptcha"
+
+#: classes/loginpress-recaptcha.php:116
+msgid "Recaptcha type"
+msgstr "Type Recaptcha"
+
+#: classes/loginpress-recaptcha.php:117
+msgid "Select the type of reCAPTCHA"
+msgstr "Sélectionnez le type de reCAPTCHA"
+
+#: classes/loginpress-recaptcha.php:121
+msgid "V2 I'm not robot."
+msgstr "V2 I'm not robot."
+
+#: classes/loginpress-recaptcha.php:122
+msgid "V2 invisible"
+msgstr "V2 invisible"
+
+#: classes/loginpress-recaptcha.php:123
+msgid "V3"
+msgstr "V3"
+
+#: classes/loginpress-recaptcha.php:129 classes/loginpress-recaptcha.php:143
+#: classes/loginpress-recaptcha.php:157
+msgid "Site Key"
+msgstr "Clé du site"
+
+#: classes/loginpress-recaptcha.php:130 classes/loginpress-recaptcha.php:144
+#: classes/loginpress-recaptcha.php:158
+msgid ""
+"Get <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\"> "
+"reCaptcha</a> site key.<br> <span class=\"alert-note\">Make sure you are "
+"adding right  site key for this domain. If it's incorrect may be you'r not "
+"able to access your website.</span>"
+msgstr ""
+"Obtenez la clé du site <a href=\"https://www.google.com/recaptcha/admin\" "
+"target=\"_blank\">reCaptcha.</a><br><span class=\"alert-note\">Assurez-vous "
+"d'ajouter la clé de site droite pour ce domaine. Si c'est incorrect peut-"
+"être vous n'êtes pas en mesure d'accéder à votre site Web.</span>"
+
+#: classes/loginpress-recaptcha.php:136 classes/loginpress-recaptcha.php:150
+#: classes/loginpress-recaptcha.php:164
+msgid "Secret Key"
+msgstr "Clé secrète"
+
+#: classes/loginpress-recaptcha.php:137 classes/loginpress-recaptcha.php:151
+#: classes/loginpress-recaptcha.php:165
+msgid ""
+"Get <a href=\"https://www.google.com/recaptcha/admin\" target=\"_blank\"> "
+"reCaptcha</a> secret key. <br> <span class=\"alert-note\">Make sure you are "
+"adding right  secret key for this domain. If it's incorrect may be you'r not "
+"able to access your website.</span>"
+msgstr ""
+"Obtenez la clé secrète <a href=\"https://www.google.com/recaptcha/admin\" "
+"target=\"_blank\">reCaptcha.</a><br><span class=\"alert-note\">Assurez-vous "
+"d'ajouter la bonne clé secrète pour ce domaine. Si c'est incorrect peut-être "
+"vous n'êtes pas en mesure d'accéder à votre site Web.</span>"
+
+#: classes/loginpress-recaptcha.php:171
+msgid "Select reCaptcha score"
+msgstr "Sélectionnez le score reCaptcha"
+
+#: classes/loginpress-recaptcha.php:172
+msgid ""
+"Minimum level of score if some one less than it will show error message."
+msgstr ""
+"Niveau minimum de score si un moins qu'il affichera le message d'erreur."
+
+#: classes/loginpress-recaptcha.php:190
+msgid "Choose theme"
+msgstr "Choisissez un thème"
+
+#: classes/loginpress-recaptcha.php:191
+msgid "Select a theme for reCAPTCHA"
+msgstr "Sélectionnez un thème pour reCAPTCHA"
+
+#: classes/loginpress-recaptcha.php:201
+msgid "Choose language"
+msgstr "Choisissez une langue"
+
+#: classes/loginpress-recaptcha.php:202
+msgid "Select a language for reCAPTCHA"
+msgstr "Sélectionnez une langue pour reCAPTCHA"
+
+#: classes/loginpress-recaptcha.php:280
+msgid "Enable reCAPTCHA on"
+msgstr "Activer reCAPTCHA sur"
+
+#: classes/loginpress-recaptcha.php:281
+msgid "Choose the form to enable google recaptcha on that"
+msgstr "Choisissez le formulaire pour activer Google reCAPTCHA sur ce"
+
+#: classes/loginpress-recaptcha.php:285
+msgid "Login Form"
+msgstr "Formulaire de connexion"
+
+#: classes/loginpress-recaptcha.php:286
+msgid "Lost Password Form"
+msgstr "Formulaire de mot de passe perdu"
+
+#: classes/loginpress-recaptcha.php:287
+msgid "Register Form"
+msgstr "Formulaire d'inscription"
+
+#: classes/loginpress-setup-30.php:227
+#, php-format
+msgid "%1$s%3$sPlease complete the %5$ssetup%6$s for LoginPress 3.0%4$s%2$s"
+msgstr ""
+"%1$s %3$s Veuillez remplir le %5$ssetup%6$s pour LoginPress 3.0%4$s%2$s"
+
+#: classes/loginpress-setup-30.php:238
+msgid "Setup 3.0"
+msgstr "Configuration 3.0"
+
+#: classes/loginpress-setup-30.php:250
+msgid "LoginPress PRO 3.0 Setup"
+msgstr "Configuration LoginPress PRO 3.0"
+
+#: classes/loginpress-setup-30.php:259
+msgid ""
+"Updating to LoginPress 3.0 is essential for the compatibility with the new "
+"optimized PRO version."
+msgstr ""
+"La mise à jour de LoginPress 3.0 est essentielle à la compatibilité avec la "
+"nouvelle version PRO optimisée."
+
+#: classes/loginpress-setup-30.php:261
+msgid "Update Free Version"
+msgstr "Mise à jour Version gratuite"
+
+#: classes/loginpress-setup-30.php:269
+msgid "Updating LoginPress"
+msgstr "Mise à jour LoginPress"
+
+#: classes/loginpress-setup-30.php:275
+msgid "LoginPress Updated."
+msgstr "LoginPress mis à jour."
+
+#: classes/loginpress-setup-30.php:284
+msgid "Update Addons"
+msgstr "Mise à jour Addons"
+
+#: classes/loginpress-setup-30.php:301
+msgid "Update Available"
+msgstr "Mise à jour disponible"
+
+#: classes/loginpress-setup-30.php:309
+msgid "All Addons activated"
+msgstr "Tous les Addons activés"
+
+#: classes/loginpress-setup-30.php:315
+msgid "Congratulations..."
+msgstr "Félicitations..."
+
+#: classes/loginpress-setup-30.php:316
+msgid ""
+"You have successfully upgraded to LoginPress 3.0 Enjoy the new optimized "
+"experience for LoginPress."
+msgstr ""
+"Vous avez passé avec succès à LoginPress 3.0 Profitez de la nouvelle "
+"expérience optimisée pour LoginPress."
+
+#: classes/loginpress-setup-30.php:317
+msgid "Finish"
+msgstr "Terminé"
+
+#: includes/license-manager.php:14
+msgid "Activate your License"
+msgstr "Activez votre licence"
+
+#: includes/license-manager.php:23
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: includes/license-manager.php:26
+msgid "Enter your license key"
+msgstr "Entrez votre licence"
+
+#: includes/license-manager.php:27
+msgid ""
+"Validating license key is mandatory to use automatic updates and plugin "
+"support."
+msgstr ""
+"La validation de la clé de licence est obligatoire pour utiliser les mises à "
+"jour automatiques et le support plugin."
+
+#: includes/license-manager.php:38
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/license-manager.php:41
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: includes/license-manager.php:52
+msgid "You have a lifetime licenses, it will never expire."
+msgstr "Vous avez une licence à vie, elle n'expirera jamais."
+
+#: includes/license-manager.php:56
+#, php-format
+msgid "Your (%2$s) license key is valid until %s."
+msgstr "Votre clé de licence (%2$s) est valide jusqu'à %s."
+
+#: includes/license-manager.php:63
+#, php-format
+msgid ""
+"The license will automatically renew, if you have an active subscription to "
+"the LoginPress Pro - at %s"
+msgstr ""
+"La licence sera automatiquement renouvelée si vous avez un abonnement actif "
+"au LoginPress Pro-at %s"
+
+#: includes/license-manager.php:72
+#, php-format
+msgid ""
+"Your license key expired on %s. Please input a valid non-expired license "
+"key. If you think, that this license has not yet expired (was renewed "
+"already), then please save the settings, so that the license will verify "
+"again and get the up-to-date expiration date."
+msgstr ""
+"Votre clé de licence a expiré sur %s. Entrez une clé de licence valide non "
+"expirée. Si vous pensez, que cette licence n'a pas encore expiré (a été "
+"renouvelé déjà), alors s'il vous plaît enregistrer les paramètres, de sorte "
+"que la licence va vérifier à nouveau et obtenir la date d'expiration à jour."
+
+#: includes/require-free.php:263
+msgid "LoginPress - Rebranding your boring WordPress Login pages"
+msgstr "LoginPress - rebaptiser vos pages de connexion WordPress ennuyeux"
+
+#: includes/require-free.php:272
+msgid "Downloading LoginPress..."
+msgstr "Téléchargement LoginPress..."
+
+#: includes/require-free.php:281
+msgid "Activating LoginPress..."
+msgstr "Activation de LoginPress..."
+
+#: includes/require-free.php:289
+msgid "LoginPress Activated."
+msgstr "LoginPress activé."
+
+#: includes/require-free.php:298
+#, php-format
+msgid ""
+"%1$sI am innovating WordPress login page. I will help you to customize your "
+"boring login page into a stylish login landing page.%2$s%1$sLoginPress "
+"(Free) is essential for Pro version. %3$sJust click the install button and "
+"enjoy the Pro Features.%2$s%4$sCreated by %5$sWPBrigade%6$s%2$s"
+msgstr ""
+"%1$sI am innover page de connexion WordPress. Je vais vous aider à "
+"personnaliser votre page de connexion ennuyeux dans une page de destination "
+"de connexion élégante.%2$s %1$sLoginPress (gratuit) est essentiel pour la "
+"version Pro. %3$sJust cliquez sur le bouton installer et profitez des "
+"fonctionnalités Pro.%2$s %4$sCreated par%5$sWPBrigade%6$s %2$s"
+
+#: includes/require-free.php:301
+msgid "Install"
+msgstr "Installer"
+
+#: includes/require-free.php:313
+#, php-format
+msgid ""
+"LoginPress (Free) is essential for Pro version. %1$sJust click the Activate "
+"button and enjoy the Pro Features."
+msgstr ""
+"LoginPress (gratuit) est essentiel pour la version Pro. %1$sJust cliquez sur "
+"le bouton Activer et profitez des fonctionnalités Pro."
+
+#: includes/require-free.php:314
+msgid "Activate"
+msgstr "Activer"
+
+#: js/script-login.php:10 js/script-login.php:53
+msgid "Show Password"
+msgstr "Montrer le mot de passe"
+
+#: lib/LOGINPRESS_PRO_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+"Il existe une nouvelle version de %1$sest disponible. %2$sAfficher de la "
+"version %3$s les détails%4$s."
+
+#: lib/LOGINPRESS_PRO_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+"Il existe une nouvelle version de %1$s est disponible. %2$s Afficher de la "
+"version %3$s les détails%4$s ou %5$s mettre à jour maintenant%6$s."
+
+#: lib/wp-updates-plugin.php:88
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Une erreur HTTP est arrivée durant la requête au système.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Essayez encore</a>"
+
+#: lib/wp-updates-plugin.php:92
+msgid "An unknown error occurred"
+msgstr "Une erreur inconnue s’est produite"
+
+#: loginpress-pro.php:143
+msgid "Introducing LoginPress PRO 3.0!"
+msgstr "Voici LoginPress PRO 3.0!"
+
+#: loginpress-pro.php:144
+msgid "New enhanced experience for LoginPress"
+msgstr "Nouvelle expérience améliorée pour LoginPress"
+
+#: loginpress-pro.php:148
+msgid "Learn More"
+msgstr "Apprendre encore plus"
+
+#: loginpress-pro.php:195
+msgid "LoginPress"
+msgstr "LoginPress"
+
+#: loginpress-pro.php:219
+msgid ""
+"Please update LoginPress to latest Free version to enable PRO features "
+"&mdash; "
+msgstr ""
+"S'il vous plaît mettre à jour LoginPress à la dernière version gratuite pour "
+"activer les fonctionnalités PRO &mdash; "
+
+#: loginpress-pro.php:221
+msgid "Update now"
+msgstr "Mettre à jour"
+
+#. Plugin Name of the plugin/theme
+msgid "LoginPress Pro"
+msgstr "LoginPress Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.WPBrigade.com/wordpress/plugins/loginpress-pro/"
+msgstr "http://www.WPBrigade.com/wordpress/plugins/loginpress-pro/"
+
+#. Description of the plugin/theme
+msgid "This plugin adds premium features in your LoginPress plugin."
+msgstr ""
+"Ce plugin ajoute des fonctionnalités Premium dans votre plugin LoginPress."
+
+#. Author of the plugin/theme
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Author URI of the plugin/theme
+msgid "https://www.WPBrigade.com/"
+msgstr "https://www.WPBrigade.com/"

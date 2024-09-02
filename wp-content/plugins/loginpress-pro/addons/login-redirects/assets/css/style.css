@@ -1,0 +1,259 @@
+.ui-autocomplete {
+	float: left;
+	background-color: #fff ;
+	border:1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	max-height:250px;
+	overflow:auto;
+	overflow-x: hidden;
+}
+
+.ui-menu-item {
+	list-style-type: none;
+	padding: 6px 12px !important;
+	border: 0;
+}
+
+.ui-menu-item:hover {
+	background: #F1F1F1;
+	border: 0;
+}
+
+.ui-menu-item:has(.ui-menu-item-wrapper.ui-state-active) {
+    background: #F1F1F1;
+}
+#loginpress_login_redirect_users_filter label,
+#loginpress_login_redirect_roles_filter label{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.loginpress-user-redirects-update:hover::before,
+.loginpress-user-redirects-delete:hover::before{
+    --tooltip-arrow-size: 6px;
+    content: 'Delete';
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 8px 14px;
+    border-radius: 0px;
+    z-index: 3;
+    transform: translatex(-50%);
+    background-color: #516885;
+    clip-path: polygon(
+       0 0, 
+       100% 0, 
+       100% calc(100% - var(--tooltip-arrow-size)), 
+       calc(50% + var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)), 
+       50% 100%, 
+       calc(50% - var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)),
+       0 calc(100% - var(--tooltip-arrow-size)));
+}
+.loginpress-user-redirects-update:hover::before{
+  content: 'Update';
+}
+
+.toplevel_page_loginpress-settings .dataTable tbody tr:nth-child(odd).loginpress_user_highlighted td,
+.toplevel_page_loginpress-settings .dataTable tbody tr:nth-child(even).loginpress_user_highlighted td{
+	background: rgba(255, 215, 0, 0.47) !important;
+}
+.login-redirects-sniper{
+	padding: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(255,255,255, .8);
+  display: none;
+}
+.login-redirects-sniper img{
+	width: 40px;
+	width: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.loginpress_login_redirect_users tr>td, .loginpress_login_redirect_roles tr>td{
+	position: relative;
+}
+.loginpress-user-redirects-delete, .loginpress-redirects-role-delete{
+	background-color: #0085ba !important;
+	color: #fff !important;
+	border: none !important;
+  margin-top: 5px !important;
+}
+.loginpress-redirects-tab-wrapper:after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+
+/**********redirect-users-settings**********/
+.loginpress_login_redirect_users{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ccc;
+}
+.loginpress_login_redirect_users tr th,.loginpress_login_redirect_users tr td{
+  text-align: left;
+  padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.dtfc-fixed-left{
+  z-index:3;
+  position: sticky;
+  left: 0;
+}
+.dtfc-fixed-right{
+  z-index:3;
+  position: sticky;
+  right: 0;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody
+.loginpress_login_redirect_users tr th:last-child,.loginpress_login_redirect_users tr td:last-child{
+  text-align: right;
+  border-right: 1px solid #ccc;
+  z-index: 5;
+}
+.loginpress_login_redirect_users input[type="text"]{
+	width: 100%;
+}
+/**********redirect-users-settings**********/
+
+/**********redirect-roles-settings**********/
+#loginpress_redirect_role_search{
+	display: none;
+}
+.loginpress_login_redirect_roles{
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border-bottom: 1px solid #ccc;
+	display: none;
+}
+.loginpress_login_redirect_roles tr th,.loginpress_login_redirect_roles tr td{
+  text-align: left;
+  padding: 5px 10px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+.loginpress_login_redirect_roles tr th:last-child,.loginpress_login_redirect_roles tr td:last-child{
+  text-align: right;
+  border-right: 1px solid #ccc;
+}
+.loginpress_login_redirect_roles input[type="text"]{
+	width: 100%;
+}
+/**********redirect-roles-settings**********/
+
+#wpcontent .loginpress-user-redirects-update, 
+#wpcontent .loginpress-user-redirects-delete, 
+#wpcontent .loginpress-redirects-role-update, 
+#wpcontent .loginpress-redirects-role-delete {
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 0;
+    color: transparent !important;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    min-height: 0;
+    line-height: 1;
+    display: inline-block;
+	margin: 0 5px !important;
+	transition: none;
+}
+
+#wpcontent .loginpress-user-redirects-update, 
+#wpcontent .loginpress-redirects-role-update{
+	background-image: url(../../../../assets/img/check-icon.svg);
+	background-position: left center;
+}
+
+#wpcontent .loginpress-user-redirects-delete, 
+#wpcontent .loginpress-redirects-role-delete{
+	background-image: url(../../../../assets/img/close-icon.svg);
+	background-position: left center;
+}
+
+#wpcontent .loginpress-user-redirects-update:hover, 
+#wpcontent .loginpress-user-redirects-delete:hover, 
+#wpcontent .loginpress-redirects-role-update:hover, 
+#wpcontent .loginpress-redirects-role-delete:hover{
+	background-position: right center;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles{
+	border-bottom: none !important;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .sorting_1{
+    width: 130px;
+    text-align: center;
+    z-index: 3;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_user_name, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_login_redirects_role{
+    width: 200px;
+	text-align: center;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_login_redirects_url, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_login_redirects_url, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_logout_redirects_url, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_logout_redirects_url{
+    width: 300px;
+}
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_login_redirects_email, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_user_name{
+    width: 100px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_login_redirects_actions, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_login_redirects_actions{
+    width: 120px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_login_redirects_actions .lp-tbody-cell, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_login_redirects_actions .lp-tbody-cell{
+    width: 105px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_logout_redirects_url input, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_users tbody .loginpress_login_redirects_url input, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_logout_redirects_url input, 
+.toplevel_page_loginpress-settings .loginpress_login_redirect_roles tbody .loginpress_login_redirects_url input{
+    height: 40px;
+    padding: 10px 15px;
+}
+
+#loginpress_login_redirect_roles_wrapper{
+  display: none;
+}
+.loginpress_login_redirect_roles{
+  counter-reset: role;  
+}
+.loginpress_login_redirect_roles tbody tr{
+  counter-increment: role;
+}
+.loginpress_login_redirect_roles tr .no-of{
+  text-align: center;
+}
+.loginpress_login_redirect_roles tr .no-of::before{
+  content: counter(role);
+}

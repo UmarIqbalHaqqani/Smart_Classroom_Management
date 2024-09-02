@@ -1,0 +1,13 @@
+{
+    "require": {
+        "stripe/stripe-php": "^13.13",
+        "twilio/sdk": "^5.36",
+        "guzzlehttp/guzzle": "~6.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoom\\": "./libs/zoom"
+        }
+    }
+}

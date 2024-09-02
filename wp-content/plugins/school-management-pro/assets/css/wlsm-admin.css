@@ -1,0 +1,479 @@
+.wlsm-android {
+  max-width: 200px;
+  max-height: 85px;
+}
+@media(max-width: 600px) {
+  .wlsm-android {
+    margin-top: 14px;
+    max-width: 150px;
+    max-height: 60px;
+  }
+}
+.wlsm-android a {
+  display: inline-block;
+}
+.wlsm-android img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.wlsm select {
+  height: unset;
+}
+.wlsm div.dataTables_wrapper div.dataTables_length select {
+  width: 100%;
+}
+.wlsm div.dataTables_wrapper div.dataTables_processing {
+  padding: 4px;
+}
+.wlsm .dataTables_processing.card {
+  opacity: 0.9;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  color: #444;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+}
+.wlsm div.dataTables_wrapper select {
+  height: calc(1.5em + 0.5rem + 2px);
+  line-height: unset;
+  padding: 0.25rem 0.5rem;
+}
+.wlsm select.bulk-action-select {
+  max-width: 125px;
+  border-radius: 0;
+  border-color: #cdcdcd;
+}
+.wlsm .bulk-action-btn {
+  border-radius: 0;
+}
+.wlsm .wlsm-chart {
+  height: 300px;
+  width: 100%;
+}
+.wlsm .wlsm-important {
+  color: red;
+}
+.wlsm .wlsm-badge {
+  font-size: 95%;
+}
+.wlsm-h5 {
+  font-size: 1.24rem;
+}
+.wlsm .wlsm-remove-item {
+  cursor: pointer;
+  padding: 4px 5px;
+  font-size: 0.7rem;
+  border-radius: 50%;
+}
+.wlsm-font-extra-large {
+  font-size: 1.4em !important;
+}
+.wlsm-font-large {
+  font-size: 1.2em !important;
+}
+.wlsm-font-medium {
+  font-size: 1em !important;
+}
+.wlsm-font-small-medium {
+  font-size: 0.85em !important;
+}
+.wlsm-font-small {
+  font-size: 0.8em !important;
+}
+.wlsm-font-bold {
+  font-weight: 600;
+}
+.wlsm .wlsm-form-section .row > .col-md-12 {
+  padding-left: 1.25rem;
+}
+.wlsm .wlsm-school-card {
+  color: #212121;
+  box-shadow: 0 2px 15px rgba(36, 37, 38, 0.1);
+  border-radius: 15px;
+}
+.wlsm .wlsm-school-card-link,
+.wlsm .wlsm-staff-school-card-link {
+  text-decoration: none;
+}
+.wlsm .wlsm-school-card-title {
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.33;
+}
+.wlsm .wlsm-school-card-light {
+  color: #656565;
+}
+.wlsm .wlsm-school-card-dark {
+  color: #444;
+}
+.wlsm .wlsm-school-card-border {
+  background-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+.wlsm .wlsm-school-card-border .wlsm-school-card-light {
+  color: #efefef;
+}
+.wlsm .wlsm-school-card-border .wlsm-school-card-dark {
+  color: #fff;
+}
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card {
+  background-color: #007bff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card-dark,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card-dark {
+  color: #fff;
+}
+.wlsm .wlsm-school-card-link:hover .wlsm-school-card-light,
+.wlsm .wlsm-staff-school-card-link:hover .wlsm-school-card-light {
+  color: #efefef;
+}
+.wlsm .wlsm-assign-new-user {
+  display: none;
+}
+.wlsm .wlsm-school-admin-existing-user {
+  display: none;
+}
+.wlsm .wlsm_user_current_session_block label {
+  margin-bottom: 0;
+}
+.wlsm #wlsm_user_current_session {
+  padding: 2px 24px 2px 14px;
+  border-radius: 15px;
+}
+.wlsm .wlsm_text_secondary {
+  color: #656565;
+}
+.wlsm .wlsm-font-large {
+  font-size: 1.05em;
+}
+.wlsm .wlsm-section-heading-block {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.3rem 0.5rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+}
+.wlsm .wlsm-section-heading {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.wlsm .wlsm-form-sub-heading {
+  font-size: 1.24rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.8rem;
+}
+.wlsm .wlsm-form-section {
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-collapse: collapse;
+  box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.22);
+}
+.wlsm .form-row > div {
+  padding: 0 0.8rem;
+}
+.wlsm .wlsm-print-attendance-sheet-container .table-responsive,
+.wlsm .wlsm-print-staff-attendance-sheet-container .table-responsive {
+  display: inline-flex;
+  overflow: auto;
+}
+.wlsm .wlsm-student-new-user,
+.wlsm .wlsm-student-existing-user,
+.wlsm .wlsm-parent-new-user,
+.wlsm .wlsm-parent-existing-user,
+.wlsm .wlsm-staff-new-user,
+.wlsm .wlsm-staff-existing-user {
+  display: none;
+}
+.wlsm .wlsm-send-sms {
+  display: none;
+}
+.wlsm .wlsm-main-header {
+  border-radius: 15px;
+  background-color: #f5f6ff;
+  border: 0;
+}
+.wlsm .wlsm-main-header .card-header {
+  background-color: #f5f6ff;
+  border-bottom: 0;
+}
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 1) .wlsm-stats-block {
+  border-left: 12px solid #5867dd;
+}
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 2) .wlsm-stats-block {
+  border-left: 12px solid #0abb87;
+}
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 3) .wlsm-stats-block {
+  border-left: 12px solid #ffb822;
+}
+.wlsm .wlsm-stats-blocks .col-md-4:nth-of-type(4n + 4) .wlsm-stats-block {
+  border-left: 12px solid #f47070;
+}
+.wlsm
+  .wlsm-stats-blocks
+  .col-md-4:nth-of-type(4n + 1)
+  .wlsm-stats-block
+  .wlsm-stats-icon {
+  color: #5867dd;
+}
+.wlsm
+  .wlsm-stats-blocks
+  .col-md-4:nth-of-type(4n + 2)
+  .wlsm-stats-block
+  .wlsm-stats-icon {
+  color: #0abb87;
+}
+.wlsm
+  .wlsm-stats-blocks
+  .col-md-4:nth-of-type(4n + 3)
+  .wlsm-stats-block
+  .wlsm-stats-icon {
+  color: #ffb822;
+}
+.wlsm
+  .wlsm-stats-blocks
+  .col-md-4:nth-of-type(4n + 4)
+  .wlsm-stats-block
+  .wlsm-stats-icon {
+  color: #f47070;
+}
+.wlsm .wlsm-stats-block {
+  height: 6.25rem;
+  position: relative;
+  padding: 1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  color: #212121;
+  box-shadow: 1px 1px 6px rgba(36, 37, 38, 0.2);
+  border-radius: 12px;
+}
+.wlsm .wlsm-stats-icon {
+  position: absolute;
+  opacity: 0.44;
+  font-size: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0.5rem;
+}
+.wlsm .wlsm-stats-counter {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.wlsm .wlsm-stats-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #585858;
+}
+.wlsm .wlsm-stats-heading-block {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+.wlsm .wlsm-stats-heading {
+  font-size: 1.2rem;
+  color: #444;
+}
+.wlsm .wlsm-stats-table th {
+  font-weight: 600;
+}
+.wlsm .wlsm-link {
+  color: #1172aa;
+  font-weight: 600;
+}
+.wlsm .wlsm-send-test-email-to,
+.wlsm .wlsm-send-test-sms-to {
+  position: relative;
+  top: 3px;
+  min-height: unset;
+  height: 32px;
+  width: 230px;
+}
+.wlsm .wlsm-search-class-students {
+  display: none;
+}
+
+.wlsm .wlsm-search-date-students {
+  display: none;
+}
+
+span.Zebra_DatePicker_Icon_Wrapper {
+  margin: unset !important; 
+  padding: unset !important; 
+  width: unset !important;
+}
+
+.wlsm .wlsm-students-block,
+.wlsm .wlsm-table-block {
+   padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-collapse: collapse;
+}
+.wlsm .wlsm-photo {
+  width: 125px;
+  height: 160px;
+}
+.wlsm .wlsm-group {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 15px rgba(36, 37, 38, 0.1);
+  border-radius: 15px;
+}
+.wlsm .wlsm-group-title {
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.wlsm .wlsm-group-actions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.wlsm .wlsm-group-actions .btn {
+  margin-right: 0.3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.wlsm .wlsm-multiple-student-block {
+  display: none;
+}
+.wlsm .wlsm-btn-xs {
+  padding: 0.2rem 0.25rem;
+  font-size: 0.5rem;
+}
+.wlsm-icon {
+  border-radius: 50%;
+  line-height: 1.1em;
+  width: 1.1em;
+  height: 1.1em;
+  text-align: center;
+  display: inline-block;
+}
+.wlsm-icon-red {
+  color: #fff;
+  background-color: #dc3545;
+}
+.wlsm .wlsm-collect-invoice-payment {
+  display: none;
+}
+.wlsm .wlsm-school-logo {
+  max-height: 200px;
+  max-width: 200px;
+}
+#wlsm-export-table-btn,
+.wlsm .wlsm_email_carrier,
+.wlsm .wlsm_sms_carrier,
+.wlsm .wlsm-notice-link {
+  display: none;
+}
+.wlsm-school-settings .btn-block {
+  font-size: 1.1em;
+  font-style: italic;
+}
+.wlsm-text-center {
+  text-align: center;
+}
+.wlsm-book-details {
+  margin-bottom: 0.85rem;
+}
+.wlsm-book-details .list-group-item {
+  padding: 0.44rem 0;
+}
+.wlsm-exam-paper-box,
+.wlsm-fee-box {
+  position: relative;
+  font-size: 0.9em;
+  border: 1px solid #c2c2c2;
+  padding: 0.8em;
+  background-color: #f2f4f7;
+  box-shadow: 1px 1px 2px 0px #c0c0c0;
+  cursor: move;
+}
+.wlsm-remove-exam-paper-btn,
+.wlsm-remove-fee-btn {
+  z-index: 2;
+  display: inline-block;
+  position: absolute;
+  font-size: 0.7em;
+  cursor: pointer;
+  right: 5px;
+  top: 5px;
+  border-radius: 50%;
+}
+.wlsm table .dashicons {
+  line-height: unset;
+  margin-left: 3px;
+  font-size: 20px;
+}
+.wlsm .row {
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+}
+.wlsm-certificate-positions label {
+  font-size: 0.82rem;
+}
+.wlsm-certificate-positions .input-group-text {
+  font-size: 0.8rem;
+}
+.wlsm-grade-criteria-remove,
+.wlsm-grade-criteria-add {
+  cursor: pointer;
+}
+
+.wlsm-psych-criteria-remove,
+.wlsm-psych-criteria-add {
+  cursor: pointer;
+}
+
+.wlsm-psych-scale-remove,
+.wlsm-psych-scale-add {
+  cursor: pointer;
+}
+
+.canvasjs-chart-credit {
+  display: none;
+}
+.wlsm-vehicle-incharge {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .wlsm .wlsm-section-heading-block a {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #d4d4d4;
+  }
+}
+@media screen and (max-width: 767px) {
+  .col-sm-12.col-md-6 {
+    margin-right: 90px;
+  }
+}
+
+/* @media screen and (max-width: 767px) {
+.wlsm .col, .wlsm .col-1, .wlsm .col-10, .wlsm .col-11, .wlsm .col-12, .wlsm .col-2, .wlsm .col-3, .wlsm .col-4, .wlsm .col-5, .wlsm .col-6, .wlsm .col-7, .wlsm .col-8, .wlsm .col-9, .wlsm .col-auto, .wlsm .col-lg, .wlsm .col-lg-1, .wlsm .col-lg-10, .wlsm .col-lg-11, .wlsm .col-lg-12, .wlsm .col-lg-2, .wlsm .col-lg-3, .wlsm .col-lg-4, .wlsm .col-lg-5, .wlsm .col-lg-6, .wlsm .col-lg-7, .wlsm .col-lg-8, .wlsm .col-lg-9, .wlsm .col-lg-auto, .wlsm .col-md, .wlsm .col-md-1, .wlsm .col-md-10, .wlsm .col-md-11, .wlsm .col-md-12, .wlsm .col-md-2, .wlsm .col-md-3, .wlsm .col-md-4, .wlsm .col-md-5, .wlsm .col-md-6, .wlsm .col-md-7, .wlsm .col-md-8, .wlsm .col-md-9, .wlsm .col-md-auto, .wlsm .col-sm, .wlsm .col-sm-1, .wlsm .col-sm-10, .wlsm .col-sm-11, .wlsm .col-sm-12, .wlsm .col-sm-2, .wlsm .col-sm-3, .wlsm .col-sm-4, .wlsm .col-sm-5, .wlsm .col-sm-6, .wlsm .col-sm-7, .wlsm .col-sm-8, .wlsm .col-sm-9, .wlsm .col-sm-auto, .wlsm .col-xl, .wlsm .col-xl-1, .wlsm .col-xl-10, .wlsm .col-xl-11, .wlsm .col-xl-12, .wlsm .col-xl-2, .wlsm .col-xl-3, .wlsm .col-xl-4, .wlsm .col-xl-5, .wlsm .col-xl-6, .wlsm .col-xl-7, .wlsm .col-xl-8, .wlsm .col-xl-9, .wlsm .col-xl-auto {
+	padding-right: unset;
+    padding-left: unset;
+}
+} */
+
+/* Student detail CSS*/
+
+.wlsm-student-detail-details{
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #e4e4e4 !important;
+}
+li.student-detail_list {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.wlsm-student-detail-photo-box {
+    width: 90%;
+}

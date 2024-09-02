@@ -1,0 +1,1 @@
+.ekit-cursor-settings{position:fixed;z-index:999;top:10px;left:20px;overflow:hidden;pointer-events:none;-webkit-transition:opacity .3s;transition:opacity .3s}.ekit-cursor-settings.show{opacity:1;display:block}.ekit-cursor .ekit-cursor-text{display:inline-block}.ekit-cursor{display:none;transition:.3s}.model-active .ekit-cursor{display:block;transition:.3s}

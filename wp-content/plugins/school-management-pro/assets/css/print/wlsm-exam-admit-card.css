@@ -1,0 +1,83 @@
+@media print {
+	body {
+		font-size: 16pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+	.text-secondary {
+		color: #6c757d !important;
+	}
+	.text-dark {
+		color: #343a40 !important;
+	}
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+	.wlsm-view-exam-time-table th,
+	.wlsm-view-exam-time-table td {
+		font-size: 15pt !important;
+		background-color: #fff !important;
+		border-color: #444 !important;
+		color: #000 !important;
+	}
+	.wlsm-print-exam-admit-card-container ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 2pt 0;
+	}
+	.wlsm-print-exam-admit-card-container li {
+		font-size: 16pt;
+		padding: 0;
+		margin: 2pt 0;
+		border-bottom: 1px solid #ddd;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-student-photo-box {
+		box-sizing: border-box;
+		border: 1px solid #ddd;
+		width: 45mm;
+		height: 56mm;
+		float: right;
+		margin-top: 12pt;
+		margin-left: 10pt;
+		margin-right: 2pt;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-student-photo {
+		width: 100%;
+		height: 100%;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-student-details {
+		margin-bottom: 12pt;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-student-details .col-9 {
+		padding-right: 5pt;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-student-details .col-3 {
+		padding-left: 0;
+		margin-top: 0;
+	}
+	.text-dark {
+		color: #000 !important;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-admit-card-heading {
+		margin-bottom: 5pt;
+		font-weight: 600;
+		font-size: 20pt;
+		text-align: center;
+	}
+	.wlsm-print-exam-admit-card-container .wlsm-admit-card-heading span {
+		border-bottom: 1pt solid #000;
+	}
+	@page {
+		size: A4 portrait;
+	}
+	@media print {
+		div.page-break {
+		  page-break-after: always;
+		}
+	  }
+}

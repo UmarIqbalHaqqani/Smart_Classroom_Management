@@ -1,0 +1,751 @@
+.ui-autocomplete {
+	float: left;
+	background-color: #fff ;
+	border:1px solid rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	max-height:250px;
+	overflow:auto;
+	overflow-x: hidden;
+}
+
+.ui-menu-item {
+	list-style-type: none;
+	padding: 6px 12px !important;
+	border: 0;
+}
+.ui-menu-item:hover {
+	background: #F1F1F1;
+	border: 0;
+}
+.autologin_emails_sent{
+	display: none;
+	font-weight: 700;
+	margin-top: 10px !important;
+	margin-bottom: 1px !important;
+    color: rgba(0, 128, 0, 0.939) !important;
+}
+
+.loginpress_valid_email,
+.loginpress_empty_email{
+	display: none;
+	font-weight: 700;
+	margin-top: 5px !important;
+	margin-bottom: 1px !important;
+    color: rgb(174, 22, 22) !important;
+}
+.toplevel_page_loginpress-settings .dataTable tbody tr:nth-child(odd).loginpress_user_highlighted td,
+.toplevel_page_loginpress-settings .dataTable tbody tr:nth-child(even).loginpress_user_highlighted td{
+	background: rgba(255, 215, 0, 0.47) !important;
+}
+.autologin-sniper{
+	padding: 5px;
+    display: none;
+    position: absolute;
+	left: 50%;
+    transform: translateX(-50%);
+}
+.loginpress-del-link{
+	background-color: #0085ba !important;
+	color: #fff !important;
+	border: none !important;
+	margin-top: 5px !important;
+}
+/**********autologin-settings**********/
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code{
+    cursor: pointer;
+}
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code input{
+    border: none;
+    background-color: transparent;
+    color: #5C7697;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0;
+    cursor: pointer;
+    width: calc(100% - 40px);
+    height: auto;
+}
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code .copy-email-icon-wrapper{
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s;
+    width: 26px;
+}
+#loginpress_autologin_users_filter label{
+	flex-direction: column-reverse;
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code .copy-email-icon-wrapper:hover:before{
+    --tooltip-arrow-size: 6px;
+    content: 'Copy';
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 8px 14px;
+    border-radius: 0px;
+    z-index: 3;
+    transform: translatex(-50%);
+    background-color: #516885;
+    clip-path: polygon(
+       0 0, 
+       100% 0, 
+       100% calc(100% - var(--tooltip-arrow-size)), 
+       calc(50% + var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)), 
+       50% 100%, 
+       calc(50% - var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)),
+       0 calc(100% - var(--tooltip-arrow-size)));
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code .copied .copy-email-icon-wrapper:hover:before{
+    content: 'Copied';
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link:hover::before{
+    --tooltip-arrow-size: 6px;
+    content: 'Delete';
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 8px 14px;
+    border-radius: 0px;
+    z-index: 3;
+    transform: translatex(-50%);
+    background-color: #516885;
+    clip-path: polygon(
+       0 0, 
+       100% 0, 
+       100% calc(100% - var(--tooltip-arrow-size)), 
+       calc(50% + var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)), 
+       50% 100%, 
+       calc(50% - var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)),
+       0 calc(100% - var(--tooltip-arrow-size)));
+}
+.loginpress_table_wrapper{
+    overflow: auto;
+    width: 100%;
+}
+.loginpress_table_wrapper::-webkit-scrollbar {
+	-webkit-appearance: none;
+	width: 7px;
+}
+
+.loginpress_table_wrapper::-webkit-scrollbar-thumb {
+	border-radius: 4px;
+	background-color: rgb(51, 51, 51, .8);
+	box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.dataTables_scroll {
+    padding-top: 20px;
+}
+.loginpress_autologin_code svg:hover{
+	filter: invert(12%)
+    sepia(30%)
+    saturate(2878%)
+    hue-rotate(346deg)
+    brightness(104%)
+    contrast(97%);
+}
+.dataTables_scroll {
+    margin-top: 20px;
+}
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .copy-email-icon-wrapper:after{
+    content: "";
+    top: 0;
+    left: 4px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../../../assets/img/copied-text-check.svg) center center no-repeat;
+    display: none !important;
+}
+ 
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .autologin-copied .copy-email-icon-wrapper:after{
+    display: block !important;
+}
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .autologin-copied .copy-email-icon-wrapper svg{
+    opacity: 0;
+}
+
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_code:hover .copy-email-icon-wrapper{
+    display: inline-block;
+}
+
+#loginpress_autologin_users tbody td:first-child{
+	text-align: center;
+}
+input[name="loginpress_autologin_search"]{
+	max-width: 450px;
+}
+
+.loginpress_autologin_code {
+  width: 300px;
+}
+.loginpress_autologin_code input {
+  width: 250px;
+}
+.loginpress_autologin_code .autologin-copy-btn {
+  display: inline-block;
+  padding: 7px 5px 4px 6px;
+  cursor: pointer;
+  vertical-align: middle;
+  background: #e5e5e5;
+  margin-left: -3px;
+  margin-top: -5px;
+  border-radius: 2px;
+}
+.autologin-copy-svg {
+  cursor: pointer;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.loginpress-autologin-state {
+  text-transform: capitalize;
+  min-width: 65px;
+}
+.loginpress-edit-popup {
+	height: auto;
+    width: 480px;
+    background: #fbfbfb;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: 0 5px 18px 3px #4d4d4d52;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: calc(100% - 30px);
+}
+.loginpress-edit-popup-container {
+	height: 100%;
+    width: calc(100% - 160px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255, 0.4);
+}
+.loginpress-edit-popup .autologin-expire-date-container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.loginpress-edit-popup .autologin-expire-date-container label,
+.loginpress-edit-popup .autologin-popup-fields label{
+    width: 160px;
+    display: block;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    float: left;
+}
+.loginpress-edit-popup.loginpress-multiple-users-popup .autologin-popup-fields label{
+    margin-bottom: 10px;
+	display: block;
+    width: 100%;
+}
+.loginpress-edit-popup.loginpress-multiple-users-popup .loginpress-auto-login-duration-buttons{
+    padding-top: 10px;
+}
+.loginpress-edit-popup .autologin-expire-date-container label{
+	width: 100%;
+    padding: 10px 10px;
+}
+.autologin-expire-date_desc{
+	display: block;
+    margin-left: 10px;
+}
+.loginpress-edit-popup .autologin-expire-date-container input[type="date"], 
+.loginpress-edit-popup .autologin-popup-fields input[type="text"]{
+    height: 40px;
+    border-color: #aaa;
+    cursor: pointer;
+    width: 100%;
+}
+.loginpress-edit-popup .autologin-expire-date-container input[type="date"]{
+    /* float: left; */
+    /* width: calc(100% - 140px); */
+    display: inline-block;
+}
+.loginpress-edit-popup .autologin-popup-fields input[type="checkbox"]{
+    /* margin-left: 5px; */
+    border-color: #aaa;
+}
+.loginpress-edit-popup .loginpress-auto-login-duration-buttons{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.loginpress-edit-popup .loginpress-auto-login-duration-buttons button{
+    width: calc(50% - 10px);
+    background-color: #5C7697;
+    padding: 14px 20px;
+    border: none;
+    transition: all 0.3s;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 5px;
+}
+.loginpress-edit-popup .loginpress-auto-login-duration-buttons button.autologin-close-popup{
+    background-color: #ffffff;
+    color: #444;
+    border: 1px solid #ccc;
+}
+.loginpress-edit-popup .loginpress-auto-login-duration-buttons button:hover{
+    background-color: #2B3D54;
+}
+.loginpress-edit-popup .loginpress-auto-login-duration-buttons button.autologin-close-popup:hover{
+    background-color: #ffffff;
+    color: #444;
+    border: 1px solid #666;
+}
+.loginpress-autologin-remain-notice-last-day{
+    color: #d0a600 !important;
+}
+.loginpress_autologin_code {
+  position: relative;
+}
+/* .loginpress_autologin_code .lp-tbody-cell.copied::before {
+	content: 'copied';
+	position: absolute;
+	right: 5px;
+	top: -4px;
+	font-size:10px;
+} */
+.loginpress_autologin_code .lp-tbody-cell{
+	position: relative;
+
+}
+.loginpress_autologin_code.copy::before {
+	content: '✔';
+	position: absolute;
+	right: 12px;
+	top: -4px;
+	font-size:10px;
+}
+.loginpress_autologin_code .loginpress-autologin-code {
+  background: rgba(255,255,255,.5);
+  border-color: rgba(222,222,222,.75);
+  color: rgba(51,51,51,.5);
+}
+.autologin-disabled td,
+.autologin-expired td {
+	color: rgba(51,51,51,.5) !important;
+}
+.autologin-expired {
+	background-color: rgba(255,0,0,0.06);
+}
+/* .loginpress-autologin-expired-notice {
+	display: inline-block;
+	padding: 5px 10px;
+  	color: #e62117cf !important;
+  	font-weight: 500;
+	line-height: 1.5;
+} */
+
+.loginpress-autologin-remain-notice,
+.loginpress_autologin_code .loginpress-autologin-email-sent {
+	display: inline-block;
+	padding: 5px 10px;
+  	color: #4D8B00;
+  	font-weight: 400;
+	line-height: 1.5;
+}
+
+.loginpress-autologin-remain-notice-red {
+	display: inline-block;
+	padding: 0;
+  	color: #F6366A !important;
+  	font-weight: 400;
+	line-height: 1.5;
+}
+.loginpress-autologin-create-notice {
+	text-align: center !important;
+	padding: 5px 10px;
+  	color: #4D8B00 !important;
+  	font-weight: 400;
+	line-height: 1.5;
+}
+.loginpress-autologin-email-settings:not(.disabled) {
+  cursor: pointer;
+}
+
+/* ---------- Action Cell Code Start------------- */
+
+.loginpress_user_status{
+	text-align: center !important;
+    position: relative;
+	padding: 0;
+}
+
+.loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link{
+    background-color: transparent !important;
+    display: inline-block;
+    padding: 0 1px;
+    margin-bottom: -3px;
+    margin-top: 2px !important;
+}
+
+.loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../../../../assets/img/close-icon.svg) left center no-repeat;
+    display: block;
+}
+
+.loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link:hover:after{
+    color: #c20909;
+}
+
+.loginpress-action-list-menu-wrapper{
+    display: inline-block;
+    position: relative;
+}
+
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-open-icon,
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-close-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-open-icon:before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(../../../../assets/img/three-dots-icon.svg) left center no-repeat;
+    display: block;
+}
+.loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link:hover:after, 
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-open-icon:hover:before{
+    background-position: right center;
+}
+
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-open-icon:hover:before{
+    color: #222;
+}
+
+.loginpress-action-menu-burger-wrapper .loginpress-action-menu-burger-close-icon, 
+.loginpress-action-list-menu-wrapper.menu-active .loginpress-action-menu-burger-open-icon{
+    display: none;
+}
+
+.loginpress-action-list-menu-wrapper.menu-active .loginpress-action-menu-burger-close-icon{
+    display: inline-block;
+}
+
+.loginpress-multiple-users-popup p:empty{
+    display: none;
+}
+
+.loginpress-multiple-users-popup .autologin-popup-fields p{
+    margin: 10px 0 10px;
+}
+.autologin-multi-emails-desc{
+	display: inline-block;
+	width: 100% !important;
+}
+.loginpress-action-list-menu-wrapper ul{
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    width: 190px;
+    right: calc(100% + 5px);
+    top: -26px;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    text-align: left;
+	display: block;
+    opacity: 0;
+    transition: 0.2s;
+    visibility: hidden;
+	display: none;
+	z-index: 1;
+}
+.loginpress-action-list-menu-wrapper ul:after{
+    content: "";
+    position: absolute;
+    top: 17px;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+    background-color: #fff;
+    right: -5px;
+}
+.loginpress-action-list-menu-wrapper.menu-active ul{
+    display: block;
+	visibility: visible;
+    opacity: 1;
+}
+.loginpress-action-list-menu-wrapper ul li{
+    margin-bottom: 0;
+}
+.loginpress-action-list-menu-wrapper ul li>*{
+    color: #5C7697 !important;
+    border: none !important;
+    background-color: transparent !important;
+    padding: 8px 8px 8px 35px !important;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 14px !important;
+    min-height: auto !important;
+    line-height: 22px !important;
+	position: relative;
+	box-shadow: none;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+}
+.loginpress-action-list-menu-wrapper ul li>*:hover{
+    background-color: #EAEDF4 !important;
+}
+.loginpress-action-list-menu-wrapper ul li>*:disabled{
+    color: #a0a5aa!important;
+    background-color: #F7F7F7 !important;
+    cursor: auto;
+}
+
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email:hover,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email:disabled {
+	background-image: url(../img/user-email-icon.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email-settings,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email-settings:hover, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email-settings:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email-settings:disabled {
+	background-image: url(../img/multiple-email-icon.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.disable,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.disable:hover, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.disable:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.disable:disabled {
+	background-image: url(../img/disable-icon.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.enable,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.enable:hover, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.enable:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.enable:disabled {
+	background-image: url(../img/disable-icon.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-duration,
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-duration:hover, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-duration:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-duration:disabled {
+	background-image: url(../img/link-duration-icon.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-new-link,
+.loginpress-action-list-menu-wrapper ul li .loginpress-new-link:hover, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-new-link:focus, 
+.loginpress-action-list-menu-wrapper ul li .loginpress-new-link:disabled {
+	background-image: url(../img/icon-update.svg) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+
+/* .loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email:disabled {
+	background-image: url(../img/email-disbale-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-email-settings:disabled {
+	background-image: url(../img/multi-users-disable-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+} 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.disable:disabled {
+	background-image: url(../img/disable-lock-disable-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+} 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-state.enable:disabled {
+	background-image: url(../img/enable-lock-disable-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+} 
+.loginpress-action-list-menu-wrapper ul li .loginpress-autologin-duration:disabled {
+	background-image: url(../img/link-duration-disable-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+}
+.loginpress-action-list-menu-wrapper ul li .loginpress-new-link:disabled {
+	background-image: url(../img/new-disable-icon.png) !important;
+	background-position:  left 10px center !important;
+	background-repeat: no-repeat !important;
+} */
+.loginpress-edit-popup-container .loginpress-edit-popup .autologin-popup-fields{
+    padding-bottom: 20px;
+}
+.loginpress_autologin_code .loginpress-autologin-remain-notice,
+.loginpress_autologin_code .loginpress-autologin-remain-notice-last-day,
+.loginpress_autologin_code .loginpress-autologin-email-sent,
+.loginpress_autologin_code .loginpress-autologin-remain-notice-red,
+.loginpress_autologin_code .loginpress-autologin-expired-notice,
+.loginpress_autologin_code .loginpress-autologin-create-notice{
+    display: none;
+}
+
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_actions{
+    text-align: center;
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_actions.sticky-active{
+    z-index: 100;
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_actions .lp-tbody-cell .loginpress-del-link{
+    min-height: auto;
+    margin: 0 5px !important;
+    background-color: transparent !important;
+    padding: 0;
+    position: relative;
+}
+.loginpress-action-list-menu-wrapper ul li>input[type="button"]{
+    background-blend-mode: luminosity;
+}
+.toplevel_page_loginpress-settings .dataTable{
+    padding-top: 20px;
+}
+.dataTables_scrollHeadInner .dataTable,
+.dataTables_scrollBody .dataTable{
+    padding-top: 0;
+}
+.toplevel_page_loginpress-settings #loginpress_autologin_users tbody tr .loginpress_autologin_actions .loginpress-action-list-menu-wrapper{
+    margin: 0 5px !important;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .loginpress_autologin_actions .lp-tbody-cell{
+    width: 95px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .sorting_1{
+    width: 50px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .loginpress_user_name{
+    width: 150px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .loginpress_user_email{
+    width: 120px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .loginpress_autologin_code{
+    width: 350px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users tbody .loginpress_user_status{
+    width: 180px;
+}
+
+.toplevel_page_loginpress-settings .loginpress_autologin_users .dataTable tbody tr .loginpress_user_name{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+}
+[data-open="parent-0"] #loginpress_autologin_users{
+	margin-bottom: 160px;
+}
+[data-open="parent-1"] #loginpress_autologin_users{
+	margin-bottom: 120px;
+}
+[data-open="parent-2"] #loginpress_autologin_users{
+	margin-bottom: 80px;
+}
+@media screen and (max-width: 1360px){
+    .loginpress_autologin_code{
+        width: auto;
+    }
+    .loginpress_autologin_code input{
+        width: calc(100% - 26px);
+    }
+	.loginpress_autologin_users{
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 1250px){
+    .loginpress_user_status, 
+    .loginpress_log_status{
+        display: none;
+    }
+    .loginpress_autologin_code .loginpress-autologin-remain-notice{
+       display: block;
+       white-space: nowrap;
+       padding: 0;
+    }
+	.loginpress_autologin_code .loginpress-autologin-remain-notice-red{
+		display: block;
+	 }
+	.loginpress_autologin_code .loginpress-autologin-expired-notice{
+		display: block;
+	}
+	.loginpress_autologin_code .loginpress-autologin-create-notice{
+       display: block;
+    }
+    .toplevel_page_loginpress-settings .loginpress-advertise{
+        max-width: 100%;
+        float: none;
+    }
+    .toplevel_page_loginpress-settings #wpbody-content .metabox-holder{
+        max-width: 100%;
+        width: 100%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .loginpress-edit-popup-container {
+        width: calc(100% - 36px);
+    }
+}
+
+
+/* ---------- Action Cell Code End------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********autologin-settings**********/

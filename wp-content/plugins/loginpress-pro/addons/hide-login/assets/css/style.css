@@ -1,0 +1,215 @@
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper, 
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-cta-wrapper{
+    width: 100%;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper p{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    color: #5C7697;    
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper input{
+    padding: 0;
+    line-height: 2;
+    min-height: 30px;
+    border: none;
+    height: auto;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    max-width: 450px;
+    color: #5C7697;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: all 0.3s;
+}
+
+.hidelogin-copy-svg:hover{
+	filter: invert(12%)
+		sepia(30%)
+		saturate(2878%)
+		hue-rotate(346deg)
+		brightness(104%)
+		contrast(97%);
+ }
+ .hidelogin_slug_copied{
+	 display: none;
+ }
+ .hidelogin-copy-code svg{
+	 cursor: pointer;
+	 vertical-align: middle;
+	 margin-left: 10px;
+ }
+ .hidelogin-copy-code.copy::before {
+	content: 'Copy';
+	position: absolute;
+	right: 12px;
+	top: -4px;
+	font-size:10px;
+}
+.hidelogin-copy-code .hidelogin-tooltip {
+	visibility: hidden;
+	width: 140px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px;
+	position: absolute;
+	z-index: 1;
+	bottom: 150%;
+	left: 50%;
+	margin-left: -75px;
+	opacity: 0;
+	transition: opacity 0.3s;
+  }
+  
+  .hidelogin-copy-codep .hidelogin-tooltip::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
+  
+  .hidelogin-copy-code:hover .hidelogin-tooltip {
+	visibility: visible;
+	opacity: 1;
+  }
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper input:hover{
+    border-color: #B0C4EC;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper input:focus{
+    border-color: #5C7697;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-cta-wrapper [type="button"]{
+    border: none;
+    background-color: #516885;
+    padding: 15px 15px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 10px 0 0 !important;
+}
+
+.toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-cta-wrapper [type="button"]:hover{
+    border: none;
+    background-color: #2B3D54;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper{
+    position: relative;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper:before{
+    --tooltip-arrow-size: 6px;
+    content: "copy";
+    display: none !important;
+    position: absolute;
+    left: 50%;
+    top: -35px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 8px 14px;
+    border-radius: 0px;
+    z-index: 3;
+    transform: translatex(-50%);
+    background-color: #516885;
+    clip-path: polygon( 0 0, 100% 0, 100% calc(100% - var(--tooltip-arrow-size)), calc(50% + var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)), 50% 100%, calc(50% - var(--tooltip-arrow-size)) calc(100% - var(--tooltip-arrow-size)), 0 calc(100% - var(--tooltip-arrow-size)));
+    right: auto;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper:hover:before{
+    display: block !important;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper:after{
+    content: "";
+    top: 0;
+    left: 4px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../../../../assets/img/copied-text-check.svg) center center no-repeat;
+    display: none !important;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper .hidelogin-tooltip{
+    display: none !important;
+}
+ 
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .hidelogin-copied .copy-email-icon-wrapper:after{
+    display: block !important;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .hidelogin-copied .copy-email-icon-wrapper svg{
+    opacity: 0;
+}
+
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .hidelogin-copied .copy-email-icon-wrapper:before{
+    content: "Copied";
+    display: block !important;
+}
+.loginpress-hidelogin-slug-wrapper{
+        padding: 13px 15px;
+    line-height: 2;
+    min-height: 30px;
+    border: 2px solid #D2DDF2;
+    height: 50px;
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    max-width: 450px;
+    color: #5C7697;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 5px;
+    outline: none !important;
+    box-shadow: none !important;
+    transition: all 0.3s;
+    min-width: 100%;
+    width: 100%;
+}
+.toplevel_page_loginpress-settings .form-table .rename_login_slug .copy-email-icon-wrapper{
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1320px) {
+    .toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-cta-wrapper [type="button"]{
+        padding: 10px 15px;
+    }
+
+    .toplevel_page_loginpress-settings #wpcontent .rename_login_slug td .loginpress-hidelogin-slug-wrapper p {
+        font-size: 13px;
+    }
+}
+

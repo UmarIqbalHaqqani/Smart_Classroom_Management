@@ -1,0 +1,5 @@
+{
+    "require": {
+        "LoginPress/microsoft-api-php": "^0.04.0"
+    }
+}

@@ -1,0 +1,34 @@
+@media print {
+	body {
+		font-size: 16pt;
+		margin: 0;
+		padding: 0;
+		color: #000;
+	}
+	.wlsm-font-bold {
+		font-weight: 600;
+	}
+	.text-secondary {
+		color: #6c757d !important;
+	}
+	.text-dark {
+		color: #343a40 !important;
+	}
+	.table-responsive {
+		display: table;
+		overflow: unset;
+	}
+	.wlsm-view-exam-time-table th,
+	.wlsm-view-exam-time-table td {
+		font-size: 15pt !important;
+		background-color: #fff !important;
+		border-color: #444 !important;
+		color: #000 !important;
+	}
+	.text-dark {
+		color: #000 !important;
+	}
+	@page {
+		size: A4 portrait;
+	}
+}
