@@ -1,0 +1,29 @@
+@mixin font-22 {
+    font-size: 22px;
+    line-height: calc(30px / 22px);
+
+    @include Tablet {
+        font-size: 20px;
+    }
+
+    @include Mobile {
+        font-size: 18px;
+    }
+}
+
+@mixin font-20 {
+    font-size: 20px;
+    line-height: 26px;
+
+    @include Ipad {
+        font-size: 18px;
+    }
+
+    @include Tablet {
+        font-size: 18px;
+    }
+
+    @include Mobile {
+        font-size: 16px;
+    }
+}

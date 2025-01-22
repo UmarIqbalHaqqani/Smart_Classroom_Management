@@ -1,0 +1,90 @@
+.student_list_filters{
+    margin-bottom: 20px;
+    .row{
+        row-gap: 20px;
+    }
+    .nice-select {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #academic_year_selector,
+    #class_selector,
+    #shift_selector,
+    #section_selector,
+    #group_selector {
+        & + .nice-select{
+            padding: 15px;
+        }
+    }
+    .boxed_btn.search_btn{
+        @include Mobile{
+            padding: 15px 40px;
+        }
+    }
+}
+#student_list {
+	border: 1px solid $border;
+    width: 100%;
+    margin: 50px 0!important;
+    margin-bottom: 20px!important;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    @include oTablet{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include Mobile{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .total_student{
+        border: 1px solid $border;
+        margin-top: 50px;
+    }
+    .single-student-info{
+        .student_photo{
+            height: 120px;
+            width: 120px;
+            aspect-ratio: 1/1;
+            object-fit: cover;
+            object-position: top center;
+            border: 2px solid $border;
+            @include Mobile{
+                height: 100px;
+                width: 100px;
+            }
+        }
+    }
+    .additional_info p {
+        border: 1px solid $border;
+        margin-bottom: -1px;
+        padding: 2px 5px;
+    }
+	.student_item {
+        border: 3px solid $border;
+        padding: 15px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        color: $text-color;
+        border-collapse: collapse!important;
+        .single-student-info{
+            gap: 10px;
+        }
+        .title{
+            font-weight: bolder!important;
+        }
+        .info{
+            text-align: right;
+            .student_name{
+                text-transform: uppercase;
+                font-size: 18px;
+                margin-bottom: 5px;
+                @include Mobile{
+                    font-size: 14px;
+                }
+            }
+        }
+	}
+}

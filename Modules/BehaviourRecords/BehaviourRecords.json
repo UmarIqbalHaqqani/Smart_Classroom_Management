@@ -1,0 +1,23 @@
+{
+    "BehaviourRecords": {
+        "migration": {
+            "incidents" : "Modules/BehaviourRecords/Database/Migrations/2023_06_15_060654_create_incidents_table.php",
+            "assign_incidents" : "Modules/BehaviourRecords/Database/Migrations/2023_06_16_025623_create_assign_incidents_table.php",
+            "behaviour_record_settings" : "Modules/BehaviourRecords/Database/Migrations/2023_07_10_054811_create_behaviour_record_settings_table.php",
+            "assign_incident_comments" : "Modules/BehaviourRecords/Database/Migrations/2023_07_10_054849_create_assign_incident_comments_table.php",
+            "no_table":"Modules/BehaviourRecords/Database/Migrations/2023_06_09_110746_add_behaviour_record_sidebarmenu.php"
+        },
+        "names": [
+            
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is Behaviour Records Module for manage student behaviour records & Activity. Thanks for using."
+        ]
+    }
+}

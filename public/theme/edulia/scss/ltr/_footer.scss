@@ -1,0 +1,253 @@
+.footer {
+    background-color: $footer-bg;
+    background-image: url(../img/footer_bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    z-index: 1;
+
+    @include Ipad {
+        padding-top: 90px;
+    }
+
+    @include Tablet {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+
+    @include Mobile {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    & .row {
+        &>div {
+            @include Mobile {
+                margin-bottom: 20px;
+            }
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        & .col-md-6 {
+            @include Tablet {
+                margin-bottom: 30px;
+            }
+        }
+
+        & .col-sm-6 {
+            @include Mobile {
+                max-width: 50%;
+                flex: 0 0 50%;
+            }
+
+            @include sMobile {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    &-padding-right {
+        padding-right: 8.33333%;
+    }
+
+    &-item {
+        &-logo {
+            width: 140px;
+            height: 40px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            display: inline-block;
+
+            @include Tablet {
+                margin-bottom: 15px;
+            }
+
+            @include Mobile {
+                margin-bottom: 10px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+                object-position: left;
+            }
+        }
+
+        & p {
+            font-size: 16px;
+            line-height: calc(24px / 16px);
+            color: $white;
+            font-weight: 400;
+
+            @include Tablet {
+                font-size: 14px;
+            }
+
+            @include Mobile {
+                font-size: 14px;
+            }
+
+            &:last-child {
+                margin-top: 25px;
+
+                @include Tablet {
+                    margin-top: 15px;
+                }
+
+                @include Mobile {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+        & h5 {
+            font-size: 18px;
+            line-height: calc(24px / 18px);
+            color: $white;
+            margin-bottom: 30px;
+            font-weight: 800;
+
+            @include Tablet {
+                margin-bottom: 15px;
+            }
+
+            @include Mobile {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+        }
+
+        &-links {
+            & li {
+                display: block;
+
+                & a {
+                    display: block;
+                    font-size: 16px;
+                    line-height: calc(40px / 16px);
+                    color: $white;
+                    font-weight: 400;
+
+                    &:hover {
+                        opacity: .7;
+                    }
+
+                    @include Tablet {
+                        font-size: 14px;
+                        line-height: calc(30px / 14px);
+                    }
+
+                    @include Mobile {
+                        font-size: 14px;
+                        line-height: calc(28px / 14px);
+                    }
+                }
+            }
+        }
+    }
+
+    &_copyright {
+        margin-top: 80px;
+        color: $white;
+        & .row {
+            &>div {
+                margin: 0 !important;
+            }
+        }
+
+
+        @include Tablet {
+            margin-top: 50px;
+        }
+
+        @include Mobile {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        & .container {
+            padding-top: 40px;
+            position: relative;
+            z-index: 1;
+
+            @include Tablet {
+                padding-top: 30px;
+            }
+
+            @include Mobile {
+                padding-top: 25px;
+            }
+
+            &::before {
+                content: "";
+                width: 98%;
+                height: 100%;
+                border-top: 1px solid $footer-border;
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: -1;
+            }
+        }
+
+        &_inner {
+            & p {
+                font-size: 14px;
+                color: $white;
+                font-weight: 400;
+
+                & a {
+                    color: #A0B4FE;
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+
+        &_social {
+            @include Mobile {
+                text-align: center !important;
+                margin-top: 20px;
+            }
+
+            &_list {
+                display: inline-block;
+
+                &:last-child {
+                    & a {
+                        padding-right: 0px;
+                    }
+                }
+
+                &_link {
+                    display: block;
+                    font-size: 16px;
+                    color: $white;
+                    padding: 5px 15px;
+                    margin-top: -5px;
+                    margin-bottom: -5px;
+
+                    &:hover {
+                        color: rgba($color: $white, $alpha: .70);
+                    }
+                }
+            }
+        }
+    }
+    &-item{
+        @include Tab{
+            margin-bottom: 20px;
+        }
+    }
+}

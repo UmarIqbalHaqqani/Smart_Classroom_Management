@@ -1,0 +1,197 @@
+.download_app_section {
+    background: $white;
+    width: 80%;
+    box-shadow: -12px 2px 36px 0px rgba(0, 0, 0, 0.06);
+    padding: 65px;
+    margin: 0 auto;
+    margin-top: 180px;
+    margin-bottom: 50px;
+
+    @include Laptop {
+        padding: 45px;
+        margin-top: 140px;
+    }
+
+    @include sLaptop {
+        padding: 30px;
+        margin-top: 140px;
+    }
+
+    @include Tab {
+        padding: 30px;
+        margin-top: 130px;
+        margin-bottom: 0;
+    }
+
+    @include sTab {
+        padding: 15px;
+        margin-top: 0px;
+    }
+
+    @include sMobile {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: calc(100% - 48px);
+    }
+
+    .app_download_title {
+        color: $naviblue;
+        font-family: 'Eudoxus Sans';
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 70px;
+        margin-bottom: 35px;
+
+        @include sDesktop {
+            font-size: 38px;
+            line-height: 45px;
+            margin-bottom: 20px;
+        }
+
+        @include sLaptop {
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+        @include Tab {
+            font-size: 25px;
+            line-height: 28px;
+            margin-bottom: 10px;
+        }
+
+        @include sTab {
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        @include Mobile {
+            font-size: 16px;
+        }
+    }
+
+    .feature_list {
+        margin-bottom: 55px;
+
+        @include sDesktop {
+            margin-bottom: 30px;
+        }
+
+        @include Tab {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            gap: 20px;
+
+            @include sLaptop {
+                row-gap: 10px;
+            }
+
+            li {
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                @include Tab {
+                    font-size: 12px;
+                    gap: 5px;
+                }
+
+                @include Mobile {
+                    font-size: 12px;
+                }
+
+                img {
+                    @include Laptop {
+                        height: 20px;
+                        width: 20px;
+                    }
+
+                    @include Tab {
+                        height: 15px;
+                        width: 15px;
+                    }
+
+                    @include Mobile {
+                        height: 12px;
+                        width: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .download_links {
+        gap: 20px;
+
+        @include Tab {
+            gap: 10px;
+        }
+
+        img {
+            width: auto;
+            height: auto;
+
+            @include Laptop {
+                width: 130px;
+                height: auto;
+            }
+
+            @include Tab {
+                width: 90px;
+                height: auto;
+            }
+
+            @include sTab {
+                width: 75px;
+                height: auto;
+            }
+        }
+    }
+
+    .download_app_container {
+        position: relative;
+
+        @include sMobile {
+            display: none;
+        }
+
+        & .download_app_image {
+            position: absolute;
+            bottom: -65px;
+            width: 80%;
+            max-width: 400px;
+
+            @include Laptop {
+                bottom: -45px;
+                width: 70%;
+            }
+
+            @include sLaptop{
+                bottom: -30px;
+            }
+
+            @include Tab {
+                bottom: -30px;
+                width: 65%;
+            }
+
+            @include sTab {
+                bottom: -15px;
+                width: 60% !important;
+            }
+
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+    }
+
+    .download_links_container {
+        @include sMobile {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,161 @@
+.marksheet_container {
+    width: 100%;
+    border: 5px solid $naviblue;
+    padding: 20px;
+
+    .student_photo {
+        height: 100px;
+        width: 80px;
+        object-fit: cover;
+        object-position: top;
+        border: 1px solid #ccc;
+    }
+
+    .institute_logo {
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+        margin-bottom: 15px;
+    }
+
+    .marksheet_header {
+        border-bottom: 1px solid $naviblue;
+    }
+
+    .institute_info {
+        .institute_name {
+            font-size: 22px;
+        }
+    }
+
+    .marksheet_title {
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .student_info_section {
+        font-size: 14px;
+
+        .student_info_type {
+            width: 120px;
+            display: inline-block;
+        }
+
+        .info_separetor {
+            width: 20px;
+            display: inline-block;
+        }
+    }
+
+    .marksheet_table {
+        thead {
+            tr {
+                background: $extra-light-sky;
+
+                th {
+                    vertical-align: top;
+                    font-size: 14px;
+                    padding: 8px;
+                }
+            }
+        }
+
+        tbody {
+            tr {
+                td {
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding: 8px;
+                }
+            }
+        }
+
+        tfoot {
+            tr {
+                background: $extra-light-sky;
+
+                td {
+                    font-size: 14px;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+
+    .remarks {
+        font-size: 18px;
+        padding: 5px;
+        border: 1px solid $black;
+        text-align: center;
+    }
+
+    .final_result {
+        tbody {
+            tr {
+                td {
+                    font-size: 12px;
+                    font-weight: 400;
+                    padding: 8px;
+                }
+            }
+        }
+    }
+
+    .soft_signature_area {
+        width: 80%;
+    }
+
+    .signature_container {
+        padding-top: 60px;
+
+        .signature_area {
+            width: 80%;
+            border-top: 1px dashed $black;
+            text-align: center;
+        }
+    }
+
+    .result_info_qr_code {
+        height: 120px;
+        width: 120px;
+    }
+
+    .gpa-table {
+        width: 220px;
+        text-align: center;
+        position: absolute;
+
+        @include Mobile {
+            position: relative;
+        }
+
+        thead {
+            font-size: 12px;
+        }
+
+        tbody {
+            font-size: 8px;
+            line-height: 10px;
+
+            tr {
+                td {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+.mark_sheet_print_btn {
+    a {
+        background: $blue;
+        padding: 10px 30px;
+        color: $white;
+        border-radius: 20px;
+
+        &:hover {
+            background: $naviblue;
+        }
+    }
+}

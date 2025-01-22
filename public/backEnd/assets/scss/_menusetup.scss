@@ -1,0 +1,49 @@
+// TAB 
+
+#color_option,
+#MSG91_Settings {
+    display: none;
+}
+
+.sample-selector {
+    .form-control {
+        border-right: 0 !important;
+
+        &:focus {
+            box-shadow: none !important;
+            border-color: #ECEEF4 !important;
+        }
+    }
+
+    .input-group-append {
+        background: transparent;
+
+        .input-group-text {
+            background: transparent;
+            border-radius: 30px;
+            border: 1px solid #ECEEF4;
+            border-radius: 0px 30px 30px 0px;
+            height: 46px;
+            width: 46px;
+            text-align: center;
+            border-left: 0;
+
+            i {
+                border-radius: 50%;
+                flex: 25px 0 0;
+                position: relative;
+                right: 3px;
+            }
+        }
+    }
+}
+
+.colorpicker-element .add-on i,
+.colorpicker-element .input-group-prepend i,
+.colorpicker-element .input-group-append i {
+    display: inline-block;
+    cursor: pointer;
+    height: 25px;
+    vertical-align: text-top;
+    width: 25px;
+}

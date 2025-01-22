@@ -1,0 +1,304 @@
+/*==== LOGIN PAGE CSS ====*/
+
+.login {
+    @include d-flex(wrap);
+    place-content: center;
+    height: 100%;
+    width: 100%;
+
+    @include Mobile {
+        place-content: flex-start;
+        padding: 50px 40px;
+    }
+
+    @include sMobile {
+        padding: 30px 20px;
+        height: auto;
+    }
+
+    &_wrapper {
+        width: 475px;
+
+        &_logo{
+            img{
+                height: 70px;
+                width: auto;
+                max-width: 100%;
+            }
+        }
+
+        @include Mobile {
+            width: 100%;
+        }
+
+        &_content {
+            & h4 {
+                font-size: 24px;
+                line-height: calc(36px / 24px);
+                margin-top: 40px;
+                margin-bottom: 30px;
+                text-align: center;
+
+                @include Mobile {
+                    font-size: 20px;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+
+                @include sMobile {
+                    font-size: 18px;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                }
+            }
+
+            &_signwith {
+                @include Mobile {
+                    text-align: center;
+                }
+
+                & a {
+                    display: inline-block;
+                    background-color: $gray;
+                    padding: 12px 30px;
+                    color: $white;
+                    font-size: 16px;
+
+                    @include Mobile {
+                        padding: 10px 15px;
+                        font-size: 14px;
+                    }
+
+                    @include sMobile {
+                        width: 100%;
+                        text-align: center;
+                    }
+
+                    &:first-child {
+                        background-color: $fb;
+
+                        &:hover {
+                            background-color: $fb_hover;
+                        }
+                    }
+
+                    &:last-child {
+                        margin-left: 5px;
+                        background-color: $twitter;
+
+                        &:hover {
+                            background-color: $twitter_hover;
+                        }
+
+                        @include Mobile {
+                            margin-left: 3px;
+                        }
+
+                        @include sMobile {
+                            margin-left: 0;
+                            margin-top: 5px;
+                        }
+                    }
+
+                    & i {
+                        margin-right: 10px;
+
+                        @include Mobile {
+                            margin-right: 5px;
+                        }
+
+                        @include sMobile {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+
+            & p {
+                font-size: 14px;
+                font-weight: 600;
+                margin-top: 20px;
+                color: $naviblue;
+
+                & a {
+                    color: $blue;
+
+                    &:hover {
+                        color: $naviblue;
+                    }
+                }
+
+                &:last-child {
+                    font-weight: 500;
+                    color: $text-color;
+                    text-align: center;
+                }
+            }
+
+            & form {
+                margin-top: 45px;
+
+                @include Mobile {
+                    margin-top: 35px;
+                }
+
+                @include sMobile {
+                    margin-top: 25px;
+                }
+            }
+
+            & .input-control {
+                &-input {
+                    border: none;
+                    border-bottom: 1px solid $border;
+                    padding-left: 30px;
+
+                    &:focus {
+                        border-color: $naviblue;
+                    }
+
+                    &[type=submit] {
+                        margin-top: 60px;
+
+                        @include Mobile {
+                            margin-top: 30px;
+                        }
+                    }
+                }
+
+                &-icon {
+                    width: auto;
+                    z-index: -1;
+                }
+
+                &-span {
+                    padding-left: 30px;
+                    font-size: 14px;
+                    line-height: calc(21px / 14px);
+
+                    & a {
+                        text-decoration: underline;
+                        position: relative;
+                        z-index: 9;
+                        color: $blue;
+
+                        &:hover {
+                            color: $naviblue;
+                        }
+                    }
+                }
+
+                & .checkbox {
+                    display: inline-block;
+
+                    &-title {
+                        padding-top: 0;
+                        padding-bottom: 0;
+
+                        @include Mobile {
+                            -webkit-line-clamp: 10;
+                        }
+
+                        &::before,
+                        &::after {
+                            top: 4px;
+                        }
+
+                        & a {
+                            color: $blue;
+                            text-decoration: underline;
+
+                            &:hover {
+                                color: $naviblue;
+                            }
+                        }
+                    }
+                }
+
+                & #forget {
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: $blue;
+
+                    &:focus {
+                        color: $red;
+                    }
+                }
+            }
+
+            & .d-flex {
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        & .login_wrapper_signup_content {
+            transition: opacity 15s ease-in-out;
+
+            & .checkbox {
+                & input {
+                    left: 0;
+                    transform: translate(0px, -50%);
+                    width: 45%;
+
+                    @include Mobile {
+                        width: 50%;
+                    }
+
+                    @include sMobile {
+                        width: 65%;
+                    }
+                }
+            }
+
+            & .input-control {
+                &-input {
+                    padding-left: 0;
+                }
+            }
+
+            & .login_wrapper_content_signwith {
+                & a {
+                    padding: 12px 20px;
+
+                    @include Mobile {
+                        padding: 10px 15px;
+                    }
+                }
+            }
+        }
+
+        .saas_school_top_five_link_show {
+            .title{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                position: relative;
+                color: #555555;
+                &::before{
+                    content: '';
+                    height: 2px;
+                    width: 100%;
+                    flex-grow: 1;
+                    background: #555555;
+                }
+                &::after{
+                    content: '';
+                    height: 2px;
+                    width: 100%;
+                    flex-grow: 1;
+                    background: #555555;
+                }
+            }
+            .link_to_school{
+                display: block;
+                background: $blue;
+                font-size: 11px;
+                color: $white;
+                padding: 10px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

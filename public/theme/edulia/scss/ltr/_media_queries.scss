@@ -1,0 +1,82 @@
+// Only Desktop View
+@mixin oDesktop {
+    @media only screen and (min-width: 1581px) {
+        @content;
+    }
+}
+
+// Desktop View
+@mixin Desktop {
+    @media only screen and (min-width: 1440px) and (max-width: 1580px) {
+        @content;
+    }
+}
+
+// Laptop View
+@mixin Laptop {
+    @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+        @content;
+    }
+}
+
+// Small Desktop View
+@mixin sDesktop {
+    @media only screen and (max-width: 1580px) {
+        @content;
+    }
+}
+
+// Small Laptop View
+@mixin sLaptop {
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+// Tab View
+@mixin Tab {
+    @media only screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+// Small Tab View
+@mixin sTab {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+// Ipad View
+@mixin Ipad {
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+// Tablet View
+@mixin Tablet {
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin oTablet {
+    @media only screen and (max-width: 991px) {
+        @content;
+    }
+}
+
+// Mobile View
+@mixin Mobile {
+    @media only screen and (max-width: 767px) {
+        @content;
+    }
+}
+
+// Small Mobile View
+@mixin sMobile {
+    @media only screen and (max-width: 479px) {
+        @content;
+    }
+}

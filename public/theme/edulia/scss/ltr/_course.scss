@@ -1,0 +1,1729 @@
+/*==== COURSE AREA ====*/
+
+.course {
+    & .orange {
+        background-color: $orange;
+    }
+
+    & .sunset-orange {
+        background-color: $sunsetOrange;
+    }
+
+    & .green {
+        background-color: $green-2;
+    }
+
+    & .blue {
+        background-color: $blue;
+    }
+
+    & .col-md-6 {
+        @include Mobile {
+            max-width: 50%;
+            flex: 0 0 50%;
+        }
+
+        @include sMobile {
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+
+    & .row {
+        & .section_title {
+            @include Mobile {
+                margin-bottom: 6px;
+            }
+        }
+    }
+
+    //course left filter// 
+    &_filter_active {
+        top: 0 !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+
+    &_filter {
+        @include Mobile {
+            position: fixed;
+            top: 100px;
+            left: 0;
+            background-color: $white;
+            z-index: 99;
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+            opacity: 0;
+            visibility: hidden;
+            padding: 20px;
+            transition: all .3s ease-in-out;
+        }
+
+        &_close {
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            border: 1px solid $light-border;
+            border-radius: 4px;
+            color: $naviblue;
+            background-color: $white;
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            display: none;
+
+            @include Mobile {
+                display: block;
+            }
+
+            &:hover {
+                & i {
+                    transform: rotate(90deg);
+                }
+            }
+
+            & i {
+                transform: rotate(0deg);
+                transition: all .3s ease-in-out;
+            }
+        }
+
+        &_border {
+            border: 1px solid $border;
+            margin-top: 24px;
+
+            @include Mobile {
+                margin-top: 0px;
+                border: none;
+            }
+        }
+
+        &_head {
+            padding-bottom: 28px;
+            padding-top: 10px;
+            border-bottom: 1px solid $light-border;
+
+            @include Tablet {
+                padding-bottom: 22px;
+            }
+
+            @include Mobile {
+                display: none;
+            }
+
+            & h6 {
+                font-size: 16px;
+                margin-bottom: 0px;
+                font-weight: 700;
+                color: $blue;
+
+                @include Tablet {
+                    font-size: 14px;
+                }
+
+                & svg {
+                    margin-right: 5px;
+
+                    & rect {
+                        fill: $blue
+                    }
+                }
+            }
+        }
+
+        &_item {
+            padding: 30px;
+
+            @include Laptop {
+                padding: 25px;
+            }
+
+            @include Ipad {
+                padding: 20px;
+            }
+
+            @include Tablet {
+                padding: 15px;
+            }
+
+            @include Mobile {
+                padding: 0;
+                margin-top: 30px;
+            }
+
+            @include sMobile {
+                margin-top: 20px;
+            }
+
+            &:first-child {
+                margin-top: 0px;
+            }
+
+            & h5 {
+                font-size: 18px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid $light-border;
+                margin-bottom: 30px;
+                font-weight: 700;
+
+                @include Laptop {
+                    margin-bottom: 20px;
+                }
+
+                @include Ipad {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+
+                @include Tablet {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+                }
+
+                @include Mobile {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+            }
+
+            &_rating {
+                font-size: 14px;
+                font-weight: 500;
+                margin-bottom: 5px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+
+                & i {
+                    color: $yellow;
+
+                    &:not(:last-child) {
+                        margin-right: 4px;
+                    }
+                }
+
+                & span {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+
+    //course filter head//
+    &_filtering_head {
+        @include d-flex(wrap);
+        border-bottom: 1px solid $light-border;
+        padding-bottom: 20px;
+
+        @include Tablet {
+            padding-bottom: 15px;
+        }
+
+        &_left {
+            max-width: 40%;
+            flex: 0 0 40%;
+
+            @include Mobile {
+                max-width: 10%;
+                flex: 0 0 10%;
+            }
+        }
+
+        &_right {
+            max-width: 60%;
+            flex: 0 0 60%;
+
+            @include Mobile {
+                max-width: 90%;
+                flex: 0 0 90%;
+            }
+        }
+
+        &_filter_mobile {
+            display: none;
+            font-size: 0px;
+            font-weight: 500;
+            color: $naviblue;
+            cursor: pointer;
+
+            @include Mobile {
+                display: flex;
+                align-items: center;
+            }
+
+            & svg {
+                margin-right: 5px;
+
+                & rect {
+                    fill: $naviblue;
+                }
+            }
+        }
+
+        & p {
+            font-size: 14px;
+            font-weight: 500;
+            color: $naviblue;
+
+            @include Tablet {
+                font-size: 12px;
+            }
+
+            @include Mobile {
+                display: none;
+            }
+        }
+    }
+
+    //course item// 
+    &_item {
+        display: block;
+        margin-top: 50px;
+
+        // @include Mobile {
+        //     margin-top: 24px;
+        // }
+
+        &:hover {
+            & h4 {
+                color: $blue;
+            }
+        }
+
+        &_img {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 40px;
+
+            @include Ipad {
+                margin-bottom: 30px;
+            }
+
+            @include Tablet {
+                margin-bottom: 25px;
+            }
+
+            @include Mobile {
+                margin-bottom: 25px;
+            }
+
+            &_inner {
+                width: 100%;
+                height: 240px;
+                background-color: $light-gray;
+
+                @include Laptop {
+                    height: 200px;
+                }
+
+                @include Ipad {
+                    height: 160px;
+                }
+
+                @include Tablet {
+                    height: 160px;
+                }
+
+                @include Mobile {
+                    height: 180px;
+                }
+
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &_status {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 600;
+                color: $white;
+                background-color: $light-gray;
+                padding: 5px 12px;
+                border-radius: 3px;
+                position: absolute;
+                left: 30px;
+                bottom: -15px;
+
+                @include Tablet {
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding: 3px 10px;
+                    bottom: -16px;
+                    left: 20px;
+                }
+
+                @include Mobile {
+                    font-size: 12px;
+                    padding: 5px 10px;
+                    font-weight: 500;
+                    line-height: 1.5;
+                    bottom: -14px;
+                    left: 10px;
+                }
+            }
+        }
+
+        &_inner {
+            padding-right: 30px;
+
+            & h4 {
+                font-size: 20px;
+                line-height: calc(30px / 20px);
+                margin-bottom: 30px;
+                transition: all .3s ease-in-out;
+                font-weight: 700;
+
+                @include Ipad {
+                    font-size: 17px;
+                    margin-bottom: 20px;
+                }
+
+                @include Tablet {
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                }
+
+                @include Mobile {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 1.4;
+                    margin-bottom: 15px;
+                }
+            }
+
+            & p {
+                font-size: 16px;
+                color: $blue;
+
+                @include Mobile {
+                    font-size: 14px;
+                }
+            }
+
+            &_rating {
+                display: inline-block;
+                font-size: 14px;
+                color: $naviblue;
+                border: 1px solid $light-border;
+                border-radius: 5px;
+                padding: 7px 15px;
+                margin-right: 15px;
+
+                @include Mobile {
+                    padding: 5px 10px;
+                    margin-right: 10px;
+                }
+
+                & i {
+                    margin-left: 5px;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+
+    /*==== COURSE DETAILS PAGE ====*/
+    // side bar
+    &_sidebar {
+        border: 1px solid $light-border;
+        background-color: $white;
+        box-shadow: 0px 2px 10px 0px rgba($color: $black, $alpha: .03);
+        padding: 40px;
+        padding-top: 0px;
+        border-radius: 10px;
+
+        @include Ipad {
+            padding: 20px;
+        }
+
+        @include Tablet {
+            margin-bottom: 50px;
+        }
+
+        @include Mobile {
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+
+        &_thumbnail {
+            width: 100%;
+            height: 220px;
+            border-radius: 20px;
+            overflow: hidden;
+            margin-top: -65px;
+            margin-bottom: 40px;
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            @include Ipad {
+                height: 190px;
+                margin-bottom: 30px;
+            }
+
+            @include Tablet {
+                height: 280px;
+                margin-top: -45px;
+            }
+
+            @include Mobile {
+                margin-top: -55px;
+                height: 200px;
+                margin-bottom: 20px;
+            }
+
+            @include sMobile {
+                height: 130px;
+            }
+        }
+
+        &_content {
+            &_price {
+                font-family: 'Eudoxus Sans', sans-serif;
+                display: block;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: calc(30px / 24px);
+                color: $blue;
+                margin-bottom: 30px;
+
+                @include Ipad {
+                    margin-bottom: 20px;
+                }
+
+                @include Tablet {
+                    margin-bottom: 20px;
+                }
+
+                @include Mobile {
+                    margin-bottom: 10px;
+                    font-size: 20px;
+                }
+            }
+
+            & h5 {
+                font-weight: 700;
+                font-size: 20px;
+                color: $naviblue;
+                margin-bottom: 30px;
+
+                @include Ipad {
+                    margin-bottom: 20px;
+                }
+
+                @include Tablet {
+                    margin-bottom: 20px;
+                }
+
+                @include Mobile {
+                    margin-bottom: 15px;
+                    font-size: 18px;
+                }
+            }
+
+            & ul {
+                & li {
+                    font-size: 16px;
+                    line-height: calc(20px / 16px);
+                    color: $text-color;
+
+                    &:not(:last-child) {
+                        margin-bottom: 20px;
+
+                        @include Ipad {
+                            margin-bottom: 15px;
+                        }
+
+                        @include Mobile {
+                            margin-bottom: 10px;
+                        }
+                    }
+
+                    @include Mobile {
+                        font-size: 14px;
+                    }
+
+                    & i {
+                        color: $blue;
+                        margin-right: 10px;
+
+                        @include sMobile {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // course details
+    &_details {
+        &_mentor {
+            &_head {
+                @include d-flex(nowrap);
+                align-items: flex-start;
+                @include mb-30;
+
+                @include Mobile {
+                    margin-bottom: 20px;
+                }
+            }
+
+            &_profile {
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                object-fit: cover;
+                position: relative;
+                z-index: 1;
+
+                @include Mobile {
+                    width: 80px;
+                    height: 80px;
+                }
+
+                @include sMobile {
+                    display: none;
+                }
+
+                &::after {
+                    content: "\f005";
+                    font-family: 'Font Awesome 5 Pro';
+                    font-weight: 600;
+                    font-size: 8px;
+                    text-align: center;
+                    width: 22px;
+                    height: 22px;
+                    line-height: 16px;
+                    border-radius: 100%;
+                    background-color: $default-black;
+                    border: 3px solid $white;
+                    color: $white;
+                    position: absolute;
+                    top: -3px;
+                    right: -3px;
+
+                    @include Mobile {
+                        top: 0;
+                        right: 0px;
+                    }
+                }
+
+                & img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &_title {
+                padding-left: 25px;
+
+                @include Laptop {
+                    padding-left: 20px;
+                }
+
+                @include Ipad {
+                    padding-left: 15px;
+                }
+
+                @include Mobile {
+                    padding-left: 20px;
+                }
+
+                @include sMobile {
+                    padding-left: 0px;
+                }
+
+                & h5 {
+                    font-size: 18px;
+                    line-height: calc(24px / 18px);
+                    margin-bottom: 5px;
+
+                    @include Mobile {
+                        font-size: 16px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                & ul {
+                    & li {
+                        font-size: 14px;
+                        display: inline-block;
+                        padding: 0px 20px;
+                        font-weight: 400;
+                        position: relative;
+
+                        @include Laptop {
+                            padding: 0px 12px;
+                        }
+
+                        @include Ipad {
+                            padding: 0px 10px;
+                        }
+
+                        &::after {
+                            content: "";
+                            width: 1px;
+                            height: 15px;
+                            background-color: $light-border;
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            transform: translateY(-50%);
+                            z-index: -1;
+                        }
+
+                        &:first-child {
+                            padding-left: 0;
+
+                            @include Mobile {
+                                width: 100%;
+                                display: block;
+                                margin-bottom: 5px;
+                            }
+
+                            &::after {
+                                @include Mobile {
+                                    display: none;
+                                }
+                            }
+                        }
+
+                        &:last-child {
+                            padding-right: 0;
+
+                            &::after {
+                                display: none;
+                            }
+                        }
+
+                        &:nth-child(2) {
+                            @include Mobile {
+                                padding-left: 0px;
+                            }
+                        }
+
+                        & .far {
+                            margin-right: 10px;
+                            opacity: .5;
+
+                            @include Laptop {
+                                margin-right: 5px;
+                            }
+
+                            @include Ipad {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_rating {
+                margin-left: 24px;
+                margin-right: 10px;
+
+                @include Laptop {
+                    margin-right: 0px;
+                    margin-left: 10px;
+                }
+
+                @include Ipad {
+                    margin-right: 0px;
+                    margin-left: 0px;
+                }
+
+                @include Tablet {
+                    margin-right: 0px;
+                    margin-left: 10px;
+                }
+
+                @include Mobile {
+                    margin-left: 15px;
+                    margin-right: 0px;
+                }
+
+                @include sMobile {
+                    margin-left: 10px;
+                }
+
+                & i {
+                    color: $yellow;
+
+                    &:not(:last-child) {
+                        margin-right: 2px;
+                    }
+                }
+            }
+
+            &_wrapper {
+                & p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include mb-30;
+
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+
+                    @include Mobile {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        &_preview_img {
+            width: 100%;
+            height: 380px;
+            overflow: hidden;
+            margin-bottom: 30px;
+            @include mt-60;
+
+            @include Ipad {
+                height: 300px;
+                margin-bottom: 20px;
+            }
+
+            @include Tablet {
+                height: 320px;
+                margin-bottom: 20px;
+            }
+
+            @include Mobile {
+                height: 210px;
+                margin-bottom: 15px;
+            }
+
+            @include sMobile {
+                height: 150px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &_menu {
+            background-color: $blue;
+            border-radius: 10px;
+            @include mb-60;
+
+            @include sMobile {
+                border-radius: 0;
+                overflow: hidden;
+            }
+
+            & ul {
+                display: flex;
+
+                @include sMobile {
+                    overflow: hidden;
+                    overflow-x: scroll;
+                }
+
+                & li {
+                    max-width: 20%;
+                    flex: 0 0 20%;
+                    position: relative;
+                    z-index: 1;
+
+                    @include sMobile {
+                        flex: 0 0 100%;
+                        width: max-content;
+                        max-width: max-content;
+                    }
+
+                    &::before {
+                        content: "";
+                        width: 1px;
+                        height: 15px;
+                        background-color: #6597FF;
+                        position: absolute;
+                        top: 50%;
+                        right: 0px;
+                        transform: translateY(-50%);
+                        z-index: -1;
+                        opacity: .5;
+                    }
+
+                    &:last-child {
+                        &::before {
+                            display: none;
+                        }
+                    }
+
+                    & a {
+                        font-family: 'Eudoxus Sans', sans-serif;
+                        display: block;
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: $white;
+                        line-height: calc(21px / 14px);
+                        text-transform: uppercase;
+                        padding: 20px 40px;
+                        text-align: center;
+                        position: relative;
+                        z-index: 1;
+
+                        @include sMobile {
+                            padding: 15px 30px !important;
+                        }
+
+                        &:hover {
+                            &::after {
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+
+                        &::after {
+                            content: "";
+                            width: 30px;
+                            height: 3px;
+                            border-radius: 100px;
+                            background-color: $yellow-2;
+                            position: absolute;
+                            bottom: 0;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            z-index: -1;
+                            opacity: 0;
+                            visibility: hidden;
+                            transition: all .3s ease-in-out;
+                        }
+
+                        @include Mobile {
+                            font-size: 12px;
+                            font-weight: 600;
+                            padding: 15px 5px;
+                        }
+                    }
+
+                    & .active {
+                        &::after {
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                }
+            }
+        }
+
+        &_abouts {
+            .overview {
+                display: block;
+                padding-right: 8.3333%;
+            }
+
+            &_item {
+                display: none;
+
+                & h3 {
+                    font-size: 30px;
+                    line-height: calc(50px / 30px);
+                    @include mb-30;
+
+                    @include Tablet {
+                        font-size: 26px;
+                    }
+
+                    @include Mobile {
+                        font-size: 24px;
+                    }
+
+                    @include sMobile {
+                        font-size: 20px;
+                    }
+                }
+
+                & p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    @include mb-30;
+
+                    &:last-child {
+                        margin-bottom: 0px;
+                    }
+
+                    @include Mobile {
+                        font-size: 14px;
+                    }
+                }
+
+                &_meta {
+                    margin-bottom: 20px !important;
+                    font-size: 14px !important;
+
+                    @include Tablet {
+                        margin-bottom: 10px !important;
+                    }
+
+                    @include Mobile {
+                        font-size: 12px !important;
+                        margin-bottom: 5px !important;
+                    }
+                }
+
+                & ul {
+                    @include mt-60;
+
+                    & li {
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-bottom: 15px;
+                        position: relative;
+                        padding-left: 20px;
+
+                        &::before {
+                            content: "";
+                            width: 6px;
+                            height: 6px;
+                            border-radius: 100%;
+                            background-color: $default-black;
+                            position: absolute;
+                            left: 0;
+                            top: 10px;
+                        }
+
+                        &:last-child {
+                            margin-bottom: 0px;
+                        }
+
+                        @include Tablet {
+                            margin-bottom: 10px;
+                        }
+
+                        @include Mobile {
+                            font-size: 14px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+
+                & .accordion {
+                    &-item {
+                        margin-top: 15px;
+                        border: none;
+
+                        @include Tablet {
+                            margin-top: 10px;
+                        }
+
+                        @include Mobile {
+                            margin-top: 10px;
+                        }
+                    }
+
+                    &-button {
+                        font-family: 'Eudoxus Sans', sans-serif;
+                        font-size: 16px;
+                        color: $naviblue;
+                        font-weight: 700;
+                        margin-bottom: 0px;
+                        background-color: $accordion-bg;
+                        box-shadow: 0 0 0 !important;
+                        border: none;
+                        border-radius: 0 !important;
+                        padding: 17px 30px;
+                        padding-left: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        @include Mobile {
+                            font-size: 14px;
+                            padding: 10px 20px;
+                            padding-left: 30px;
+                        }
+
+                        @include sMobile {
+                            padding-right: 10px;
+                        }
+
+                        & span {
+                            font-family: "Inter", sans-serif;
+                            font-size: 13px;
+                            font-weight: 400 !important;
+                            color: $text-color;
+
+                            @include Mobile {
+                                font-size: 12px;
+                            }
+
+                            @include sMobile {
+                                font-size: 10px;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 1;
+                                -webkit-box-orient: vertical;
+                            }
+                        }
+
+                        &::after {
+                            display: none;
+                        }
+
+                        &::before {
+                            content: "\f067";
+                            font-family: 'Font Awesome 5 Pro';
+                            font-weight: 400;
+                            color: $naviblue;
+                            position: absolute;
+                            font-size: 20px;
+                            left: 25px;
+                            top: 15px;
+
+                            @include Mobile {
+                                font-size: 14px;
+                                left: 10px;
+                                top: 10px;
+                            }
+                        }
+
+                        &[aria-expanded=false] {
+                            &::before {
+                                content: "\f067";
+                            }
+                        }
+
+                        &[aria-expanded=true] {
+                            &::before {
+                                content: "\f068";
+                            }
+                        }
+                    }
+
+                    &-body {
+                        padding: 5px 0px;
+                        padding-right: 30px;
+                        padding-bottom: 25px;
+
+                        @include Mobile {
+                            padding-right: 20px;
+                            padding-bottom: 20px;
+                        }
+
+                        &-item {
+                            display: block;
+                            margin-top: 15px;
+                            font-size: 15px;
+                            color: $naviblue;
+
+                            &:hover {
+                                & .accordion-body-item-icon {
+                                    background-color: $naviblue;
+                                    color: $white;
+                                }
+                            }
+
+                            @include Tablet {
+                                margin-top: 10px;
+                            }
+
+                            @include Mobile {
+                                font-size: 14px;
+                            }
+
+                            &-icon {
+                                display: inline-block;
+                                background-color: $accordion-bg;
+                                width: 33px;
+                                height: 33px;
+                                line-height: 33px;
+                                border-radius: 100%;
+                                color: $naviblue;
+                                text-align: center;
+                                margin-right: 15px;
+                                font-size: 14px;
+                                cursor: pointer;
+                                transition: all .3s ease-in-out;
+
+                                @include Mobile {
+                                    font-size: 12px;
+                                    margin-right: 7px;
+                                }
+
+                                & i {
+                                    position: relative;
+                                    left: 1px;
+                                }
+                            }
+
+                            &-time {
+                                float: right;
+                                font-size: 13px !important;
+                                color: $text-color !important;
+                                font-weight: 400 !important;
+
+                                @include Mobile {
+                                    font-size: 11px !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_content_createor {
+                &_wrapper {
+                    margin-bottom: 40px;
+                    display: flex;
+                    align-items: center;
+
+                    @include Ipad {
+                        margin-bottom: 30px;
+                    }
+
+                    @include Tablet {
+                        margin-bottom: 20px;
+                    }
+
+                    @include Mobile {
+                        margin-bottom: 15px;
+                    }
+
+                    &_profile {
+                        width: 300px;
+                        height: 300px;
+                        border-radius: 100%;
+                        overflow: hidden;
+
+                        @include Ipad {
+                            width: 230px;
+                            height: 230px;
+                        }
+
+                        @include Tablet {
+                            width: 200px;
+                            height: 200px;
+                        }
+
+                        @include Mobile {
+                            width: 140px;
+                            height: 140px;
+                        }
+
+                        @include sMobile {
+                            display: none;
+                        }
+
+                        & img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    &_content {
+                        padding-left: 50px;
+
+                        @include Ipad {
+                            padding-left: 40px;
+                        }
+
+                        @include Tablet {
+                            padding-left: 30px;
+                        }
+
+                        @include Mobile {
+                            padding-left: 25px;
+                        }
+
+                        @include sMobile {
+                            padding-left: 0px;
+                        }
+
+                        & a {
+                            display: block;
+
+                            &:hover {
+                                & h4 {
+                                    color: $blue;
+                                }
+                            }
+                        }
+
+                        & h4 {
+                            font-size: 24px;
+                            transition: all .3s ease-in-out;
+
+                            @include Tablet {
+                                font-size: 20px;
+                                margin-bottom: 5px;
+                            }
+
+                            @include Mobile {
+                                font-size: 18px;
+                                margin-bottom: 5px;
+                            }
+                        }
+
+                        & p {
+                            @include Tablet {
+                                margin-bottom: 15px;
+                            }
+
+                            @include Mobile {
+                                font-size: 14px !important;
+                                margin-bottom: 10px;
+                                line-height: calc(21px / 14px);
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box;
+                                -webkit-line-clamp: 1;
+                                -webkit-box-orient: vertical;
+                            }
+                        }
+
+                        & ul {
+                            margin-top: 40px !important;
+
+                            @include Ipad {
+                                margin-top: 20px !important;
+                            }
+
+                            @include Tablet {
+                                margin-top: 0px !important;
+                            }
+
+                            @include Mobile {
+                                margin-top: 0px !important;
+                            }
+
+                            & li {
+                                padding-left: 0;
+
+                                &::before {
+                                    display: none;
+                                }
+
+                                & i {
+                                    color: $blue;
+                                    margin-right: 10px;
+
+                                    @include sMobile {
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                & p {
+                    font-size: 16px;
+                    line-height: calc(30px / 16px);
+                    font-weight: 400;
+
+                    @include Mobile {
+                        font-size: 14px
+                    }
+                }
+            }
+
+            &_rating {
+                @include d-flex(wrap);
+                align-items: flex-start;
+                border-bottom: 1px solid $light-border;
+                padding-bottom: 60px;
+                @include mt-60;
+                @include mb-60;
+
+                @include Mobile {
+                    padding-bottom: 30px;
+                }
+
+                &_total {
+                    max-width: 15%;
+                    flex: 0 0 15%;
+                    text-align: center;
+
+                    @include Ipad {
+                        max-width: 20%;
+                        flex: 0 0 20%;
+                    }
+
+                    @include Tablet {
+                        max-width: 20%;
+                        flex: 0 0 20%;
+                    }
+
+                    @include Mobile {
+                        max-width: 25%;
+                        flex: 0 0 25%;
+                    }
+
+                    @include sMobile {
+                        max-width: 100%;
+                        flex: 0 0 100%;
+                        text-align: left;
+                        margin-bottom: 10px;
+                    }
+
+                    & h1 {
+                        font-size: 50px;
+                        font-weight: 700;
+                        color: $blue;
+                        margin-bottom: 5px;
+
+                        @include Ipad {
+                            font-size: 40px;
+                        }
+
+                        @include Tablet {
+                            font-size: 40px;
+                            margin-bottom: 0px;
+                        }
+
+                        @include Mobile {
+                            font-size: 28px;
+                            margin-bottom: 5px;
+                        }
+
+                        @include sMobile {
+                            font-size: 30px;
+                            margin-bottom: 0px;
+                        }
+                    }
+
+                    &_star {
+                        margin-bottom: 10px;
+
+                        @include Tablet {
+                            margin-bottom: 5px;
+                        }
+
+                        @include sMobile {
+                            margin-bottom: 0px;
+                        }
+
+                        & i {
+                            color: $yellow;
+
+                            @include Tablet {
+                                font-size: 14px;
+                            }
+
+                            @include Mobile {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+
+                    & p {
+                        font-size: 14px !important;
+                        font-weight: 500 !important;
+                    }
+                }
+
+                &_overall {
+                    max-width: 85%;
+                    flex: 0 0 85%;
+                    padding-left: 40px;
+
+                    @include Ipad {
+                        max-width: 80%;
+                        flex: 0 0 80%;
+                        padding-left: 30px;
+                    }
+
+                    @include Tablet {
+                        max-width: 80%;
+                        flex: 0 0 80%;
+                        padding-left: 30px;
+                    }
+
+                    @include Mobile {
+                        max-width: 75%;
+                        flex: 0 0 75%;
+                        padding-left: 20px;
+                    }
+
+                    @include sMobile {
+                        max-width: 100%;
+                        flex: 0 0 100%;
+                        padding-left: 0px;
+                    }
+
+                    &_item {
+                        @include d-flex(wrap);
+
+                        &_left {
+                            max-width: 70%;
+                            flex: 0 0 70%;
+
+                            @include Ipad {
+                                max-width: 60%;
+                                flex: 0 0 60%;
+                            }
+
+                            @include Tablet {
+                                max-width: 60%;
+                                flex: 0 0 60%;
+                            }
+
+                            @include Mobile {
+                                max-width: 55%;
+                                flex: 0 0 55%;
+                            }
+
+                            & span {
+                                display: block;
+                                background-color: $accordion-bg;
+                                width: 100%;
+                                height: 10px;
+                                border-radius: 100px;
+                                position: relative;
+                                z-index: 1;
+
+                                @include Mobile {
+                                    height: 5px;
+                                }
+
+                                &::after {
+                                    content: "";
+                                    width: 0%;
+                                    height: 100%;
+                                    background-color: $blue;
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    border-radius: 100px;
+                                }
+
+                                &[data-width='70'] {
+                                    &::after {
+                                        width: 70%;
+                                    }
+                                }
+
+                                &[data-width='20'] {
+                                    &::after {
+                                        width: 20%;
+                                    }
+                                }
+
+                                &[data-width='10'] {
+                                    &::after {
+                                        width: 10%;
+                                    }
+                                }
+
+                                &[data-width='01'] {
+                                    &::after {
+                                        width: 01%;
+                                    }
+                                }
+                            }
+                        }
+
+                        &_right {
+                            max-width: 30%;
+                            flex: 0 0 30%;
+                            text-align: right;
+
+                            @include Ipad {
+                                max-width: 40%;
+                                flex: 0 0 40%;
+                            }
+
+                            @include Tablet {
+                                max-width: 40%;
+                                flex: 0 0 40%;
+                            }
+
+                            @include Mobile {
+                                max-width: 45%;
+                                flex: 0 0 45%;
+                            }
+                        }
+
+                        &_star {
+                            & span {
+                                margin-left: 15px;
+
+                                @include Mobile {
+                                    font-size: 14px;
+                                    margin-left: 5px;
+                                }
+                            }
+
+                            & i {
+                                color: $yellow;
+
+                                &:not(:first-child) {
+                                    margin-left: 5px;
+                                }
+
+                                @include Mobile {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_reviews {
+                &_title {
+                    & h3 {
+                        margin-bottom: 10px !important;
+
+                        @include Mobile {
+                            margin-bottom: 0px !important;
+                        }
+                    }
+
+                    & p {
+                        font-size: 14px !important;
+                        font-weight: 500 !important;
+                        margin-top: 0px !important;
+                    }
+                }
+
+                &_wrapper {
+                    @include d-flex(wrap);
+                    align-items: flex-start;
+                    border-bottom: 1px solid $light-border;
+                    padding: 50px 0px;
+
+                    @include Mobile {
+                        padding: 30px 0px;
+                    }
+
+                    &_left {
+                        max-width: 15%;
+                        flex: 0 0 15%;
+
+                        @include sMobile {
+                            max-width: 20%;
+                            flex: 0 0 20%;
+                        }
+                    }
+
+                    &_right {
+                        max-width: 85%;
+                        flex: 0 0 85%;
+
+                        @include sMobile {
+                            max-width: 80%;
+                            flex: 0 0 80%;
+                        }
+                    }
+
+                    &_profile {
+                        width: 80px;
+                        height: 80px;
+                        font-size: 24px;
+                        line-height: calc(30px / 24px);
+                        color: $white;
+                        background-color: $blue;
+                        border-radius: 100%;
+                        display: flex;
+                        align-items: center;
+                        place-content: center;
+
+                        @include Mobile {
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+
+                    &_content {
+                        @include Ipad {
+                            padding-left: 20px;
+                        }
+
+                        @include Mobile {
+                            padding-left: 15px;
+                        }
+
+                        @include sMobile {
+                            padding-left: 10px;
+                        }
+
+                        & h4 {
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-bottom: 5px;
+
+                            @include Mobile {
+                                font-size: 18px;
+                                margin-bottom: 10px;
+                            }
+                        }
+
+                        & .star {
+                            font-size: 14px;
+
+                            @include Mobile {
+                                margin-bottom: 10px;
+                            }
+
+                            & i {
+                                color: $yellow;
+
+                                &:not(:last-child) {
+                                    margin-right: 3px;
+                                }
+                            }
+
+                            & span {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+
+                &_more {
+                    margin-top: 10px;
+
+                    & a {
+                        display: block;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .load_more {
+        & a {
+            padding: 15px 50px;
+            border-width: 2px;
+
+            &::after {
+                border-radius: 0px;
+            }
+        }
+    }
+
+    .course_details_page {
+        padding-top: 185px;
+
+        @include Ipad {
+            padding-top: 155px;
+        }
+
+        @include Tablet {
+            padding-top: 135px;
+        }
+
+        @include Mobile {
+            padding-top: 105px;
+        }
+    }
+}

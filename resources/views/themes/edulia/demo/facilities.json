@@ -1,0 +1,394 @@
+{
+    "name": "Facilities",
+    "title": "Facilities",
+    "description": "Facilities",
+    "slug": "facilities",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "366hc28afb",
+                "data": [
+                    [
+                        {
+                            "id": "366hc29470",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "368a074cjg",
+                "data": [
+                    [
+                        {
+                            "id": "368a0764ab",
+                            "section_id": "page-heading",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "2",
+                "grid_id": "366hc30388",
+                "data": [
+                    [
+                        {
+                            "id": "366hc39cga",
+                            "section_id": "facilities",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "3",
+                "grid_id": "366hc3hiae",
+                "data": [
+                    [
+                        {
+                            "id": "366hc3i8d2",
+                            "section_id": "facilities",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "4",
+                "grid_id": "366hc3jbdi",
+                "data": [
+                    [
+                        {
+                            "id": "366hc4078b",
+                            "section_id": "facilities",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "5",
+                "grid_id": "366hc3jh20",
+                "data": [
+                    [
+                        {
+                            "id": "366hc40c6d",
+                            "section_id": "facilities",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "366hc29470": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/745011-10-2023_0123pmhero-bg-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/745011-10-2023_0123pmhero-bg-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Facilities",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Facilities",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc28afb": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366hc2f757": {
+                "settings": {
+                    "about_info_heading": {
+                        "value": "Our Education System Works For You.",
+                        "is_array": "0"
+                    },
+                    "about_info_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. Explore new skills, deepen existing passions, and get lost creativity. What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc39cga": {
+                "settings": {
+                    "facilities_image_align": {
+                        "value": "right",
+                        "is_array": "0"
+                    },
+                    "facilities_image_upload": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"facilities-img-1.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/615611-10-2023_0201pmfacilities-img-1.jpg\",\"mime\":\"jpg\",\"size\":34433,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/615611-10-2023_0201pmfacilities-img-1.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "facilities_heading": {
+                        "value": "Bus Transportation",
+                        "is_array": "0"
+                    },
+                    "facilities_description": {
+                        "value": "<p>Enjoy hassle-free commuting with our dedicated bus transportation service. We prioritize safety, comfort, and punctuality to ensure a smooth journey for students to and from the school<br><\/p>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc30388": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366hc3i8d2": {
+                "settings": {
+                    "facilities_image_align": {
+                        "value": "left",
+                        "is_array": "0"
+                    },
+                    "facilities_image_upload": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"facilities-img-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/755311-10-2023_0203pmfacilities-img-2.jpg\",\"mime\":\"jpg\",\"size\":29509,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/755311-10-2023_0203pmfacilities-img-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "facilities_heading": {
+                        "value": "AC Smart Classrooms",
+                        "is_array": "0"
+                    },
+                    "facilities_description": {
+                        "value": "<p>Experience education in a modern setting with our air-conditioned smart classrooms. Equipped with cutting-edge technology, these classrooms facilitate interactive and engaging learning, providing students with a dynamic academic environment<\/p><p><br><\/p><p><br><\/p><p><br><\/p>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc3hiae": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366hc40c6d": {
+                "settings": {
+                    "facilities_image_align": {
+                        "value": "left",
+                        "is_array": "0"
+                    },
+                    "facilities_image_upload": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"facilities-img-4.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/547811-10-2023_0202pmfacilities-img-4.jpg\",\"mime\":\"jpg\",\"size\":86190,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/547811-10-2023_0202pmfacilities-img-4.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "facilities_heading": {
+                        "value": "World-Class Library",
+                        "is_array": "0"
+                    },
+                    "facilities_description": {
+                        "value": "<span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz80zsz78zz72zz122zz85zauz85zz84zz80zz65zz88zqj38z87zz67zez72ziz70zaaxz85zfsz81za\">Step into a world of knowledge in our world-class library. Boasting an extensive collection of books, digital resources, and a serene atmosphere, our library serves as a hub for research, study, and the joy of reading.<\/span>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc3jh20": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366hc4078b": {
+                "settings": {
+                    "facilities_image_align": {
+                        "value": "right",
+                        "is_array": "0"
+                    },
+                    "facilities_image_upload": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"facilities-img-3.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/345011-10-2023_0202pmfacilities-img-3.jpg\",\"mime\":\"jpg\",\"size\":30738,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/345011-10-2023_0202pmfacilities-img-3.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "facilities_heading": {
+                        "value": "Laboratories",
+                        "is_array": "0"
+                    },
+                    "facilities_description": {
+                        "value": "<span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz80zsz78zz72zz122zz85zauz85zz84zz80zz65zz88zqj38z87zz67zez72ziz70zaaxz85zfsz81za\">Immerse yourself in hands-on learning in our state-of-the-art laboratories. From science experiments to technological exploration, our labs are designed to foster curiosity and innovation, enabling students to apply theoretical knowledge in practical scenarios<\/span>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366hc3jbdi": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "368a0764ab": {
+                "settings": {
+                    "page_heading_title": {
+                        "value": "Outreach, Exposure, and International Exchange Program at Infix Edu",
+                        "is_array": "0"
+                    },
+                    "page_heading_sub_title": {
+                        "value": "Explore new skills, deepen passions, and get lost in creativity with Infix Edu. Uncover surprises and find inspiration in a myriad of exploration opportunities.",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368a074cjg": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,239 @@
+{
+    "name": "footer_menu",
+    "title": "Footer",
+    "description": "Footer Menu",
+    "slug": "frontend-footer",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "6x3x3",
+                "position": "0",
+                "grid_id": "367441gjc0",
+                "data": [
+                    [
+                        {
+                            "id": "3674428jf9",
+                            "section_id": "footer-content",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "367442ea7i",
+                            "section_id": "footer-widget",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "367442g0c5",
+                            "section_id": "footer-widget",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "367456b0f9",
+                "data": [
+                    [
+                        {
+                            "id": "3674574c2c",
+                            "section_id": "footer-copyright",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "367441gjc0": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "100",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "image": [
+                        "{\"type\":\"image\",\"name\":\"footer_bg.png\",\"path\":\"\",\"mime\":\"png\",\"size\":17060,\"thumbnail\":\"\"}"
+                    ],
+                    "background-size": "",
+                    "background-position": "",
+                    "background-color": "rgb(18,93,233)"
+                }
+            },
+            "3674428jf9": {
+                "settings": {
+                    "footer_menu_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"1.jpg\",\"path\":\"backEnd\\\/img\\\/logo.png\",\"mime\":\"jpg\",\"size\":36474,\"thumbnail\":\"https:\/\/infixedu.ischooll.com\/public\\\/backEnd\\\/img\\\/logo.png\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "footer-right-content-text": {
+                        "value": "InfixEdu's School Management Software simplifies school tasks, allowing teachers to efficiently manage attendance and grades. By streamlining their work, teachers can focus more on helping students succeed.",
+                        "is_array": "0"
+                    },
+                    "footer-content-bg-color": {
+                        "value": "rgb(255,246,246)",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "367442ea7i": {
+                "settings": {
+                    "footer-widget-heading": {
+                        "value": "Company",
+                        "is_array": "0"
+                    },
+                    "footer-widget-links": {
+                        "value": {
+                            "2641698829238": {
+                                "footer-widget-label": "About Us",
+                                "footer-widget-url": "aboutus-page",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829261050": {
+                                "footer-widget-label": "Career",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829261792": {
+                                "footer-widget-label": "Resource Center",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829262475": {
+                                "footer-widget-label": "Guides",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            }
+                        },
+                        "is_array": "1"
+                    },
+                    "footer-widget-bg-color": {
+                        "value": "rgb(253,253,253",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "367442g0c5": {
+                "settings": {
+                    "footer-widget-heading": {
+                        "value": "Categories",
+                        "is_array": "0"
+                    },
+                    "footer-widget-links": {
+                        "value": {
+                            "5911698829250": {
+                                "footer-widget-label": "Phd Course",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829327143": {
+                                "footer-widget-label": "Undergraduation",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829327787": {
+                                "footer-widget-label": "Postgraduation",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            },
+                            "1698829328454": {
+                                "footer-widget-label": "Research",
+                                "footer-widget-url": "",
+                                "footer-widget-open-url": "new_tab"
+                            }
+                        },
+                        "is_array": "1"
+                    },
+                    "footer-widget-bg-color": {
+                        "value": "rgb(255,255,255)",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3674574c2c": {
+                "settings": {
+                    "footer-copy-right-text": {
+                        "value": "\u00a9 2024 InfixEdu. All rights reserved. Made By CodeThemes.",
+                        "is_array": "0"
+                    },
+                    "footer-social-icons": {
+                        "value": {
+                            "4701698833159": {
+                                "footer-social-icon-class": "fab fa-twitter",
+                                "footer-social-label": "",
+                                "footer-social-icon-url": "https:\/\/twitter.com\/"
+                            },
+                            "1698833611596": {
+                                "footer-social-icon-class": "fab fa-instagram",
+                                "footer-social-label": "",
+                                "footer-social-icon-url": ""
+                            },
+                            "1698833612284": {
+                                "footer-social-icon-class": "fab fa-facebook",
+                                "footer-social-label": "",
+                                "footer-social-icon-url": ""
+                            }
+                        },
+                        "is_array": "1"
+                    },
+                    "footer-copyright-bg-color": {
+                        "value": "rgb(255,255,255)",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "367456b0f9": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "90",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": "",
+                    "background-color": "rgb(18,93,233)"
+                }
+            }
+        }
+    }
+}

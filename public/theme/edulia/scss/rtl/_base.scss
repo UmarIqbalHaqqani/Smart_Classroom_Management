@@ -1,0 +1,1608 @@
+@import './eudocus_sans';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: calc(26px / 16px);
+    color: $text-color;
+}
+
+html,
+body {
+    height: 100%;
+    direction: rtl;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Eudoxus Sans', sans-serif;
+    font-weight: 800;
+    margin: 0 0 10px;
+    color: $naviblue;
+}
+
+p {
+    margin: 0 0 0px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+input,
+textarea,
+button {
+    padding: 10px 25px;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    transition: all .3s ease-in-out;
+
+    &::placeholder {
+        position: relative;
+        right: 0px;
+        transition: all .3s ease-in-out;
+    }
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    border-color: #f3f3f3;
+
+    &::placeholder {
+        right: 10px;
+        opacity: 0;
+    }
+}
+
+[type=email],
+[type=number],
+[type=tel],
+[type=url] {
+    direction: rtl;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+/*Hide number spin button*/
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* clears the ‘X’ from Internet Explorer */
+
+input[type=search]::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+input[type=search]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+
+
+/* clears the ‘X’ from Chrome */
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+@mixin d-flex ($wrap) {
+    display: flex;
+    align-items: center;
+    flex-wrap: $wrap;
+}
+
+@mixin -scaleX {
+    transform: scaleX(-1);
+}
+
+.container {
+    @include oDesktop {
+        max-width: 1410px;
+    }
+}
+
+
+/*==== HEADER FIXED ====*/
+
+.fixed-nav {
+    position: fixed !important;
+    background-color: $white;
+    animation: header .5s ease;
+    width: 100% !important;
+    top: 0;
+    margin-top: 0px !important;
+    box-shadow: 0px 0px 5px rgba($color: $black, $alpha: .10);
+
+    @include Tablet {
+        padding: 15px 0px;
+    }
+
+    & .container {
+        padding: 20px 0px !important;
+
+        @include Ipad {
+            padding: 0px 0px !important;
+        }
+
+        @include Tablet {
+            padding: 0px 0px !important;
+        }
+
+        @include Mobile {
+            padding: 0px 0px !important;
+        }
+    }
+}
+
+@keyframes header {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
+/*==== INPUT BOX ====*/
+
+.input-control {
+    position: relative;
+    margin-top: 20px;
+
+    &-label {
+        font-family: 'Eudoxus Sans', sans-serif;
+        font-size: 14px;
+        line-height: calc(18px / 14px);
+        margin-bottom: 10px;
+        color: $naviblue;
+        font-weight: 700;
+        display: block;
+
+        & span {
+            color: $red;
+        }
+    }
+
+    &-input {
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0px;
+        border: 1px solid $border;
+        padding: 15px 20px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        color: $default-black;
+
+        &::placeholder {
+            color: $input-text-color;
+        }
+
+        &:focus {
+            border-color: $naviblue;
+        }
+
+        @include sMobile {
+            padding: 12px 15px;
+        }
+
+        &[type=submit] {
+            background-color: $blue;
+            border-color: $blue;
+            color: $white;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $naviblue;
+                border-color: $naviblue;
+            }
+        }
+    }
+
+    [type=file] {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        opacity: 0;
+    }
+
+    &-file {
+        text-align: center;
+        border-style: dashed;
+
+        & h6 {
+            font-size: 14px;
+            margin-bottom: 5px;
+
+            & span {
+                color: $blue;
+            }
+
+            @include sMobile {
+                font-style: 12px;
+            }
+        }
+
+        & p {
+            font-size: 14px;
+            font-weight: 400;
+            color: $search-text;
+
+            @include sMobile {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &-icon {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        color: $blue;
+        transform: translateY(-50%);
+        cursor: pointer;
+        width: 40px;
+        display: flex;
+        align-items: center;
+        place-content: center;
+        z-index: 1;
+        height: 100%;
+        background-color: transparent !important;
+        border: none !important;
+
+        &:hover {
+            color: $naviblue;
+        }
+    }
+
+    & .gj-textbox-md {
+        text-align: start !important;
+    }
+}
+
+// BASE CSS
+.section_padding {
+    padding: 60px 0px;
+
+    &.tesimonials.about{
+        padding-top: 160px;
+
+        @include Ipad {
+            padding-top: 140px;
+        }
+    
+        @include Tablet {
+            padding-top: 120px;
+        }
+    
+        @include Mobile {
+            padding-top: 120px;
+        }
+    }
+
+
+    @include Ipad {
+        padding: 50px 0px;
+    }
+
+    @include Tablet {
+        padding: 40px 0px;
+    }
+
+    @include Mobile {
+        padding: 40px 0px;
+    }
+}
+
+.section_padding_off {
+    padding: 0px 0px;
+}
+
+.section_padding_top {
+    padding-top: 60px;
+
+    @include Ipad {
+        padding-top: 50px;
+    }
+
+    @include Tablet {
+        padding-top: 40px;
+    }
+
+    @include Mobile {
+        padding-top: 40px;
+    }
+}
+
+.section_padding_bottom {
+    padding-bottom: 60px;
+
+    @include Ipad {
+        padding-bottom: 50px;
+    }
+
+    @include Tablet {
+        padding-bottom: 40px;
+    }
+
+    @include Mobile {
+        padding-bottom: 40px;
+    }
+}
+
+.site_btn {
+    display: inline-block;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 15px 40px;
+    color: $blue;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        width: 0%;
+        height: 100%;
+        background-color: $blue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        border-radius: 3px;
+        visibility: hidden;
+        transition: all .4s ease-in-out;
+    }
+
+    &:hover {
+        color: $white;
+
+        &::after {
+            left: 0;
+            right: 0;
+            width: 100%;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    @include Tablet {
+        padding: 12px 30px;
+    }
+
+    @include Mobile {
+        padding: 10px 25px;
+        font-weight: 500;
+    }
+}
+
+.boxed_btn {
+    display: inline-block;
+    background-color: $blue;
+    font-size: 14px;
+    padding: 15px 40px;
+    color: $white;
+    border: 1px solid $blue;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+    text-transform: uppercase;
+
+    &::after {
+        content: "";
+        width: 0%;
+        height: 100%;
+        background-color: $white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .4s ease-in-out;
+        border-radius: 3px;
+    }
+
+    &:hover {
+        border-color: $blue;
+        color: $blue;
+
+        &::after {
+            width: 100%;
+            right: 0;
+            left: auto;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    @include Mobile {
+        padding: 10px 20px;
+        font-weight: 400;
+    }
+
+    &.bg-transparent {
+        color: $blue;
+        border-radius: 5px !important;
+
+        &:hover {
+            color: $white;
+        }
+
+        &::after {
+            background-color: $blue;
+        }
+    }
+}
+
+.site_btn_border {
+    display: inline-block;
+    font-size: 14px;
+    line-height: calc(17px / 14px);
+    border: 1px solid $blue;
+    color: $blue;
+    border-radius: 100px;
+    padding: 10px 23px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        background-color: $blue;
+        width: 0%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 15px;
+        transition: all .4s ease-in-out;
+    }
+
+    & i {
+        margin-left: 3px;
+    }
+
+    &:hover {
+        color: $white;
+
+        &::after {
+            width: 100%;
+            right: 0;
+            left: auto;
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    @include Tablet {
+        padding: 8px 15px;
+    }
+
+    @include Mobile {
+        padding: 7px 10px;
+        font-size: 12px;
+    }
+}
+
+.section_title {
+    margin-bottom: 30px;
+
+    @include Tablet {
+        margin-bottom: 20px;
+    }
+
+    @include Mobile {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    &_meta {
+        font-size: 16px;
+        line-height: calc(24px / 16px);
+        font-weight: 600;
+        display: block;
+        margin-bottom: 10px;
+        color: $blue;
+        text-transform: uppercase;
+
+        @include Ipad {
+            font-size: 14px;
+        }
+
+        @include Tablet {
+            font-size: 12px;
+            margin-bottom: 10px;
+        }
+
+        @include Mobile {
+            font-size: 12px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+    }
+
+    & h2 {
+        font-size: 40px;
+        line-height: calc(40px / 40px);
+        margin-bottom: 20px;
+
+        @include Ipad {
+            font-size: 34px;
+            margin-bottom: 15px;
+        }
+
+        @include Tablet {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        @include Mobile {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        @include sMobile {
+            font-size: 20px;
+        }
+    }
+
+    & p {
+        font-size: 16px;
+        margin-bottom: 0px;
+
+        @include Tablet {
+            font-size: 14px;
+        }
+
+        @include Mobile {
+            font-size: 14px;
+        }
+
+        & br {
+            @include Mobile {
+                display: none;
+            }
+        }
+    }
+}
+
+.sm-hide {
+    @include sMobile {
+        display: none !important;
+    }
+}
+
+.border-none {
+    border: none !important;
+}
+
+.border-padding-none {
+    padding: 0 !important;
+    border: none !important;
+}
+
+.mobile-none {
+    @include Mobile {
+        display: none;
+    }
+}
+
+.mt-m-30 {
+    @include Mobile {
+        margin-top: 30px;
+    }
+}
+
+.gray_bg {
+    background-color: $gray;
+}
+
+.bg-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba($color: $black, $alpha: .30);
+    width: 100%;
+    height: 100%;
+}
+
+#red {
+    color: $light-red;
+}
+
+#green {
+    color: $light-green;
+}
+
+.fade:not(.show) {
+    visibility: hidden;
+}
+
+.fade.show {
+    visibility: visible;
+}
+
+.hide-nice {
+    & .nice-select {
+        display: none !important;
+    }
+}
+
+.mobile-column-reverse {
+    @include Mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+@mixin mt-60 {
+    margin-top: 60px;
+
+    @include Laptop {
+        margin-top: 45px;
+    }
+
+    @include Ipad {
+        margin-top: 40px;
+    }
+
+    @include Tablet {
+        margin-top: 35px;
+    }
+
+    @include Mobile {
+        margin-top: 25px;
+    }
+}
+
+@mixin mb-60 {
+    margin-bottom: 60px;
+
+    @include Laptop {
+        margin-bottom: 45px;
+    }
+
+    @include Ipad {
+        margin-bottom: 40px;
+    }
+
+    @include Tablet {
+        margin-bottom: 35px;
+    }
+
+    @include Mobile {
+        margin-bottom: 25px;
+    }
+}
+
+@mixin mt-30 {
+    margin-top: 30px;
+
+    @include Ipad {
+        margin-top: 20px;
+    }
+
+    @include Tablet {
+        margin-top: 20px;
+    }
+
+    @include Mobile {
+        margin-top: 15px;
+    }
+}
+
+@mixin mb-30 {
+    margin-bottom: 30px;
+
+    @include Ipad {
+        margin-bottom: 20px;
+    }
+
+    @include Tablet {
+        margin-bottom: 20px;
+    }
+
+    @include Mobile {
+        margin-bottom: 15px;
+    }
+}
+
+@mixin font-50 {
+    font-size: 50px;
+    line-height: calc(65px / 50px);
+
+    @include Laptop {
+        font-size: 40px;
+    }
+
+    @include Ipad {
+        font-size: 38px;
+    }
+
+    @include Tablet {
+        font-size: 30px;
+    }
+
+    @include Mobile {
+        font-size: 26px;
+    }
+
+    @include sMobile {
+        font-size: 22px;
+    }
+
+    & br {
+        @include Mobile {
+            display: none;
+        }
+    }
+}
+
+@mixin font-40 {
+    font-size: 40px;
+    line-height: calc(65px / 40px);
+
+    @include Ipad {
+        font-size: 34px;
+    }
+
+    @include Tablet {
+        font-size: 26px;
+    }
+
+    @include Mobile {
+        font-size: 24px;
+    }
+
+    @include sMobile {
+        font-size: 20px;
+    }
+}
+
+
+/*==== country select custom css ====*/
+
+.flagstrap {
+    @include Ipad {
+        padding-top: 5px;
+    }
+
+    & .btn {
+        padding: 0px 0px;
+        box-shadow: 0 0 0;
+        border: none;
+        font-size: 0 !important;
+
+        & span {
+            font-size: 13px;
+            font-weight: 600;
+            color: $white;
+            text-transform: uppercase;
+
+            @include Mobile {
+                font-size: 12px;
+            }
+        }
+    }
+
+    &-icon {
+        margin-right: 0px !important;
+        margin-left: 5px !important;
+    }
+
+    & .caret {
+        display: none;
+    }
+
+    & .dropdown-menu {
+        min-width: max-content !important;
+        padding: 5px 0px;
+        right: -10px;
+
+        & li {
+            &:first-child {
+                display: none;
+            }
+
+            font-size: 14px;
+            font-weight: 600;
+            color: $naviblue;
+            text-transform: uppercase;
+            display: block;
+            cursor: pointer;
+            padding: 3px 10px;
+            transition: all .3s ease-in-out;
+
+            & a {
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            @include Mobile {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+
+/*==== Preloader CSS ====*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    z-index: (9999*999);
+    background-color: $white;
+    user-select: none;
+
+    & h3 {
+        font-size: 8vw;
+        text-transform: uppercase;
+        position: relative;
+        color: transparent;
+        -webkit-text-stroke: 0.2vw $blue;
+        letter-spacing: 5px;
+
+        &::before {
+            content: attr(data-text);
+            width: 0%;
+            height: 100%;
+            border-left: 3px solid $naviblue;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 9;
+            overflow: hidden;
+            -webkit-text-stroke: 0.2vw $naviblue;
+            color: $naviblue;
+            animation: typeload 5s linear infinite;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+@keyframes typeload {
+
+    0%,
+    20%,
+    100% {
+        width: 0;
+    }
+
+    70%,
+    90% {
+        width: 100%;
+    }
+}
+
+
+/*==== BACK TO TOP CSS ====*/
+
+.backtop {
+    position: fixed;
+    bottom: 0;
+    left: -10%;
+    width: 70px;
+    height: 70px;
+    border-top-right-radius: 100%;
+    background-color: $naviblue;
+    z-index: 10;
+    @include d-flex(center);
+    place-content: center;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+
+    &:hover {
+        background-color: $blue;
+
+        & i {
+            bottom: 20px;
+
+            @include Mobile {
+                bottom: 15px;
+            }
+        }
+    }
+
+    @include Mobile {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    & i {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        color: $white;
+        transition: all .3s ease-in-out;
+
+        @include Mobile {
+            bottom: 10px;
+            left: 15px;
+        }
+    }
+}
+
+.backtop.show {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/*==== CUSTOM CHECKBOX ====*/
+
+.checkbox {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-bottom: 0px;
+
+    &-input {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        cursor: pointer;
+        opacity: 0;
+
+        &:checked~span {
+            color: $naviblue;
+
+            &::before {
+                transform: scale(0);
+                opacity: 0;
+                visibility: hidden;
+            }
+
+            &::after {
+                transform: scale(1);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+
+    &-title {
+        display: block;
+        font-size: 14px;
+        line-height: calc(26px / 14px);
+        font-weight: 500;
+        color: $text-color;
+        position: relative;
+        z-index: 1;
+        padding: 5px 0px;
+        padding-right: 30px;
+
+        @include Ipad {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        @include Tablet {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            padding-right: 25px;
+        }
+
+        @include Mobile {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            width: 18px;
+            height: 18px;
+            border-radius: 4px;
+            border: 1px solid $checkbox;
+            position: absolute;
+            right: 0;
+            top: 9px;
+            transform: scale(1);
+            transition: all .3s ease-in-out;
+
+            @include Ipad {
+                top: 6px;
+            }
+
+            @include Tablet {
+                top: 6px;
+            }
+
+            @include Mobile {
+                top: 6px;
+            }
+        }
+
+        &::after {
+            content: "\f00c";
+            font-family: 'Font Awesome 5 Pro';
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 16px;
+            background-color: $naviblue;
+            border-color: $naviblue;
+            text-align: center;
+            color: $white;
+            transform: scale(0);
+            opacity: 0;
+            visibility: hidden;
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+
+
+/*==== CUSTOM RADIO BUTTON ====*/
+
+.page_radio {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+
+    & input[type=radio] {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        opacity: 0;
+
+        &:checked~.page_radio_title {
+            &::after {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(-50%) scale(1);
+            }
+
+            &::before {
+                border-color: $blue;
+                background-color: $blue;
+            }
+        }
+    }
+
+    &_title {
+        font-size: 14px;
+        line-height: calc(17px / 14px);
+        font-weight: 600;
+        color: $text-color;
+        position: relative;
+        z-index: 1;
+        padding-right: 25px;
+        display: flex;
+
+        @include Mobile {
+            padding-right: 20px;
+        }
+
+        &::before,
+        &::after {
+            content: "";
+            width: 15px;
+            height: 15px;
+            border-radius: 100%;
+            border: 1px solid $radio-border;
+            position: absolute;
+            right: 0;
+            transition: all .2s ease-in-out;
+            margin-top: 2px;
+        }
+
+        &::after {
+            border: none;
+            background-color: $white;
+            width: 7px;
+            height: 7px;
+            border-radius: 100%;
+            position: absolute;
+            right: 4px;
+            top: 7.2px;
+            transition: all .2s ease-in-out;
+            opacity: 0;
+            visibility: visible;
+        }
+    }
+}
+
+
+/*==== RATING STAR ====*/
+
+.fiver-star {
+    & i {
+        color: $yellow !important;
+    }
+}
+
+.four-star {
+    & i {
+        &:nth-child(5) {
+            color: $default-star;
+        }
+    }
+}
+
+.three-star {
+    & i {
+
+        &:nth-child(4),
+        &:nth-child(5) {
+            color: $default-star;
+        }
+    }
+}
+
+.two-star {
+    & i {
+
+        &:nth-child(3),
+        &:nth-child(4),
+        &:nth-child(5) {
+            color: $default-star;
+        }
+    }
+}
+
+.one-star {
+    & i {
+        color: $default-star !important;
+
+        &:first-child {
+            color: $yellow !important;
+        }
+    }
+}
+
+
+/*==== NICE SELECT CUSTOMIZE ====*/
+
+.nice-select {
+    display: inline-block;
+    border: 1px solid $light-border;
+    color: $naviblue;
+    font-size: 14px;
+    font-weight: 500;
+    height: auto;
+    padding: 6px 15px;
+    width: 160px;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: right !important;
+
+    @include Tablet {
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 12px;
+        width: 120px;
+        margin-left: 0px;
+    }
+
+    @include Mobile {
+        width: 150px;
+        padding: 6px 10px;
+    }
+
+    &:first-child {
+        margin-right: 0px;
+    }
+
+    &:focus {
+        border-color: $naviblue;
+    }
+
+    &::after {
+        display: none;
+    }
+
+    &::before {
+        content: "\e64b";
+        font-family: 'themify';
+        font-size: 12px;
+        color: $naviblue;
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        font-weight: 400;
+
+        @include Tablet {
+            left: 5px;
+        }
+
+        @include Mobile {
+            left: 10px;
+        }
+    }
+
+    & .list {
+        width: 100%;
+
+        & .selected {
+            font-weight: 600;
+        }
+
+        & li {
+            text-align: right !important;
+        }
+    }
+}
+
+.nice-select.open {
+    &::before {
+        content: "\e648";
+    }
+}
+
+
+/*==== NICE NUMBER CUSTOM CSS ====*/
+
+.nice-number {
+    & button {
+        font-size: 14px;
+        color: $input-text-color;
+        background-color: $archive-keywords;
+        border: 1px solid $border;
+        padding: 12px 13px;
+
+        &:hover {
+            color: $naviblue;
+        }
+
+        @include Mobile {
+            padding: 8px 12px;
+        }
+    }
+
+    & input {
+        padding: 0px;
+        width: 60px !important;
+        border-top: 1px solid $border;
+        border-bottom: 1px solid $border;
+
+        @include Tablet {
+            width: 50px !important;
+        }
+
+        @include Mobile {
+            width: 40px !important;
+        }
+    }
+}
+
+
+/*==== DATEPICKER CUSTOM CSS ====*/
+
+.gj-picker-md table tr td div,
+.gj-picker-md table tr th div {
+    border-radius: 4px !important;
+    font-size: 14px;
+}
+
+.gj-picker {
+    @include sMobile {
+        left: 0px !important;
+        right: 30px !important;
+    }
+}
+
+
+/*==== TIME PICKER ====*/
+
+.gj {
+    &-timepicker {
+        position: relative;
+        z-index: 1;
+    }
+
+    &-picker {
+        & [role=body] [role=dial] {
+            cursor: pointer;
+        }
+    }
+
+    &-icon {
+        position: absolute !important;
+        top: 50% !important;
+        right: calc(100% - 35px) !important;
+        transform: translateY(-50%) scale(-1) !important;
+        color: $input-text-color !important;
+        font-size: 18px !important;
+
+        @include sMobile {
+            right: calc(100% - 12px) !important;
+        }
+
+        &[role="right-icon"] {
+            transform: translateY(-50%) scale(1) !important;
+        }
+    }
+}
+
+
+/*==== SELECT2 CUSTOM CSS ====*/
+
+.select2 {
+    position: relative;
+    z-index: 1;
+    width: 100% !important;
+
+    &::before {
+        content: "\e64b";
+        font-family: 'themify';
+        font-size: 12px;
+        color: $naviblue;
+        position: absolute;
+        top: 50%;
+        left: 15px;
+        transform: translateY(-50%);
+        font-weight: 400;
+
+        @include Tablet {
+            left: 5px;
+        }
+
+        @include Mobile {
+            left: 10px;
+        }
+    }
+
+    &-selection {
+        padding: 10px 20px;
+        border-radius: 0px !important;
+        height: auto !important;
+        border-color: $border !important;
+
+        &__rendered {
+            padding: 0 !important;
+            font-size: 14px;
+            color: $input-text-color;
+            font-weight: 400;
+        }
+
+        &__arrow {
+            display: none;
+        }
+    }
+}
+
+.select2-container--open {
+    &::before {
+        content: "\e648";
+        position: absolute;
+    }
+}
+
+
+/*==== SOCILA MEDIA CSS ====*/
+
+.faceboook {
+    background-color: $fb !important;
+
+    &:hover {
+        background-color: $fb_hover !important;
+    }
+}
+
+.twitter {
+    background-color: $twitter !important;
+
+    &:hover {
+        background-color: $twitter_hover !important;
+    }
+}
+
+.pinterest {
+    background-color: $pinterest !important;
+
+    &:hover {
+        background-color: $pinterest_hover !important;
+    }
+}
+
+.linkedin {
+    background-color: $linkedin !important;
+
+    &:hover {
+        background-color: $linkedin_hover !important;
+    }
+}
+
+
+/*==== PRICE RANGER SLIDER CUSTOM CSS ====*/
+
+.irs {
+    &-handle {
+        width: 14px !important;
+        height: 14px !important;
+        border-radius: 100%;
+        background-color: $blue !important;
+        cursor: pointer;
+        border: 2px solid $white;
+
+        & i {
+            display: none !important;
+        }
+    }
+
+    &-line {
+        height: 8px !important;
+        background-color: $default-star !important;
+        cursor: pointer;
+    }
+
+    &-bar {
+        height: 8px !important;
+        cursor: pointer;
+        background-color: $blue !important;
+    }
+
+    &-min,
+    &-max {
+        display: none !important;
+    }
+
+    &-from,
+    &-to,
+    &-single {
+        background-color: $blue !important;
+        font-size: 12px !important;
+
+        &::before {
+            border-top-color: $blue !important;
+        }
+    }
+}
+
+
+/*==== ZOOM LENS CUSTOM CSS ====*/
+
+.ZoomContainer {
+    z-index: 8 !important;
+
+    & .zoomLens {
+        width: 100px !important;
+        height: 100px !important;
+        border-color: $naviblue !important;
+        z-index: 8 !important;
+    }
+
+    & .zoomWindow {
+        width: 100% !important;
+        height: 100% !important;
+        z-index: 8 !important;
+        right: 100% !important;
+        border: 1px solid $naviblue !important;
+        background-size: contain !important;
+
+        @include Mobile {
+            left: 0% !important;
+            right: 0% !important;
+        }
+    }
+}
+
+.zoomWrapper {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/*---- BACKGROUND SHADE CSS ----*/
+
+.bg-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: $black, $alpha: .60);
+    z-index: 11;
+    display: none;
+    overflow: auto;
+}
+
+
+/*---- FONTAWESOME RTL SUPPORT ----*/

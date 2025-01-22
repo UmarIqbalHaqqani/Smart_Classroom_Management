@@ -1,0 +1,174 @@
+{
+    "name": "Events",
+    "title": "Events",
+    "description": "Events",
+    "slug": "events",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "368b18ch94",
+                "data": [
+                    [
+                        {
+                            "id": "368b1e5g12",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "368b1ed0c4",
+                "data": [
+                    [
+                        {
+                            "id": "368b1ef00g",
+                            "section_id": "event-gallery",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "368b18ch94": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "368b1962aj": {
+                "settings": {
+                    "event_gallery_count": {
+                        "value": "6",
+                        "is_array": "0"
+                    },
+                    "event_gallery_area_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "event_gallery_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    },
+                    "event_gallery_read_more_btn": {
+                        "value": "View Details",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_date": {
+                        "value": "1",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_location": {
+                        "value": "1",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368b1e5g12": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-breadcrumb-img.jpg\",\"path\":\"optionbuilder\/uploads\/785411-21-2023_1252pmabout-breadcrumb-img.jpg\",\"mime\":\"jpg\",\"size\":125303,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/785411-21-2023_1252pmabout-breadcrumb-img.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Event",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Event",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368b1ef00g": {
+                "settings": {
+                    "event_gallery_count": {
+                        "value": "6",
+                        "is_array": "0"
+                    },
+                    "event_gallery_area_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "event_gallery_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    },
+                    "event_gallery_read_more_btn": {
+                        "value": "View Details",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_date": {
+                        "value": "1",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_location": {
+                        "value": "1",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368b1ed0c4": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "name": "Donor List",
+    "title": "Donor List",
+    "description": "Donor List",
+    "slug": "donor-list",
+    "home_page": 0,
+    "status": "published",
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "36ba87b78b",
+                "data": [
+                    [
+                        {
+                            "id": "36ba87dagc",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "36ba881dd7",
+                "data": [
+                    [
+                        {
+                            "id": "36ba8877cb",
+                            "section_id": "donor",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "36ba87dagc": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"breadcrumb-img.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/260201-04-2024_1140ambreadcrumb-img.jpg\",\"mime\":\"jpg\",\"size\":122726,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/260201-04-2024_1140ambreadcrumb-img.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Donor List",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Donor List",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36ba87b78b": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36ba8877cb": {
+                "settings": {
+                    "donor_col_1": {
+                        "value": "SL",
+                        "is_array": "0"
+                    },
+                    "donor_col_2": {
+                        "value": "Image",
+                        "is_array": "0"
+                    },
+                    "donor_col_3": {
+                        "value": "Name",
+                        "is_array": "0"
+                    },
+                    "donor_col_4": {
+                        "value": "Profession",
+                        "is_array": "0"
+                    },
+                    "donor_col_5": {
+                        "value": "Email",
+                        "is_array": "0"
+                    },
+                    "donor_col_6": {
+                        "value": "Phone",
+                        "is_array": "0"
+                    },
+                    "donor_col_7": {
+                        "value": "Religion",
+                        "is_array": "0"
+                    },
+                    "donor_col_8": {
+                        "value": "Gender",
+                        "is_array": "0"
+                    },
+                    "donor_col_9": {
+                        "value": "Blood Group",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36ba881dd7": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

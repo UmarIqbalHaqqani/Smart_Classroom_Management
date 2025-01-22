@@ -1,0 +1,161 @@
+/*==== MESSAGE AREA CSS ====*/
+
+.contacts {
+    &_form {
+        & .section_title {
+            margin-bottom: 50px;
+            @include Ipad {
+                margin-bottom: 40px;
+            }
+            @include Tablet {
+                margin-bottom: 30px;
+            }
+            @include Mobile {
+                margin-bottom: 15px;
+            }
+        }
+        &_flex {
+            @include d-flex(wrap);
+            margin-left: -10px;
+            margin-right: -10px;
+            & .input-control {
+                max-width: 50%;
+                flex: 0 0 50%;
+                padding-left: 10px;
+                padding-right: 10px;
+                @include sMobile {
+                    max-width: 100%;
+                    flex: 0 0 100%;
+                    margin-top: 15px;
+                }
+            }
+        }
+        & .input-control {
+            &-input {
+                font-weight: 500;
+                padding: 18px 20px;
+                border-radius: 5px;
+                background-color: $contact-page-events-bg;
+                &[type=submit] {
+                    background-color: $blue;
+                    &:hover {
+                        background-color: $naviblue;
+                        border-color: $naviblue;
+                    }
+                }
+                @include Tablet {
+                    padding: 15px 20px;
+                    font-weight: 400;
+                }
+                @include Mobile {
+                    padding: 13px 15px;
+                    font-weight: 400;
+                }
+            }
+            & textarea {
+                resize: none;
+                height: 160px;
+                @include Mobile {
+                    height: 130px;
+                }
+            }
+        }
+    }
+    &_info {
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px rgba($color: $black, $alpha: .05);
+        padding: 35px;
+        @include Laptop {
+            padding: 30px;
+        }
+        @include Tablet {
+            margin-top: 30px;
+        }
+        @include Mobile {
+            margin-top: 30px;
+            padding: 24px;
+        }
+        @include sMobile {
+            padding: 24px;
+        }
+        & h4 {
+            font-size: 24px;
+            font-family: "Inter", sans-serif;
+            font-weight: 700;
+            margin-bottom: 5px;
+            @include Mobile {
+                font-size: 22px;
+            }
+            @include sMobile {
+                margin-bottom: 15px;
+            }
+        }
+        &_inner {
+            @include Tablet {
+                display: flex;
+            }
+        }
+        &_card {
+            margin-top: 25px;
+            @include Tablet {
+                margin-top: 20px;
+                width: 33.33%;
+                flex: 0 0 33.33%;
+            }
+            @include Mobile {
+                margin-top: 15px;
+            }
+            & h6 {
+                font-size: 16px;
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+            & p {
+                font-size: 14px;
+                @include Tablet {
+                    font-size: 12px;
+                }
+            }
+        }
+        .google_map {
+            margin-top: 40px;
+            @include Tablet {
+                margin-top: 30px;
+            }
+            @include Mobile {
+                margin-top: 30px;
+            }
+            &_inner {
+                height: 210px;
+                @include Laptop {
+                    height: 190px;
+                }
+                @include Tablet {
+                    height: 250px;
+                }
+                @include Mobile {
+                    height: 200px;
+                }
+                @include Mobile {
+                    height: (200px-30px);
+                }
+            }
+        }
+    }
+}
+
+
+/*==== EVENTS AREA CSS ====*/
+
+.events {
+    background-color: $contact-page-events-bg;
+    &_schedule {
+        @include Mobile {
+            margin-top: 15px;
+        }
+        & tr {
+            background-color: $white;
+        }
+    }
+}

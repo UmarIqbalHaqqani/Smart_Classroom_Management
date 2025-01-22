@@ -1,0 +1,384 @@
+/*==== NOTICEBOARD AREA ====*/
+
+.noticeboard {
+
+    .openning_hours_container {
+        background: #fff;
+        padding: 30px;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+    }
+
+    &_inner {
+        &_wrapper {
+            padding: 30px;
+            border: 1px solid $border;
+
+            @include Laptop {
+                padding: 20px;
+            }
+
+            @include Tablet {
+                padding: 20px;
+            }
+
+            @include Mobile {
+                padding: 20px;
+            }
+
+            @include sMobile {
+                padding: 15px;
+            }
+        }
+
+        &_weekinfo {
+            margin-top: 20px;
+
+            @include Mobile {
+                margin-top: 15px;
+                margin-bottom: 20px;
+            }
+
+            & li {
+                @include d-flex(wrap);
+                justify-content: space-between;
+                font-size: 16px;
+                font-weight: 600;
+                color: $naviblue;
+                line-height: calc(50px / 16px);
+
+                @include Tablet {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                @include sMobile {
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+
+                &:not(:last-child) {
+                    border-bottom: 1px solid $border;
+                }
+
+                & span {
+                    &:first-child {
+                        max-width: 30%;
+                        flex: 0 0 30%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    &:last-child {
+                        max-width: 70%;
+                        flex: 0 0 70%;
+                        text-align: right;
+                    }
+                }
+            }
+        }
+
+        &_head {
+            background-color: $blue;
+            padding: 20px;
+            @include d-flex(nowrap);
+            justify-content: space-between;
+
+            @include Mobile {
+                padding: 15px;
+            }
+
+            & .site_btn {
+                background-color: $white;
+                padding: 8px 18px;
+
+                &::after {
+                    background-color: $naviblue;
+                }
+            }
+
+            & h5 {
+                margin-bottom: 0px;
+                font-size: 20px;
+                line-height: calc(26px / 20px);
+                color: $white;
+            }
+        }
+
+        &_search {
+            margin-bottom: 30px;
+
+            @include Mobile {
+                margin-bottom: 20px;
+            }
+
+            & .input-control {
+                margin-top: 0px;
+                margin-right: 5px;
+                display: inline-block;
+                width: 180px;
+
+                @include Laptop {
+                    width: 160px;
+                }
+
+                @include Tablet {
+                    width: 170px;
+                }
+
+                @include Mobile {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+
+                &:first-child {
+                    width: 245px;
+
+                    @include Laptop {
+                        width: 200px;
+                    }
+
+                    @include Tablet {
+                        width: 235px;
+                    }
+
+                    @include Mobile {
+                        width: 100%;
+                        margin-top: 0px;
+                    }
+                }
+
+                &-input {
+                    border-color: $header-search-border;
+                    background-color: $light-gray;
+                    border-radius: 5px;
+                    font-weight: 500;
+
+                    &:focus {
+                        border-color: $naviblue;
+                    }
+                }
+
+                &:last-child {
+                    width: auto;
+                    margin-right: 0px;
+
+                    @include Mobile {
+                        width: 100%;
+                    }
+                }
+
+                & button {
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    padding: 0;
+                    background-color: $blue;
+                    color: $white;
+                    border: none;
+                    border-radius: 5px;
+
+                    &:hover {
+                        background-color: $naviblue;
+                    }
+
+                    @include Mobile {
+                        width: 100%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+        &_item {
+            border-top: 1px solid $border;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-right: 50px;
+
+            @include Ipad {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+            @include Tablet {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            @include Mobile {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 0px;
+            }
+
+            &_title {
+                display: block;
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 25px;
+                color: $naviblue;
+                line-height: calc(30px / 20px);
+
+                @include Laptop {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+
+                @include Ipad {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+
+                @include Tablet {
+                    font-size: 16px;
+                    margin-bottom: 15px;
+                }
+
+                @include Mobile {
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                }
+
+                @include sMobile {
+                    font-size: 16px;
+                }
+            }
+
+            & p {
+                font-size: 14px;
+                margin-bottom: 20px;
+
+                @include Mobile {
+                    margin-bottom: 15px;
+                }
+            }
+
+            & .site_btn_border {
+                border-width: 2px;
+            }
+        }
+
+        &_loadmore {
+            border-top: 1px solid $border;
+            padding-top: 30px;
+
+            @include Laptop {
+                padding-top: 20px;
+            }
+
+            @include Tablet {
+                padding-top: 20px;
+            }
+
+            @include Mobile {
+                padding-top: 20px;
+            }
+        }
+    }
+
+    // details page
+    &_details {
+        &_wrapper {
+            @include Mobile {
+                margin-bottom: 30px;
+            }
+
+            & h4 {
+                font-size: 24px;
+                line-height: calc(30px / 24px);
+                margin-bottom: 0px;
+                @include d-flex(nowrap);
+                justify-content: space-between;
+
+                & span {
+                    font-size: 14px;
+                    font-weight: 600;
+                    font-family: 'Inter';
+                    color: $text-color;
+
+                    @include Tablet {
+                        font-size: 12px;
+                    }
+
+                    @include Mobile {
+                        font-size: 12px;
+                        margin-top: 5px;
+                    }
+                }
+
+                @include Tablet {
+                    font-size: 18px;
+                }
+
+                @include Mobile {
+                    font-size: 20px;
+                    flex-wrap: wrap;
+                }
+            }
+
+            & p {
+                margin-top: 40px;
+                font-size: 16px;
+                font-weight: 400;
+
+                @include Ipad {
+                    margin-top: 30px;
+                }
+
+                @include Tablet {
+                    margin-top: 25px;
+                }
+
+                @include Mobile {
+                    font-size: 14px;
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        & .noticeboard_inner {
+            &_head {
+                padding: 15px;
+                background-color: $gray;
+                text-align: center;
+
+                & h5 {
+                    color: $naviblue;
+                    display: block;
+                    width: 100%;
+                }
+            }
+
+            &_wrapper {
+                border-top: none;
+            }
+
+            &_item {
+                padding-right: 0px;
+
+                &:first-child {
+                    padding-top: 0px !important;
+                }
+
+                & p {
+                    margin-bottom: 0px;
+                    font-weight: 600;
+                }
+            }
+
+            &_loadmore {
+                @include Mobile {
+                    text-align: center !important;
+                }
+
+                & .boxed_btn {
+                    padding: 13px 40px;
+
+                    @include Mobile {
+                        padding: 10px 25px;
+                    }
+                }
+            }
+        }
+    }
+}

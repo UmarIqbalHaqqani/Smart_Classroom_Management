@@ -1,0 +1,472 @@
+/* Backend */
+
+.gap-2{
+    gap: 16px;
+}
+
+html[dir="rtl"] .header_iner .serach_field-area .search_inner input{
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+html[dir="rtl"] .header_iner .serach_field-area .search_inner button{
+    left: auto!important;
+    right: 0;
+    padding-left: 11px;
+    padding-right: 0;
+}
+
+html[dir="rtl"] .header_iner div.nice-select {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+html[dir="rtl"] .header_iner div.nice-select:after {
+    right: auto!important;
+    left: 18px;
+}
+html[dir="rtl"] .header_iner div.nice-select.open:after {
+    left: 12px;
+}
+
+html[dir="rtl"] div.header_iner .header_right .header_notification_warp li>a {
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+}
+
+html[dir="rtl"] .create-title::after {
+    left: 5px;
+    right: auto;
+}
+
+html[dir="rtl"] .menu_seperator {
+    margin: 24px 15px 3px 0px;
+}
+html[dir="rtl"] .dataTables_filter > label{
+    display: flex;
+    align-items: center;
+    left: 58%!important;
+}
+
+html[dir="rtl"] .dataTables_filter>label i {
+    bottom: 4px;
+}
+
+html[dir="rtl"] button.dt-button:first-child, 
+html[dir="rtl"] div.dt-button:first-child, 
+html[dir="rtl"] a.dt-button:first-child{
+    border-right: 0!important;
+}
+
+.input-right-icon button {
+    margin-right: -38px;
+    margin-left: 0;
+}
+
+html[dir="rtl"] .school-table .dropdown .dropdown-toggle {
+    padding: 5px 20px 5px 23px!important;
+}
+
+html[dir="rtl"] .school-table .dropdown .dropdown-toggle:after {
+    right: auto;
+    left: 0!important;
+    top: 0px!important;
+}
+
+/* Radio button */
+
+html[dir="rtl"] .primary-btn.fix-gr-bg:not(.icon-only){
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    gap: 8px;
+}
+
+html[dir="rtl"] .primary-btn.fix-gr-bg:not(.icon-only):hover{
+    color: #ffffff;
+}
+
+html[dir="rtl"] .radio-btn-flex input {
+    display: none;
+}
+html[dir="rtl"] .radio-btn-flex input:checked ~ label::after {
+    display: flex;
+    right: 0px !important;
+}
+html[dir="rtl"] .radio-btn-flex label {
+    cursor: pointer;
+    position: relative;
+    padding-right: 24px;
+    padding-left: 0;
+    text-indent: 0px !important;
+    margin-bottom: 0 !important;
+}
+html[dir="rtl"] .radio-btn-flex label::before, html[dir="rtl"] .radio-btn-flex label::after {
+    content: "";
+    --width: 18px;
+    width: var(--width);
+    height: var(--width);
+    line-height: var(--width);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) scale(1) rotate(8deg);
+    border: 1px solid #828BB2;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+html[dir="rtl"] .radio-btn-flex label::after {
+    content: "\e64c";
+    font-family: "themify";
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    background: linear-gradient(90deg, var(--gradient_1) 0.47%, var(--gradient_3) 100%);
+    box-shadow: 0px 5px 10px rgba(108, 39, 255, 0.25);
+    transition: 0.3s;
+    display: none;
+}
+
+/* Checkbox */
+
+html[dir="rtl"] .common-checkbox~label {
+    padding-right: 33px;
+    margin-bottom: 0!important;
+}
+
+html[dir="rtl"] .common-checkbox~label::before, 
+html[dir="rtl"] .common-checkbox~label::after {
+    left: 0px !important;
+    right: 10px !important;
+}
+
+html[dir="rtl"] .common-checkbox:checked + label:before{
+    top: 12px;
+}
+
+html[dir="rtl"] .primary-btn.small .ti-plus, 
+html[dir="rtl"] .primary-btn.small .ti-search {
+    top: 0px!important;
+}
+
+@media only screen and (max-width:575px) {
+    .header_right .infix_session:not(.dropdown .infix_session),
+    .header_right .languageChange:not(.dropdown .languageChange) {
+        display: none !important;
+    }
+}
+html[dir="rtl"] .nice-select{
+    text-align: right !important;
+}
+
+@media (max-width: 991.98px) {
+    html[dir="rtl"] .small_logo_crm {
+        padding-right: 35px;
+        padding-left: 0;
+    }
+}
+
+
+/* Data table filter */
+
+@media (min-width: 1440px) and (max-width: 1665px) {
+    html[dir="rtl"] .QA_section .QA_table .dataTables_wrapper .dataTables_filter>label {
+        right: 26% !important;
+        left: auto!important;
+    }
+}
+@media (max-width: 1440px) {
+    html[dir="rtl"] .QA_section .QA_table .dataTables_wrapper .dataTables_filter>label {
+        right: 58% !important;
+        left: auto!important;
+        top: -56px!important;
+    }
+}
+
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    html[dir="rtl"] .QA_section .QA_table .dataTables_wrapper .dataTables_filter label {
+        right: auto !important;
+        left: 17%!important;
+    }
+}
+@media (max-width: 991px) {
+
+    html[dir="rtl"] .dataTables_filter > label {
+        left: auto !important;
+        right: 0% !important;
+        transform: translateX(0%);
+        top: 6px !important;
+    }
+
+    html[dir="rtl"] .up_admin_visitor .dataTables_filter > label{
+        position: absolute;
+    }
+    html[dir="rtl"] .QA_section.QA_section_heading_custom.check_box_table{
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    html[dir="rtl"] .up_admin_visitor .QA_section .QA_table .dataTables_filter > label,
+    html[dir="rtl"] .QA_section .QA_table .dataTables_wrapper .dataTables_filter>label{
+        position: relative !important;
+        right: 0 !important;
+        top: 0!important;
+    }
+}
+
+html[dir="rtl"] .cust-margin {
+    margin-left: 0 !important;
+    margin-right: -140px!important
+}
+
+html[dir="rtl"] .loader_style.loader{
+    float: left;
+    padding-left: 35px;
+    padding-right: 0!important;
+}
+
+html[dir="rtl"] .common-radio:empty ~ label{
+    float: right;
+}
+
+html[dir="rtl"] .radio-btn-flex label{
+    line-height: 24px;
+}
+
+html[dir="rtl"] .pull-right{
+    float: left!important;
+}
+
+html[dir="rtl"] section.sms-breadcrumb .row {
+    gap: 20px;
+}
+
+html[dir="rtl"] .erp_role_permission_area .single_permission .permission_body > ul > li ul li {
+    margin-right: 0;
+}
+
+html[dir="rtl"] .erp_role_permission_area .single_permission .permission_body > ul > li ul{
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+html[dir="rtl"] .sidebar #sidebar_menu li ul li a{
+    display: inline-block;
+    white-space: initial!important;
+}
+
+html[dir="rtl"] .CRM_dropdown.dropdown .dropdown-toggle {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+html[dir="rtl"] .CRM_dropdown.dropdown .dropdown-toggle:after{
+    top: -1px;
+}
+
+html[dir="rtl"] #accordion .card-header a {
+    color: white;
+}
+
+html[dir="rtl"] a.primary-btn.small.tr-bg {
+    width: max-content;
+}
+
+
+@media (max-width: 576px){
+    html[dir="rtl"] a.primary-btn.small.tr-bg {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+}
+html[dir="rtl"] .primary_file_uploader input{
+    border-radius: 4px;
+}
+
+html[dir="rtl"] .modal-header .close {
+    color: black !important;
+}
+
+html[dir="rtl"] .school-table .dropdown .dropdown-toggle {
+    align-items: center;
+}
+
+div#toast-container .toast {
+    padding-left: 15px;
+    padding-right: 50px;
+    background-position: right 15px center;
+    text-align: right;
+}
+
+div#toast-container .toast .toast-close-button {
+    right: auto;
+    left: -.3em;
+    float: left;
+}
+
+html[dir="rtl"] .primary_input_field {
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+html[dir="rtl"] .CRM_dropdown.dropdown .dropdown-toggle{
+    padding: 5px 20px 5px 23px;
+}
+
+html[dir="rtl"] .ms-options-wrap button,
+html[dir="rtl"] .ms-options-wrap button.ms-active{
+    text-align: right!important;
+    font-weight: 300!important;
+    font-size: 13px;
+}
+
+html[dir="rtl"] .ms-options-wrap button::after{
+    right: auto!important;
+    left: 25px!important;
+}
+
+html[dir="rtl"] .input-right-icon button i {
+    top: -10px;
+}
+
+html[dir="rtl"] .input-right-icon button{
+    z-index: 10;
+}
+
+html[dir="rtl"] .input-right-icon button.primary-btn-small-input {
+    margin-left: -38px;
+    margin-right: -118px;
+}
+
+html[dir="rtl"] .up_st_admin_visitor .dataTables_filter > label{
+    z-index: 100!important;
+}
+
+html[dir="rtl"] .primary_input_field + .primary_input-icon {
+    position: absolute;
+    right: auto;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+html[dir="rtl"] .language_table a.primary-btn.small.tr-bg {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+html[dir="rtl"] .language_table .primary-btn.small .ti-check {
+    float: none;
+    position: initial;
+    top: auto;
+    left: auto;
+}
+
+
+html[dir="rtl"] #livesearch,
+html[dir="rtl"] #liveStudentSearch {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: var(--box_shadow);
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    z-index: 999 !important;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+html[dir="rtl"] #livesearch a,
+html[dir="rtl"] #liveStudentSearch a {
+    display: inline-block;
+    padding: 8px 20px;
+    color: #828bb2;
+}
+
+html[dir="rtl"] #livesearch a:hover,
+html[dir="rtl"] #liveStudentSearch a:hover {
+    background-color: #f6f6f6;
+}
+
+
+html[dir="rtl"] .ms-options-wrap > .ms-options > ul label{
+    padding-left: 29px;
+    padding-right: 35px;
+    text-align: right;
+}
+
+html[dir="rtl"] .infix_ul_lists li .checkmark, 
+html[dir="rtl"] .infix_ul_lists li:before {
+    left: auto;
+    right: 9px;
+}
+/* Marks sheet report */
+html[dir="rtl"] .single-report-admit .card-body .line_grid {
+    text-align: right;
+}
+
+html[dir="rtl"] .single-report-admit .card-body h3,
+html[dir="rtl"] .single-report-admit .card-body p{
+    text-align: right;
+}
+
+html[dir="rtl"] .single-report-admit .card-body table td,
+html[dir="rtl"] .single-report-admit .card-body table th{
+    text-align: right;
+}
+
+html[dir="rtl"] .single-report-admit .report-admit-img {
+    left: 30px;
+    right: auto;
+}
+
+html[dir="rtl"] .custom_table thead tr:first-child th:first-child {
+    text-align: right !important;
+}
+
+html[dir="rtl"] .single-report-admit table tr th,
+html[dir="rtl"] .single-report-admit table tr td{
+    text-align: right;
+}
+
+html[dir="rtl"] .single-report-admit table tr td {
+    padding-right: 8px !important;
+}
+
+html[dir="rtl"] .mark_sheet_footer td p.result-date {
+    text-align: right!important;
+    float: right!important;
+}
+
+html[dir="rtl"] .mark_sheet_footer td .thumb + p{
+    text-align: left!important;
+    float: left!important;
+}
+
+/* chat note editor */
+
+html[dir="rtl"] .ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg{
+    right: auto;
+    left: 0;
+}
+
+html[dir="rtl"] .ql-toolbar.ql-snow .ql-picker-label{
+        text-align: right;
+}
+
+html[dir="rtl"] #sidebar ul li ul{
+    margin-right: 32px;
+    margin-left: 36px;
+}
+
+html[dir="rtl"] .sidebar #sidebar_menu li a {
+    padding: 8px 28px 8px 7px;
+}

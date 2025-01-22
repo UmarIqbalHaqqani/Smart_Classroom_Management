@@ -1,0 +1,262 @@
+{
+    "name": "Contact Us",
+    "title": "Contact Us",
+    "description": "Contact Us",
+    "slug": "contact-us",
+    "home_page": 0,
+    "status": "published",
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "36bbe14a8e",
+                "data": [
+                    [
+                        {
+                            "id": "36bbe159ab",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "9x3",
+                "position": "1",
+                "grid_id": "36bbe2jaha",
+                "data": [
+                    [
+                        {
+                            "id": "36bbe305ch",
+                            "section_id": "contact-from",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "36bbe30e72",
+                            "section_id": "google-map",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "2",
+                "grid_id": "36bbe3685b",
+                "data": [
+                    [
+                        {
+                            "id": "36bbe3j410",
+                            "section_id": "event-gallery",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "36bbe159ab": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"breadcrumb-img.jpg\",\"path\":\"optionbuilder\/uploads\/697801-05-2024_1030ambreadcrumb-img.jpg\",\"mime\":\"jpg\",\"size\":122726,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/697801-05-2024_1030ambreadcrumb-img.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Contact Us",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Contact Us",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36bbe14a8e": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36bbe30e72": {
+                "settings": {
+                    "google_map_editor": {
+                        "value": "<p>Information<\/p><p><br><\/p><div class=\"contacts_info_card\" style=\"color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\">Email Address<p>hello@aorasoft.com<\/p><\/div><div class=\"contacts_info_card\" style=\"color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\">Phone Number<p>+968 9700 2784<\/p><\/div><div class=\"contacts_info_card\" style=\"color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\">Address<p>Al Khuwair, Muscat, Oman<\/p><\/div>",
+                        "is_array": "0"
+                    },
+                    "google_map_key": {
+                        "value": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m14!1m8!1m3!1d285.9450021539312!2d58.426811009055896!3d23.59402377030705!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e91ff006418d827%3A0x849613c8aae2dd81!2sRock%20international%20SPC!5e1!3m2!1sen!2som!4v1732686160258!5m2!1sen!2som\" width=\"250\" height=\"210\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36bbe2jaha": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36bbe3685b": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36bbe3h043": {
+                "settings": {
+                    "event_sub_heading": {
+                        "value": "#JOIN EVENTS",
+                        "is_array": "0"
+                    },
+                    "event_heading": {
+                        "value": "Join Upcoming Events",
+                        "is_array": "0"
+                    },
+                    "event_description": {
+                        "value": "Choose the most powerful courses and always be on demand",
+                        "is_array": "0"
+                    },
+                    "event_count": {
+                        "value": "2",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36bbe3j410": {
+                "settings": {
+                    "event_gallery_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "event_gallery_area_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "event_gallery_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    },
+                    "event_gallery_read_more_btn": {
+                        "value": "View Details",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_date": {
+                        "value": "1",
+                        "is_array": "0"
+                    },
+                    "event_gallery_show_location": {
+                        "value": "1",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36bbe305ch": {
+                "settings": {
+                    "heading": {
+                        "value": "Get in touch with us",
+                        "is_array": "0"
+                    },
+                    "sub_heading": {
+                        "value": "#CONTACT",
+                        "is_array": "0"
+                    },
+                    "name_placeholder": {
+                        "value": "Name",
+                        "is_array": "0"
+                    },
+                    "phone_placeholder": {
+                        "value": "Phone No",
+                        "is_array": "0"
+                    },
+                    "email_placeholder": {
+                        "value": "Type e-mail address",
+                        "is_array": "0"
+                    },
+                    "subject_placeholder": {
+                        "value": "Subject",
+                        "is_array": "0"
+                    },
+                    "message_placeholder": {
+                        "value": "Write message here",
+                        "is_array": "0"
+                    },
+                    "button_text": {
+                        "value": "Send Message",
+                        "is_array": "0"
+                    }
+                }
+            }
+        }
+    }
+}

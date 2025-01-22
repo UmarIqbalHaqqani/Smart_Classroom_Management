@@ -1,0 +1,111 @@
+/* Input border radius update */
+
+.primary_input_field,
+.primary_select,
+.ms-options-wrap button {
+    border-radius: 10px !important;
+}
+
+.primary-btn.small {
+    border-radius: 6px !important;
+}
+
+.primary_file_uploader .primary_input_field {
+    padding-bottom: 1px;
+}
+
+.primary_file_uploader button {
+    top: 8px !important;
+    right: 8px !important;
+}
+
+#main-content {
+    padding-bottom: 0 !important;
+}
+
+.student-add-form-container.white-box {
+    border-radius: 0 0 10px 10px;
+    padding: 0px 30px;
+}
+
+.student-add-form .nav-tabs {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid var(--base_color);
+}
+
+.student-add-form .nav-tabs .nav-link {
+    background: #ffffff;
+    color: var(--base_color);
+    border: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 0px;
+}
+
+.student-add-form .nav-tabs .nav-link.active {
+    background: #cad5f3;
+    border-radius: 6px;
+}
+
+.form-tab-container.white-box {
+    border-radius: 0 0 10px 10px;
+    padding: 0px 30px;
+}
+
+.form_tab.white-box {
+    border-radius: 0 0 10px 10px;
+    padding: 0px 30px;
+}
+
+.form_tab .nav-tabs {
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid var(--base_color);
+}
+
+.form_tab .nav-tabs .nav-link {
+    background: #ffffff;
+    color: var(--base_color);
+    border: 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 25px;
+    border-radius: 0px;
+    border: 1px solid #cad5f3;
+    border-radius: 6px;
+}
+
+@media (max-width: 767px){
+    .form_tab .nav-tabs .nav-link{
+        padding: 6px 8px;
+        font-size: 11px;
+    }
+    .nav.nav-tabs.tabs_scroll_nav{
+        gap: 5px;
+    }
+}
+
+.form_tab .nav-tabs .nav-link.active {
+    background: #cad5f3;
+    border-radius: 6px;
+}
+
+.form-section {
+    background: #f5f5f561;
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+/* change background image of pending button */
+
+.primary-btn.bg-warning {
+    background-color: #F29339 !important;
+}

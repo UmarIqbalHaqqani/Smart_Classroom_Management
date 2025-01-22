@@ -1,0 +1,58 @@
+.filterActivaty_wrapper {
+    width: 700px;
+    background: #FFFFFF;
+    box-shadow: 0px -3px 10px rgba(236, 208, 244, 0.25), 0px 8px 10px rgba(236, 208, 244, 0.25);
+    border-radius: 5px;
+    z-index: 9;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    left: 0;
+    top: 28px;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+
+    @media #{'(min-width: 992px) and (max-width: 1300px)'} {
+        width: 550px;
+    }
+
+    @media #{'(min-width: 1300px) and (max-width: 1700px)'} {
+        width: 550px;
+    }
+
+    @media #{$small_mobile} {
+        left: -30px;
+        width: 300px;
+    }
+
+    @media #{$large_mobile} {
+        width: 500px;
+    }
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+        top: 25px;
+    }
+
+    .filer_chek {
+        padding: 0 20px 10px 20px;
+    }
+
+    .box_header {
+        padding: 15px 15px 0 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid #ECEEF4;
+        margin-bottom: 25px;
+
+        .primary_input {}
+
+        .primary_input_field {
+            height: 30px;
+        }
+    }
+
+}

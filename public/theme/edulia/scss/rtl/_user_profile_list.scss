@@ -1,0 +1,123 @@
+.user_profile_table {
+    thead {
+        tr {
+            th {
+                &:first-child {
+                    width: 50px;
+                }
+
+                &:nth-child(2) {
+                    width: 100px;
+                }
+
+                &:nth-child(3) {
+                    width: 20%;
+                }
+
+                &:nth-child(4) {
+                    width: 20%;
+                }
+
+                &:nth-child(5) {
+                    width: 20%;
+                }
+
+                &:nth-child(6) {
+                    width: 10%;
+                }
+
+                &:nth-child(7) {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    tr {
+        td {
+            vertical-align: middle;
+        }
+    }
+
+    .user_profile_photo {
+        max-height: 70px;
+        max-width: 50px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+// Single User Profile
+
+.profile_details_header {
+    margin-bottom: 50px;
+
+    .single_header_info{
+        display: flex;
+        gap: 10px;
+    }
+
+    .d-flex {
+        gap: 20px;
+    }
+
+    .info_type {
+        font-size: 14px;
+        color: $black;
+        font-weight: bold;
+    }
+
+    .info_value {
+        &.user-name {
+            font-size: 30px;
+        }
+    }
+
+    .user_photo {
+        height: 150px;
+        width: 140px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .print_btn {
+        a {
+            background: $blue;
+            padding: 10px 30px;
+            color: $white;
+            border-radius: 20px;
+
+            &:hover {
+                background: $naviblue;
+            }
+        }
+    }
+}
+
+.details_info_section {
+
+    &:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .sectoin_header {
+        background: lightgray;
+        padding: 5px 10px;
+        color: $black;
+        font-size: 20px;
+    }
+
+    .single_info {
+        display: flex;
+        gap: 10px;
+        .info_type {
+            font-weight: bold;
+            color: $black;
+            font-size: 14px;
+        }
+
+        .info_value {
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,180 @@
+{
+  "name": "header_menu",
+  "title": "Header",
+  "description": "Header Menu",
+  "slug": "frontend-header",
+  "status": "draft",
+  "home_page": 0,
+  "settings": {
+    "grids": [
+      {
+        "grid": "12x1",
+        "position": "0",
+        "grid_id": "3668458d91",
+        "data": [
+          [
+            {
+              "id": "36684594c1",
+              "section_id": "header-content",
+              "position": "0"
+            }
+          ]
+        ]
+      }
+    ],
+    "section_data": {
+      "36682f7i00": {
+        "settings": {
+          "speech_user_image": {
+            "value": [
+              "{\"type\":\"image\",\"name\":\"1.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/400010-20-2023_0523pm1.jpg\",\"mime\":\"jpg\",\"size\":36474,\"thumbnail\":\"https:\/\/infixedu.ischooll.com\/public\\\/storage\\\/optionbuilder\\\/uploads\\\/400010-20-2023_0523pm1.jpg\"}"
+            ],
+            "is_array": "1"
+          },
+          "speech_heading": {
+            "value": "Head Of Institution Speech",
+            "is_array": "0"
+          },
+          "speech_user_name": {
+            "value": "Irina Mikailova",
+            "is_array": "0"
+          },
+          "speech_user_designation": {
+            "value": "Principle",
+            "is_array": "0"
+          },
+          "speech_description": {
+            "value": "\u0997\u09a3\u09aa\u09cd\u09b0\u099c\u09be\u09a4\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09b0\u0995\u09be\u09b0\u09c7\u09b0 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3\u09be\u09b2\u09af\u09bc, \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u0993 \u0989\u099a\u09cd\u099a\u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0985\u09a7\u09bf\u09a6\u09aa\u09cd\u09a4\u09b0, \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u0993 \u0989\u099a\u09cd\u099a \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ac\u09cb\u09b0\u09cd\u09a1 \u09ac\u09b0\u09bf\u09b6\u09be\u09b2 \u098f\u09b0 \u09a8\u09bf\u09af\u09bc\u09ae \u0995\u09be\u09a8\u09c1\u09a8\u09c7\u09b0 \u0986\u0993\u09a4\u09be\u09af\u09bc \u09aa\u09cd\u09b0\u09a4\u09bf\u09b7\u09cd\u09a0\u09bf\u09a4 \u0993 \u09b8\u09c1\u09aa\u09b0\u09bf\u099a\u09be\u09b2\u09bf\u09a4 \u098f\u0995\u099f\u09bf \u0990\u09a4\u09bf\u09b9\u09cd\u09af\u09ac\u09be\u09b9\u09c0 \u0993 \u0997\u09cc\u09b0\u09ac\u09ae\u09a8\u09cd\u09a1\u09bf\u09a4 \u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09aa\u09c0\u09a0\u0964 \u09a4\u09c1\u09b7\u0996\u09be\u09b2\u09c0 \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u099f\u09bf \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09c7 \u09aa\u09cd\u09b0\u09b6\u0982\u09b8\u09a8\u09c0\u09df \u09ad\u09c2\u09ae\u09bf\u0995\u09be \u09aa\u09be\u09b2\u09a8 \u0995\u09b0\u09c7 \u0986\u09b8\u099b\u09c7\u0964",
+            "is_array": "0"
+          }
+        }
+      },
+      "36684594c1": {
+        "settings": {
+          "header_top_menu": {
+            "value": "1",
+            "is_array": "0"
+          },
+          "header-left-menus": {
+            "value": {
+              "991697805676": {
+                "header-left-menu-icon-class": "fa fa-phone-alt",
+                "header-left-menu-label": "+1 (123) 456-7890",
+                "header-left-menu-icon-url": ""
+              },
+              "1698736479169": {
+                "header-left-menu-icon-class": "fa fa-envelope",
+                "header-left-menu-label": "hello@aorasoft.com",
+                "header-left-menu-icon-url": "mailto:hello@aorasoft.com"
+              }
+            },
+            "is_array": "1"
+          },
+          "header-right-menus": {
+            "value": {
+              "7311697805676": {
+                "header-right-icon-class": "fab fa-twitter",
+                "header-right-menu-label": "",
+                "header-right-icon-url": "https:\/\/twitter.com\/"
+              },
+              "1698736554262": {
+                "header-right-icon-class": "fab fa-instagram",
+                "header-right-menu-label": "",
+                "header-right-icon-url": "https:\/\/www.instagram.com\/"
+              },
+              "1698736606333": {
+                "header-right-icon-class": "fab fa-facebook",
+                "header-right-menu-label": "",
+                "header-right-icon-url": "https:\/\/www.facebook.com\/"
+              }
+            },
+            "is_array": "1"
+          },
+          "header_menu_search": {
+            "value": "1",
+            "is_array": "0"
+          },
+          "header_menu_search_placeholder": {
+            "value": "Search...",
+            "is_array": "0"
+          },
+          "header-parent-registration-is-show-menu": {
+            "value": "1",
+            "is_array": "0"
+          },
+          "header-right-parent-registration-menu-icon-class": {
+            "value": "fas fa-book",
+            "is_array": "0"
+          },
+          "header-parent-registration-menu-label": {
+            "value": "Parent Registration",
+            "is_array": "0"
+          },
+          "header-parent-registration-redirect-menu": {
+            "value": "1",
+            "is_array": "0"
+          }
+        }
+      },
+      "3668458d91": {
+        "styles": {
+          "content_width": "",
+          "width-height-type": "px",
+          "width": "",
+          "height": "",
+          "min-width": "",
+          "max-width": "",
+          "min-height": "",
+          "max-height": "",
+          "margin-type": "px",
+          "margin-top": "",
+          "margin-right": "",
+          "margin-bottom": "",
+          "margin-left": "",
+          "padding-type": "px",
+          "padding-top": "",
+          "padding-right": "",
+          "padding-bottom": "",
+          "padding-left": "",
+          "z-index": "",
+          "classes": "",
+          "custom_attributes": "",
+          "background-size": "",
+          "background-position": ""
+        }
+      },
+      "3672b6e43b": {
+        "settings": {
+          "header-left-menus": {
+            "value": {
+              "4571698724282": {
+                "header-left-menu-icon-class": "fa fa-phone-alt",
+                "header-left-menu-label": "+1 (123) 456-7890",
+                "header-left-menu-icon-url": ""
+              }
+            },
+            "is_array": "1"
+          },
+          "header-right-menus": {
+            "value": {
+              "6191698724282": {
+                "header-right-icon-class": "fab fa-twitter",
+                "header-right-menu-label": "",
+                "header-right-icon-url": "https:\/\/twitter.com\/"
+              }
+            },
+            "is_array": "1"
+          },
+          "header_menu_search": {
+            "value": "1",
+            "is_array": "0"
+          },
+          "header_menu_search_placeholder": {
+            "value": "Search...",
+            "is_array": "0"
+          }
+        }
+      }
+    }
+  }
+}

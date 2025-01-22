@@ -1,0 +1,744 @@
+{
+    "name": "About",
+    "title": "About",
+    "description": "About",
+    "slug": "aboutus-page",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "366g37339i",
+                "data": [
+                    [
+                        {
+                            "id": "366g373cd7",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "6x2",
+                "position": "1",
+                "grid_id": "366g3842j5",
+                "data": [
+                    [
+                        {
+                            "id": "366g385d5j",
+                            "section_id": "speech",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "366g387i30",
+                            "section_id": "speech",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "2",
+                "grid_id": "366g39ca4e",
+                "data": [
+                    [
+                        {
+                            "id": "36b9723308",
+                            "section_id": "about-section",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "3",
+                "grid_id": "366g3aiidh",
+                "data": [
+                    [
+                        {
+                            "id": "36b970ib49",
+                            "section_id": "facilities",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "4",
+                "grid_id": "366g3b8ii9",
+                "data": [
+                    [
+                        {
+                            "id": "366g3bc4be",
+                            "section_id": "counter",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "5",
+                "grid_id": "366g3c3871",
+                "data": [
+                    [
+                        {
+                            "id": "366g3c7821",
+                            "section_id": "testimonial",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "6",
+                "grid_id": "366g588g41",
+                "data": [
+                    [
+                        {
+                            "id": "366g58a15i",
+                            "section_id": "teacher",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "6x2",
+                "position": "7",
+                "grid_id": "366g5d3e2e",
+                "data": [
+                    [
+                        {
+                            "id": "36b976ddbg",
+                            "section_id": "cta",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "366g5d60dc",
+                            "section_id": "faqs",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "3667jg44be": {
+                "settings": {
+                    "about_area_heading": {
+                        "value": "When Ambition Meets Opportunity.",
+                        "is_array": "0"
+                    },
+                    "about_area_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    },
+                    "about_area_list_items": {
+                        "value": {
+                            "7051697791406": {
+                                "item_heading": "International Certification",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366g373cd7": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/794411-10-2023_1250pmhero-bg-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/794411-10-2023_1250pmhero-bg-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "About Us",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "About Us",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366g37339i": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g385d5j": {
+                "settings": {
+                    "speech_user_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/447611-10-2023_1250pm1.jpg\",\"mime\":\"jpg\",\"size\":41661,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/447611-10-2023_1250pm1.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "speech_heading": {
+                        "value": "Head Of Institution Speech",
+                        "is_array": "0"
+                    },
+                    "speech_user_name": {
+                        "value": "Genoveva Lebsack",
+                        "is_array": "0"
+                    },
+                    "speech_user_designation": {
+                        "value": "Principle",
+                        "is_array": "0"
+                    },
+                    "speech_description": {
+                        "value": "<div><span>Dear Students, Faculty, Parents, and Guests, <br> As Principal of infixEDU, I am honored to address you today as we begin another exciting chapter. InfixEDU is more than a school; it is a place where dreams come alive, talents flourish, and lasting memories are created.<br><br>To our students, you are the heart of our community, each bringing unique colors to our tapestry. To our faculty, your dedication as mentors inspires growth and success. To our parents, your unwavering support fuels this journey of learning and discovery.<br><br>This year, let us continue striving for excellence, embracing challenges with resilience and hope. Together, we can achieve greatness.<br><br>Warm regards,<br>Genoveva Lebsack,<br>Principal, infixEDU School</span></div>",
+                        "is_array": false
+                    }
+                }
+            },
+            "366g3842j5": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g387i30": {
+                "settings": {
+                    "speech_user_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"1.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/447611-10-2023_1250pm3\",\"mime\":\"jpg\",\"size\":36474,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/447611-10-2023_1250pm3.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "speech_heading": {
+                        "value": "Vice Principal Speech",
+                        "is_array": "0"
+                    },
+                    "speech_user_name": {
+                        "value": "Joseph Forster",
+                        "is_array": "0"
+                    },
+                    "speech_user_designation": {
+                        "value": "Vice Principal",
+                        "is_array": "0"
+                    },
+                    "speech_description": {
+                        "value": "<div><span>Dear infixEDU Family, <br> It is my pleasure to address you as Vice Principal as we embark on a new academic chapter. At infixEDU, we embrace excellence as a journey of growth and self-discovery.<br><br>To our students, you inspire us with your unique talents and aspirations. To our faculty, your dedication as mentors creates an environment where students thrive. To our parents, your partnership and support are vital to our success.<br><br>Together, let us embrace the opportunities and challenges ahead with resilience and collaboration.<br><br>Warm regards,<br>Joseph Forster,<br>Vice Principal, infixEDU School</span></div>",
+                        "is_array": false
+                    }
+
+                }
+            },
+            "366g39d63j": {
+                "settings": {
+                    "about_area_img_medium": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-4.jpg\",\"path\":\"optionbuilder\/uploads\/742511-10-2023_1252pmabout-img-4.jpg\",\"mime\":\"jpg\",\"size\":62937,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/742511-10-2023_1252pmabout-img-4.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_large": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-2.jpg\",\"path\":\"optionbuilder\/uploads\/756311-10-2023_1252pmabout-img-2.jpg\",\"mime\":\"jpg\",\"size\":37688,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/756311-10-2023_1252pmabout-img-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_small": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-3.jpg\",\"path\":\"optionbuilder\/uploads\/775411-10-2023_1252pmabout-img-3.jpg\",\"mime\":\"jpg\",\"size\":6167,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/775411-10-2023_1252pmabout-img-3.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_heading": {
+                        "value": "When Ambition Meets Opportunity.",
+                        "is_array": "0"
+                    },
+                    "about_area_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    },
+                    "about_area_list_items": {
+                        "value": {
+                            "6731698315149": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-1.png\",\"path\":\"optionbuilder\/uploads\/980711-10-2023_1252pmfeature-icon-1.png\",\"mime\":\"png\",\"size\":2208,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/980711-10-2023_1252pmfeature-icon-1.png\"}"
+                                ],
+                                "item_heading": "International Certification",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            },
+                            "1698315250693": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-2.png\",\"path\":\"optionbuilder\/uploads\/270411-10-2023_1252pmfeature-icon-2.png\",\"mime\":\"png\",\"size\":2292,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/270411-10-2023_1252pmfeature-icon-2.png\"}"
+                                ],
+                                "item_heading": "World\u2019s Best Curriculum",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366g39ca4e": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g3b0e3b": {
+                "settings": {
+                    "about_info_heading": {
+                        "value": "Our Education System Works For You.",
+                        "is_array": "0"
+                    },
+                    "about_info_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. Explore new skills, deepen existing passions, and get lost creativity. What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    },
+                    "about_info_img": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-5.jpg\",\"path\":\"optionbuilder\/uploads\/667211-10-2023_1253pmabout-img-5.jpg\",\"mime\":\"jpg\",\"size\":34767,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/667211-10-2023_1253pmabout-img-5.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366g3aiidh": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g3b8ii9": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g3bc4be": {
+                "settings": {
+                    "counter_heading": {
+                        "value": "What will you Discover?",
+                        "is_array": "0"
+                    },
+                    "counter_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost in creativity.What you find just might surprise and inspire you. With so much to explore, real projects to create,and the support f fellow-creatives, Turitor empower",
+                        "is_array": "0"
+                    },
+                    "view_course_button": {
+                        "value": "View Course",
+                        "is_array": "0"
+                    },
+                    "contact_us_button": {
+                        "value": "Contact Us",
+                        "is_array": "0"
+                    },
+                    "counter_list_items": {
+                        "value": {
+                            "7481698315460": {
+                                "item_number": "649",
+                                "item_heading": "Courses & Videos",
+                                "item_symbol": "+"
+                            },
+                            "1698315486005": {
+                                "item_number": "265",
+                                "item_heading": "Expart teachers",
+                                "item_symbol": "+"
+                            },
+                            "1698315507462": {
+                                "item_number": "4806",
+                                "item_heading": "Total student",
+                                "item_symbol": "+"
+                            },
+                            "1698315526736": {
+                                "item_number": "310",
+                                "item_heading": "Classes complete",
+                                "item_symbol": "+"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366g3c7821": {
+                "settings": {
+                    "testimonial_sub_heading": {
+                        "value": "#CLIENT TESTIMONIAL",
+                        "is_array": "0"
+                    },
+                    "testimonial_heading": {
+                        "value": "What Clients Say About Us",
+                        "is_array": "0"
+                    },
+                    "testionmonial_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "testionmonial_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366g3c3871": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g58a15i": {
+                "settings": {
+                    "teacher_sub_heading": {
+                        "value": "Teachers",
+                        "is_array": "0"
+                    },
+                    "teacher_heading": {
+                        "value": "Our Expart Teachers",
+                        "is_array": "0"
+                    },
+                    "teacher_count": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "teacher_area_column": {
+                        "value": "3",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366g588g41": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g5d42a4": {
+                "settings": {
+                    "online_admission_header": {
+                        "value": "Online Admission going on session 2024-25",
+                        "is_array": "0"
+                    },
+                    "online_admission_header_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity what you find just might surprise and inspire you.",
+                        "is_array": "0"
+                    },
+                    "online_admission_button": {
+                        "value": "Online Admission",
+                        "is_array": "0"
+                    },
+                    "online_admission_link": {
+                        "value": "#",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366g5d3e2e": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366g5d60dc": {
+                "settings": {
+                    "faqs_heading": {
+                        "value": "",
+                        "is_array": "0"
+                    },
+                    "faq_datas": {
+                        "value": {
+                            "621698322131": {
+                                "faq_question": "Does Infix Education offer a SaaS-based ERP solution?",
+                                "faq_answer": "<p><strong>Yes</strong>, Infix Education provides a cutting-edge SaaS-based ERP solution packed with tons of features to simplify educational management. Here’s a glimpse of what it offers:</p> <br> <ul style=\"list-style: none; padding: 0; margin: 0;\"> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>1. Multi-School Management:</strong> Manage multiple schools efficiently under a single platform.<\/li> <br> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>2. Student and Parent Management:</strong> Enable effective communication and tracking of student activities.<\/li> <br> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>3. Accounts Section:</strong> Oversee and manage all financial transactions seamlessly.<\/li> <br> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>4. Fees Section:</strong> Streamline fee collection and generate detailed records.<\/li> <br> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>5. Examination Section:</strong> Plan, schedule, and track examinations with ease.<\/li> <br> <li style=\"padding: 10px; border-bottom: 1px solid #eee;\"><strong>6. Communication Tools:</strong> Enhance collaboration with integrated communication features.<\/li> <br> <li style=\"padding: 10px;\"><strong>7. Reports:</strong> Generate detailed reports for informed decision-making and insights.<\/li> <\/ul> <br> <p>In addition to these core modules, Infix Education includes **tons of additional features** designed to handle every aspect of school management with ease. This robust solution ensures smooth operations for administrators, educators, and parents, making it the ultimate tool for modern educational institutions.<\/p>"
+                            },
+                            "1698322142093": {
+                               "faq_question": "Does Infix Education offer a support system?",
+                                "faq_answer": "<p><strong>Yes</strong>, Infix Education provides a dedicated support system to assist our users. Our best-in-class support team is always ready to resolve your queries and ensure a seamless experience with our platform.</p><br> <p>We take pride in offering prompt, professional, and reliable support to meet the unique needs of educational institutions. Whether it’s technical assistance, product guidance, or troubleshooting, our team has got you covered.</p><br> <a href=\"https://ticket.aorasoft.com/login\" style=\"display: inline-block; padding: 10px 15px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px; font-weight: bold;\">Visit Support System</a>"
+                            },
+                            "1698322264201": {
+                                "faq_question": "Is there an option to change the frontend design structure?",
+                                "faq_answer": "<span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz80zsz78zz72zz122zz85zauz85zz84zz80zz65zz88zqj38z87zz67zez72ziz70zaaxz85zfsz81za\">  <strong>Yes</strong>, Infix Education offers extensive customization options for frontend design. Using our innovative <strong>AoraPageBuilder</strong>, you can effortlessly modify the layout and design structure to suit your needs.</span><br><br><\/span><br>"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "36b970ib49": {
+                "settings": {
+                    "facilities_image_align": {
+                        "value": "right",
+                        "is_array": "0"
+                    },
+                    "facilities_image_upload": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-5.jpg\",\"path\":\"optionbuilder\/uploads\/525601-03-2024_0443pmabout-img-5.jpg\",\"mime\":\"jpg\",\"size\":34767,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/525601-03-2024_0443pmabout-img-5.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "facilities_heading": {
+                        "value": "Our Education System Works For You",
+                        "is_array": "0"
+                    },
+                    "facilities_description": {
+                        "value": "<p style=\"margin-bottom: 30px; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\">Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. Explore new skills, deepen existing passions, and get lost creativity.<\/p><p style=\"color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\">What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.<\/p>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36b9723308": {
+                "settings": {
+                    "about_area_img_medium": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"public/theme/edulia/img/about-img-4.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"public/theme/edulia/img/about-img-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_small": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"public/theme/edulia/img/about-img-3.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"public/theme/edulia/img/about-img-3.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_large": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"public/theme/edulia/img/about-img-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"public/theme/edulia/img/about-img-4.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "alignment_left_right": {
+                        "value": "",
+                        "is_array": "0"
+                    },
+                    "about_area_heading": {
+                        "value": "When Ambition Meets Opportunity.",
+                        "is_array": "0"
+                    },
+                    "about_area_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    },
+                    "about_area_list_items": {
+                        "value": {
+                            "2921704278748": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-1.png\",\"path\":\"optionbuilder\/uploads\/707201-03-2024_0447pmfeature-icon-1.png\",\"mime\":\"png\",\"size\":2208,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/707201-03-2024_0447pmfeature-icon-1.png\"}"
+                                ],
+                                "item_heading": "International Certification",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            },
+                            "1704278833046": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-2.png\",\"path\":\"optionbuilder\/uploads\/513301-03-2024_0447pmfeature-icon-2.png\",\"mime\":\"png\",\"size\":2292,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/513301-03-2024_0447pmfeature-icon-2.png\"}"
+                                ],
+                                "item_heading": "World\u2019s Best Curriculum",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "36b976ddbg": {
+                "settings": {
+                    "online_admission_header": {
+                        "value": "Online Admission going on session 2024-25",
+                        "is_array": "0"
+                    },
+                    "online_admission_header_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity what you find just might surprise and inspire you.",
+                        "is_array": "0"
+                    },
+                    "online_admission_button": {
+                        "value": "Online Admission",
+                        "is_array": "0"
+                    },
+                    "online_admission_link": {
+                        "value": "",
+                        "is_array": "0"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,362 @@
+{
+    "name": "Tuition Fees",
+    "title": "Tuition Fees",
+    "description": "Tuition Fees",
+    "slug": "tuition-fees",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "366ib7bbac",
+                "data": [
+                    [
+                        {
+                            "id": "366ib7cf8h",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "366ibebgf7",
+                "data": [
+                    [
+                        {
+                            "id": "366ibee208",
+                            "section_id": "page-heading",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "2",
+                "grid_id": "366ibfae56",
+                "data": [
+                    [
+                        {
+                            "id": "366ibfc253",
+                            "section_id": "services",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "3",
+                "grid_id": "366ibgaa9b",
+                "data": [
+                    [
+                        {
+                            "id": "366ibgc5j3",
+                            "section_id": "services",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "4",
+                "grid_id": "366ib850j0",
+                "data": [
+                    [
+                        {
+                            "id": "366ib87dg8",
+                            "section_id": "tuition-fees",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "366ib7cf8h": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/743511-10-2023_0229pmhero-bg-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/743511-10-2023_0229pmhero-bg-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Tuition Fees",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Tuition Fees",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366ib7bbac": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366ib87dg8": {
+                "settings": {
+                    "tuition_fees_heading": {
+                        "value": "Academic Year 2024 - 2025",
+                        "is_array": "0"
+                    },
+                    "tuition_fees_sub_heading": {
+                        "value": "Annual tuition fees in advance and SAVE 4.25% on GEMS school fees.",
+                        "is_array": "0"
+                    },
+                    "tuition_fees_col1": {
+                        "value": "Tuition Fees",
+                        "is_array": "0"
+                    },
+                    "tuition_fees_col2": {
+                        "value": "KG1 & KG2",
+                        "is_array": "0"
+                    },
+                    "tuition_fees_col3": {
+                        "value": "Grade 1 to 5",
+                        "is_array": "0"
+                    },
+                    "tuition_fees_items": {
+                        "value": {
+                            "1541698468543": {
+                                "tuition_fees_item_col_1": "April",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469083225": {
+                                "tuition_fees_item_col_1": "May",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469178812": {
+                                "tuition_fees_item_col_1": "June",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469186215": {
+                                "tuition_fees_item_col_1": "July",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469186951": {
+                                "tuition_fees_item_col_1": "August",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469187623": {
+                                "tuition_fees_item_col_1": "September",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469239998": {
+                                "tuition_fees_item_col_1": "October",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469268610": {
+                                "tuition_fees_item_col_1": "November",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            },
+                            "1698469269828": {
+                                "tuition_fees_item_col_1": "December",
+                                "tuition_fees_item_col_2": "758",
+                                "tuition_fees_item_col_3": "930"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366ib850j0": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366ibee208": {
+                "settings": {
+                    "page_heading_title": {
+                        "value": "Convenient, structured payments for an outstanding education",
+                        "is_array": "0"
+                    },
+                    "page_heading_sub_title": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you with so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366ibebgf7": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366ibfc253": {
+                "settings": {
+                    "heading": {
+                        "value": "Fees and Payments",
+                        "is_array": "0"
+                    },
+                    "paragraph": {
+                        "value": "<p>The tuition fees are due prior to the start of the academic year and payable in advance of attendance, at the start of each month. Tuition fees will be invoiced from the time of admission to ensure that payments can be processed before the start of the month. If your circumstances change.<\/p><p><br><\/p><p>Telephone:&nbsp;<span style=\"text-align: var(--bs-body-text-align);\">+96897002784<\/span><\/p><p><span style=\"text-align: var(--bs-body-text-align);\"><br><\/span><\/p><p>Email: hello@aorasoft.com<\/p>",
+                        "is_array": "0"
+                    },
+                    "service_details": {
+                        "value": {
+                            "4881699604954": {
+                                "heading": "Payment Deadlines",
+                                "paragraph": "All payments must be completed by the specified deadlines to ensure smooth processing of your enrollment and continued attendance. Late payments may incur penalties or result in access to services being restricted. Please contact us if you need assistance or encounter difficulties in meeting payment deadlines.",
+                                "cta-text": "Read More",
+                                "cta-url": "tuition-fees"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "366ibfae56": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366ibgc5j3": {
+                "settings": {
+                    "heading": {
+                        "value": "Payment Policies",
+                        "is_array": "0"
+                    },
+                    "paragraph": {
+                        "value": "The tuition fees are due prior to the start of the academic year and payable in advance of attendance, at the start of each month Tuition fees will be invoiced from the time of admission to ensure that payments can be processed before the start of the month If your circumstances change, it is essential that you contact us in advance.",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366ibgaa9b": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

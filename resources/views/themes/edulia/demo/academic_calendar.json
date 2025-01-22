@@ -1,0 +1,142 @@
+{
+    "name": "Academic Calendar",
+    "title": "Academic Calendar",
+    "description": "Academic Calendar",
+    "slug": "academic-calendars",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "366id8fe2h",
+                "data": [
+                    [
+                        {
+                            "id": "366id8fjh0",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "366id91e5e",
+                "data": [
+                    [
+                        {
+                            "id": "366id93705",
+                            "section_id": "academic-calendar",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "366id8fjh0": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/4911-10-2023_1255pmhero-bg-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"[App_url]/storage\\\/optionbuilder\\\/uploads\\\/4911-10-2023_1255pmhero-bg-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Academic Calendar",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Academic Calendar",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366id8fe2h": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366id93705": {
+                "settings": {
+                    "academic_calendar_heading": {
+                        "value": "Academic Calendar",
+                        "is_array": "0"
+                    },
+                    "academic_calendar_sl": {
+                        "value": "SL",
+                        "is_array": "0"
+                    },
+                    "academic_calendar_title": {
+                        "value": "Title",
+                        "is_array": "0"
+                    },
+                    "academic_calendar_date": {
+                        "value": "Publish Date",
+                        "is_array": "0"
+                    },
+                    "academic_calendar_action": {
+                        "value": "Action",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366id91e5e": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

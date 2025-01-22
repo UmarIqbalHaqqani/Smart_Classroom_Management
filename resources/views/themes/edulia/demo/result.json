@@ -1,0 +1,142 @@
+{
+    "name": "Result",
+    "title": "Result",
+    "description": "Result",
+    "slug": "result",
+    "home_page": 0,
+    "status": "published",
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "368dih4f9i",
+                "data": [
+                    [
+                        {
+                            "id": "368dih574c",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "368diha74a",
+                "data": [
+                    [
+                        {
+                            "id": "368dihd13d",
+                            "section_id": "front-result",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "368dih574c": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-breadcrumb-img.jpg\",\"path\":\"optionbuilder\/uploads\/734511-23-2023_0339pmabout-breadcrumb-img.jpg\",\"mime\":\"jpg\",\"size\":125303,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/734511-23-2023_0339pmabout-breadcrumb-img.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Result",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Result",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368dih4f9i": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "368dihd13d": {
+                "settings": {
+                    "front_result_heading": {
+                        "value": "Result",
+                        "is_array": "0"
+                    },
+                    "front_result_sl": {
+                        "value": "SL",
+                        "is_array": "0"
+                    },
+                    "front_result_title": {
+                        "value": "Title",
+                        "is_array": "0"
+                    },
+                    "front_result_date": {
+                        "value": "Date",
+                        "is_array": "0"
+                    },
+                    "front_result_action": {
+                        "value": "Action",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368diha74a": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

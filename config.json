@@ -1,0 +1,14 @@
+{
+    "version": "8.2.6",
+    "release_date": "06/12/2024",
+    "required_manual_update": false,
+    "min": "8.2.3",
+    "migrations": [
+         "database/migrations/2024_10_07_094324_add_qr_code_module_on_database.php",
+         "database/migrations/2024_10_17_120149_add_photo_and_signature_column_on_sm_student_id_cards_table.php",
+         "database/migrations/2024_10_30_081453_update_8.2.6_demo_content.php"
+    ],
+    "url": "https://spondonit.com/contact",
+    "notes": "This is a mostly bug fixing update."
+  }
+

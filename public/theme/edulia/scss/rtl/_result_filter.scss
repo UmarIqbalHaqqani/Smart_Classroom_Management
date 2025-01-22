@@ -1,0 +1,50 @@
+.result_filters {
+    margin-bottom: 20px;
+
+    .required {
+        color: red;
+    }
+
+    .row {
+        row-gap: 20px;
+    }
+
+    .nice-select {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .result_filter_input {
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid #e0e7eb;
+        border-radius: 5px;
+        padding: 15px 20px;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        font-family: "Inter", sans-serif;
+        height: 55px;
+        color: $naviblue;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    #academic_year_selector,
+    #class_selector,
+    #shift_selector,
+    #section_selector,
+    #group_selector {
+        &+.nice-select {
+            padding: 15px;
+        }
+    }
+
+    .boxed_btn.search_btn {
+
+        @include Mobile {
+            padding: 15px 40px;
+        }
+    }
+}

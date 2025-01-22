@@ -1,0 +1,171 @@
+.user_list_filters{
+    margin-bottom: 20px;
+    .row{
+        row-gap: 20px;
+    }
+    .nice-select {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #academic_year_selector,
+    #class_selector,
+    #shift_selector,
+    #section_selector,
+    #group_selector,
+    #teacher_shift_selector {
+        & + .nice-select{
+            padding: 15px;
+        }
+    }
+    .boxed_btn.search_btn{
+        @include Mobile{
+            padding: 15px 40px;
+        }
+    }
+}
+
+.user_list_container{
+    #user_list {
+        border: 1px solid $border;
+        width: 100%;
+        margin: 50px 0!important;
+        margin-top: 20px!important;
+        margin-bottom: 20px!important;
+        padding: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        @include oTablet{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        @include Mobile{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .total_student{
+            border: 1px solid $border;
+            margin-top: 50px;
+        }
+        .single-student-info{
+            .user_photo{
+                height: 120px;
+                width: 120px;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+                object-position: top center;
+                border: 2px solid $border;
+                @include Mobile{
+                    height: 100px;
+                    width: 100px;
+                }
+            }
+        }
+        .additional_info p {
+            border: 1px solid $border;
+            margin-bottom: -1px;
+            padding: 2px 5px;
+        }
+        .user_item {
+            border: 3px solid $border;
+            padding: 15px;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: left;
+            color: $text-color;
+            border-collapse: collapse!important;
+            .single-student-info{
+                gap: 10px;
+            }
+            .title{
+                font-weight: bolder!important;
+            }
+            .info{
+                .user_name{
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                    @include Mobile{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .user_list_table{
+        tr th, tr td{
+            padding: 8px;
+            font-size: 12px;
+        }
+        thead{
+            color: $text-color;
+        }
+        &.dataTable {
+            thead tr {
+                th {
+                    color: $text-color;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        border-top: 0;
+                    }
+                    &:last-child{
+                        td{
+                            border-bottom: 0;
+                        }
+                    }
+                }
+            }
+            &.no-footer{
+                border-bottom: 1px solid #E3E3E3;
+            }
+        }
+
+        .user_img{
+            height: 40px;
+            width: 32px;
+        }
+        .link_to_details {
+            color: $text-color;
+
+            &:hover{
+                text-decoration: underline;
+                text-underline-offset: 4px;
+            }
+        }
+        
+        .blood_group{
+            color: $text-color;
+        }
+    }
+
+    .search_query {
+        background: $input-text-color;
+        padding: 16px;
+        font-size: 20px;
+        color: $white;
+        text-align: center;
+        margin: 50px 0 20px 0;
+    }
+
+    .list_view_toggler{
+        background: $blue;
+        width: fit-content;
+        margin-left: auto;
+        padding: 4px;
+        border-radius: 4px;
+        margin-bottom: 20px;
+
+        button{
+            color: $white;
+            padding: 4px 8px;
+            &.active{
+                background: $naviblue!important;
+            }
+        }
+    }
+}

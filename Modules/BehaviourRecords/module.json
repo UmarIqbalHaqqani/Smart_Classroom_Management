@@ -1,0 +1,13 @@
+{
+    "name": "BehaviourRecords",
+    "alias": "behaviourrecords",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\BehaviourRecords\\Providers\\BehaviourRecordsServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

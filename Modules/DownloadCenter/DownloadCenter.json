@@ -1,0 +1,22 @@
+{
+    "DownloadCenter": {
+        "migration": {
+            "content_types" : "Modules/DownloadCenter/Database/Migrations/2023_08_31_031255_create_content_types_table.php",
+            "contents" : "Modules/DownloadCenter/Database/Migrations/2023_08_31_102733_create_contents_table.php",
+            "content_share_lists" : "Modules/DownloadCenter/Database/Migrations/2023_09_04_065348_create_content_share_lists_table.php",
+            "video_uploads" : "Modules/DownloadCenter/Database/Migrations/2023_09_04_085741_create_video_uploads_table.php"
+        },
+        "names": [
+            
+        ],
+        "versions": [
+            "1.0"
+        ],
+        "url": [
+            "https://spondonit.com/contact"
+        ],
+        "notes": [
+            "This is Download Center module. Thanks for using."
+        ]
+    }
+}

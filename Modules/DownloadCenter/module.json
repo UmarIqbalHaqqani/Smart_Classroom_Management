@@ -1,0 +1,13 @@
+{
+    "name": "DownloadCenter",
+    "alias": "downloadcenter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\DownloadCenter\\Providers\\DownloadCenterServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

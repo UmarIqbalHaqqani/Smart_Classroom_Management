@@ -1,0 +1,738 @@
+/*==== ABOUT AREA ====*/
+
+.about_us {
+    @include oTablet {
+        margin-top: 80px;
+    }
+
+    .offset-xxl-1 {
+        @include Laptop {
+            padding-left: 3%;
+        }
+
+        @include Ipad {
+            padding-left: 5%;
+        }
+    }
+
+    &_img {
+        width: 100%;
+        height: 100%;
+
+        & img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        &_inner {
+            width: 505px;
+            height: 615px;
+            margin: auto;
+
+            @include Laptop {
+                width: 100%;
+                height: 100%;
+            }
+
+            @include Ipad {
+                width: 100%;
+                height: 100%;
+            }
+
+            @include Tablet {
+                width: 100%;
+                height: 100%;
+            }
+
+            @include Mobile {
+                width: 100%;
+                height: 350px;
+                margin-bottom: 30px;
+            }
+
+            @include sMobile {
+                height: 300px;
+                margin-bottom: 25px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        &_flex {
+            @include d-flex(wrap);
+            margin-left: -10px;
+            margin-right: -10px;
+
+            &_left {
+                max-width: 37%;
+                flex: 0 0 37%;
+
+                @include Mobile {
+                    max-width: 100%;
+                    flex: 0 0 100%;
+                    display: none;
+                }
+            }
+
+            &_right {
+                max-width: 63%;
+                flex: 0 0 63%;
+
+                @include Mobile {
+                    max-width: 100%;
+                    flex: 0 0 100%;
+                }
+            }
+        }
+
+        &_item {
+            padding-left: 10px;
+            padding-right: 10px;
+
+            &_img {
+                width: 100%;
+                height: 275px;
+                overflow: hidden;
+
+                @include Ipad {
+                    height: 145px;
+                }
+
+                @include Tablet {
+                    height: 105px;
+                }
+            }
+        }
+
+        & .small-img {
+            width: 150px;
+            height: 140px;
+            margin-left: auto;
+            margin-top: 20px;
+
+            @include Ipad {
+                width: 110px;
+                height: 100px;
+            }
+
+            @include Tablet {
+                width: 90px;
+                height: 80px;
+            }
+
+            @include Mobile {
+                height: 150px;
+                text-align: right;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+
+            & img {
+                @include Mobile {
+                    object-fit: contain;
+                }
+            }
+        }
+
+        & .large-img {
+            width: 100%;
+            height: 550px;
+
+            @include Laptop {
+                height: 500px;
+            }
+
+            @include Ipad {
+                height: 490px;
+            }
+
+            @include Tablet {
+                height: 350px;
+            }
+
+            @include Mobile {
+                height: 250px;
+                margin-bottom: 30px;
+            }
+
+            @include Mobile {
+                height: 200px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    &_inner {
+        @include Laptop {
+            padding-left: 30px;
+        }
+
+        & h3 {
+            font-size: 48px;
+            line-height: calc(65px / 50px);
+            margin-bottom: 40px;
+
+            @include Laptop {
+                font-size: 40px;
+            }
+
+            @include Ipad {
+                font-size: 34px;
+                margin-bottom: 25px;
+            }
+
+            @include Tablet {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+
+            @include Mobile {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+
+            @include sMobile {
+                font-size: 20px;
+            }
+        }
+
+        & p {
+            margin-bottom: 30px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+
+            @include Mobile {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+
+            @include sMobile {
+                margin-bottom: 15px;
+            }
+        }
+
+        & ul {
+            margin-bottom: 40px;
+
+            @include Ipad {
+                margin-bottom: 30px;
+            }
+
+            @include Tablet {
+                margin-bottom: 25px;
+            }
+
+            @include Mobile {
+                margin-bottom: 15px;
+            }
+
+            & li {
+                display: block;
+                font-size: 16px;
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+
+                & i {
+                    color: $green;
+                    margin-right: 10px;
+                }
+
+                @include Tablet {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+
+                @include Mobile {
+                    font-size: 14px;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        & a {
+            &:first-child {
+                font-size: 20px;
+                color: $green;
+
+                @include Ipad {
+                    font-size: 18px;
+                }
+
+                @include Tablet {
+                    font-size: 16px;
+                }
+
+                @include Mobile {
+                    font-size: 16px;
+                }
+
+                & svg {
+                    margin-right: 15px;
+
+                    @include Tablet {
+                        margin-right: 10px;
+                    }
+
+                    @include Mobile {
+                        width: 24px;
+                        height: 24px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+
+        & .site_btn {
+            margin-top: 50px;
+
+            @include Ipad {
+                margin-top: 40px;
+            }
+
+            @include Tablet {
+                margin-top: 30px;
+            }
+
+            @include Mobile {
+                margin-top: 25px;
+            }
+        }
+
+        &_list {
+            &_item {
+                @include d-flex(wrap);
+                align-items: flex-start;
+                margin-top: 50px;
+
+                @include Tablet {
+                    margin-top: 40px;
+                }
+
+                @include Mobile {
+                    margin-top: 30px;
+                }
+
+                &_left {
+                    max-width: 13%;
+                    flex: 0 0 13%;
+
+                    @include Ipad {
+                        max-width: 17%;
+                        flex: 0 0 17%;
+                    }
+
+                    @include Tablet {
+                        max-width: 20%;
+                        flex: 0 0 20%;
+                    }
+
+                    @include Mobile {
+                        max-width: 16%;
+                        flex: 0 0 16%;
+                    }
+
+                    @include sMobile {
+                        max-width: 20%;
+                        flex: 0 0 20%;
+                    }
+                }
+
+                &_right {
+                    max-width: 87%;
+                    flex: 0 0 87%;
+
+                    @include Ipad {
+                        max-width: 83%;
+                        flex: 0 0 83%;
+                    }
+
+                    @include Tablet {
+                        max-width: 80%;
+                        flex: 0 0 80%;
+                    }
+
+                    @include Mobile {
+                        max-width: 84%;
+                        flex: 0 0 84%;
+                    }
+
+                    @include sMobile {
+                        max-width: 80%;
+                        flex: 0 0 80%;
+                    }
+                }
+
+                &_icon {
+                    width: 70px;
+                    height: 60px;
+                    box-shadow: 2px 3px 6px rgba($color: $black, $alpha: .10);
+
+                    @include Tablet {
+                        width: 60px;
+                        height: 50px;
+                    }
+
+                    @include sMobile {
+                        width: 50px;
+                        height: 40px;
+                    }
+
+                    & img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                &_inner {
+                    padding-left: 30px;
+
+                    @include Tablet {
+                        padding-left: 20px;
+                    }
+
+                    @include Mobile {
+                        padding-left: 15px;
+                    }
+
+                    & h4 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin-bottom: 0px;
+                        line-height: calc(36px / 20px);
+
+                        @include Tablet {
+                            font-size: 18px;
+                        }
+
+                        @include Mobile {
+                            font-size: 18px;
+                            line-height: 1.5;
+                            margin-bottom: 5px;
+                        }
+
+                        @include Mobile {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*==== TEAM AREA ====*/
+
+.team {
+    & .col-md-6 {
+        @include Mobile {
+            max-width: 50%;
+            flex: 0 0 50%;
+        }
+
+        @include sMobile {
+            max-width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+
+    &_member {
+        display: block;
+        margin-top: 20px;
+
+        @include Mobile {
+            margin-top: 25px;
+        }
+
+        &:hover {
+            & img {
+                transform: scale(1.05);
+            }
+
+            & h4 {
+                color: $blue;
+            }
+        }
+
+        &_img {
+            width: 100%;
+            height: 380px;
+            overflow: hidden;
+            background-color: $light-gray;
+            margin-bottom: 20px;
+
+            @include Laptop {
+                height: 300px;
+            }
+
+            @include Ipad {
+                height: 250px;
+            }
+
+            @include Tablet {
+                margin-bottom: 10px;
+                height: 350px;
+            }
+
+            @include Mobile {
+                height: 230px;
+                margin-bottom: 10px;
+            }
+
+            @include sMobile {
+                height: 300px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transform: scale(1);
+                transition: all .3s ease-in-out;
+            }
+        }
+
+        &_inner {
+            & h4 {
+                font-size: 20px;
+                line-height: calc(30px / 20px);
+                margin-bottom: 10px;
+                transition: all .3s ease-in-out;
+
+                @include Ipad {
+                    margin-bottom: 5px;
+                }
+
+                @include Tablet {
+                    margin-bottom: 5px;
+                }
+
+                @include Mobile {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            & p {
+                font-size: 16px;
+                line-height: calc(24px / 16px);
+                color: $text-color;
+
+                @include Mobile {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+
+/*==== FAQ AREA ====*/
+
+.faq_area {
+    &_admission {
+        padding: 0 8.3333%;
+
+        @include Tablet {
+            padding-right: 8.3333%;
+        }
+
+        @include Mobile {
+            padding: 0;
+            margin-bottom: 35px;
+        }
+
+        & h3 {
+            font-size: 34px;
+            line-height: calc(43px / 34px);
+            margin-bottom: 20px;
+
+            @include Ipad {
+                font-size: 30px;
+            }
+
+            @include Tablet {
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+
+            @include Mobile {
+                font-size: 24px;
+                margin-bottom: 10px;
+                line-height: calc(36px / 24px);
+            }
+
+            @include sMobile {
+                font-size: 20px;
+            }
+        }
+
+        & p {
+            font-size: 14px;
+            margin-bottom: 40px;
+            line-height: calc(26px / 14px);
+
+            @include Ipad {
+                margin-bottom: 30px;
+            }
+
+            @include Tablet {
+                margin-bottom: 25px;
+            }
+
+            @include Mobile {
+                margin-bottom: 20px;
+            }
+
+            @include sMobile {
+                margin-bottom: 25px;
+            }
+        }
+
+        & a {
+            padding-left: 25px;
+            padding-right: 25px;
+
+            @include Tablet {
+                padding: 10px 15px;
+            }
+
+            @include sMobile {
+                display: block;
+                text-align: center;
+            }
+        }
+    }
+
+    &_accordion {
+        padding-right: 16.67%;
+
+        @include Ipad {
+            padding-right: 0%;
+        }
+
+        @include Tablet {
+            padding-right: 0;
+        }
+
+        @include Mobile {
+            padding-right: 0;
+        }
+
+        & .accordion {
+            &-item {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                border: none !important;
+                transition: all .3s ease-in-out;
+                margin-bottom: 20px;
+
+                &:last-child {
+                    margin-bottom: 0px;
+                }
+            }
+
+            &-button {
+                display: block;
+                border: none !important;
+                box-shadow: 0 0 0 !important;
+                background-color: transparent;
+                color: $naviblue;
+                font-size: 16px;
+                line-height: calc(24px / 16px);
+                font-weight: 700 !important;
+                padding: 15px 30px;
+                position: relative;
+                z-index: 1;
+                border-bottom: 1px solid $border !important;
+                padding-top: 0px;
+
+                @include Tablet {
+                    font-size: 14px;
+                    padding: 10px 15px;
+                    padding-right: 0px;
+                }
+
+                @include sMobile {
+                    padding: 12px 20px;
+                }
+
+                &::after {
+                    display: none;
+                }
+
+                &::before {
+                    content: "\f067";
+                    font-family: "Font Awesome 5 Pro";
+                    font-weight: 300;
+                    color: $naviblue;
+                    position: absolute;
+                    left: 0;
+                }
+
+                &[aria-expanded=true] {
+                    padding: 0px 40px;
+                    padding-top: 30px;
+                    background-color: $light-gray;
+                    border-bottom: none !important;
+                    padding-left: 55px;
+
+                    @include Tablet {
+                        padding: 0;
+                        padding-left: 25px;
+                        padding-top: 15px;
+                    }
+
+                    @include sMobile {
+                        padding: 0px 20px;
+                        padding-top: 20px;
+                        padding-left: 25px;
+                    }
+
+                    &::before {
+                        content: "\f068";
+                        left: 30px;
+
+                        @include Tablet {
+                            left: 10px;
+                        }
+
+                        @include sMobile {
+                            left: 5px;
+                        }
+                    }
+                }
+            }
+
+            &-body {
+                padding: 0px 40px;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                background-color: $light-gray;
+                border-bottom: none !important;
+                padding-left: 55px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: calc(26px / 14px);
+
+                @include Tablet {
+                    padding: 0px 20px;
+                    padding-left: 25px;
+                }
+            }
+        }
+    }
+}

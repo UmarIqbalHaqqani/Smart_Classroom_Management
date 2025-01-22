@@ -1,0 +1,1226 @@
+{
+    "name": "Home",
+    "title": "Home",
+    "description": "Home",
+    "slug": "home",
+    "home_page": 1,
+    "status": "draft",
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "3671a78jid",
+                "data": [
+                    [
+                        {
+                            "id": "3671a7a4fg",
+                            "section_id": "home-slider",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "3671a7b9fa",
+                "data": [
+                    [
+                        {
+                            "id": "3671a7c2fd",
+                            "section_id": "home-page-noticeboard",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "2",
+                "grid_id": "3671a89b4c",
+                "data": [
+                    [
+                        {
+                            "id": "3671ai1j33",
+                            "section_id": "home-about-area",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "3",
+                "grid_id": "3671ai4i0f",
+                "data": [
+                    [
+                        {
+                            "id": "3671ai8066",
+                            "section_id": "photo-gallery",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "4",
+                "grid_id": "3671ai96ag",
+                "data": [
+                    [
+                        {
+                            "id": "3671aia54b",
+                            "section_id": "video-gallery",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "5",
+                "grid_id": "36b934ac8g",
+                "data": [
+                    [
+                        {
+                            "id": "36b934bja4",
+                            "section_id": "speech-slider",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "6",
+                "grid_id": "3671aiaj00",
+                "data": [
+                    [
+                        {
+                            "id": "3671aibicc",
+                            "section_id": "teacher",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "7",
+                "grid_id": "3671aiebb4",
+                "data": [
+                    [
+                        {
+                            "id": "3671b6h9e0",
+                            "section_id": "feature-area",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "8",
+                "grid_id": "36b9734j6b",
+                "data": [
+                    [
+                        {
+                            "id": "36b9735g3e",
+                            "section_id": "app-banner",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "9",
+                "grid_id": "3671aig97h",
+                "data": [
+                    [
+                        {
+                            "id": "3671aii3b6",
+                            "section_id": "course",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "10",
+                "grid_id": "3671aii9c7",
+                "data": [
+                    [
+                        {
+                            "id": "3671aij0id",
+                            "section_id": "counter",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "11",
+                "grid_id": "3671aj0243",
+                "data": [
+                    [
+                        {
+                            "id": "3671aj3gjf",
+                            "section_id": "event",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "12",
+                "grid_id": "3671ajc7ff",
+                "data": [
+                    [
+                        {
+                            "id": "3671ajd9bf",
+                            "section_id": "testimonial",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "13",
+                "grid_id": "3671ajec1j",
+                "data": [
+                    [
+                        {
+                            "id": "36b97d3e6g",
+                            "section_id": "news-section",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "6x2",
+                "position": "14",
+                "grid_id": "368e3ddd5e",
+                "data": [
+                    [
+                        {
+                            "id": "368e3dgiig",
+                            "section_id": "opening-hour",
+                            "position": "0"
+                        }
+                    ],
+                    [
+                        {
+                            "id": "368e3de051",
+                            "section_id": "notice",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "36682f7i00": {
+                "settings": {
+                    "speech_user_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"1.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/400010-20-2023_0523pm1.jpg\",\"mime\":\"jpg\",\"size\":36474,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/400010-20-2023_0523pm1.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "speech_heading": {
+                        "value": "Head Of Institution Speech",
+                        "is_array": "0"
+                    },
+                    "speech_user_name": {
+                        "value": "Irina Mikailova",
+                        "is_array": "0"
+                    },
+                    "speech_user_designation": {
+                        "value": "Principle",
+                        "is_array": "0"
+                    },
+                    "speech_description": {
+                        "value": "\u0997\u09a3\u09aa\u09cd\u09b0\u099c\u09be\u09a4\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09ac\u09be\u0982\u09b2\u09be\u09a6\u09c7\u09b6 \u09b8\u09b0\u0995\u09be\u09b0\u09c7\u09b0 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09a3\u09be\u09b2\u09af\u09bc, \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u0993 \u0989\u099a\u09cd\u099a\u09b6\u09bf\u0995\u09cd\u09b7\u09be \u0985\u09a7\u09bf\u09a6\u09aa\u09cd\u09a4\u09b0, \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u0993 \u0989\u099a\u09cd\u099a \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ac\u09cb\u09b0\u09cd\u09a1 \u09ac\u09b0\u09bf\u09b6\u09be\u09b2 \u098f\u09b0 \u09a8\u09bf\u09af\u09bc\u09ae \u0995\u09be\u09a8\u09c1\u09a8\u09c7\u09b0 \u0986\u0993\u09a4\u09be\u09af\u09bc \u09aa\u09cd\u09b0\u09a4\u09bf\u09b7\u09cd\u09a0\u09bf\u09a4 \u0993 \u09b8\u09c1\u09aa\u09b0\u09bf\u099a\u09be\u09b2\u09bf\u09a4 \u098f\u0995\u099f\u09bf \u0990\u09a4\u09bf\u09b9\u09cd\u09af\u09ac\u09be\u09b9\u09c0 \u0993 \u0997\u09cc\u09b0\u09ac\u09ae\u09a8\u09cd\u09a1\u09bf\u09a4 \u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09aa\u09c0\u09a0\u0964 \u09a4\u09c1\u09b7\u0996\u09be\u09b2\u09c0 \u09ae\u09be\u09a7\u09cd\u09af\u09ae\u09bf\u0995 \u09ac\u09bf\u09a6\u09cd\u09af\u09be\u09b2\u09df\u099f\u09bf \u09b6\u09bf\u0995\u09cd\u09b7\u09be \u09ac\u09bf\u09b8\u09cd\u09a4\u09be\u09b0\u09c7 \u09aa\u09cd\u09b0\u09b6\u0982\u09b8\u09a8\u09c0\u09df \u09ad\u09c2\u09ae\u09bf\u0995\u09be \u09aa\u09be\u09b2\u09a8 \u0995\u09b0\u09c7 \u0986\u09b8\u099b\u09c7\u0964",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671a7a4fg": {
+                "settings": {
+                    "home_slider_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671a78jid": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671a7c2fd": {
+                "settings": {
+                    "noticeboard_title": {
+                        "value": "Notice Board",
+                        "is_array": "0"
+                    },
+                    "noticeboard_show_more": {
+                        "value": "View All",
+                        "is_array": "0"
+                    },
+                    "noticeboard_show_more_link": {
+                        "value": "\/noticeboard",
+                        "is_array": "0"
+                    },
+                    "notice_gallery_count": {
+                        "value": "7",
+                        "is_array": "0"
+                    },
+                    "notice_gallery_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671a7b9fa": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671a89b4c": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671ai1j33": {
+                "settings": {
+                    "home_about_area_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-1.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/806911-10-2023_1157amabout-img-1.jpg\",\"mime\":\"jpg\",\"size\":33890,\"thumbnail\":\"[App_url]/public\\\/theme\\\/edulia\\\/img\\\/about-img-1.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "home_about_area_header": {
+                        "value": "When Your Dreams Meet a Chance",
+                        "is_array": "0"
+                    },
+                    "home_about_area_description": {
+                        "value": "<span class=\" author-d-1gg9uz65z1iz85zgdz68zmqkz84zo2qowz80zsz78zz72zz122zz85zauz85zz84zz80zz65zz88zqj38z87zz67zez72ziz70zaaxz85zfsz81za\">In the dynamic landscape of education, the need for efficient school management systems has never been more crucial. Enter infixEDU, a comprehensive solution designed to revolutionize the way educational institutions operate, ensuring a seamless and innovative approach to administration.<\/span>",
+                        "is_array": "0"
+                    },
+                    "home_about_area_items": {
+                        "value": {
+                            "1341698658898": {
+                                "item_heading": "Unlock Your School's Potential"
+                            },
+                            "1729674059829": {
+                                "item_heading": "Enhance Administrative Efficiency"
+                            },
+                            "1729674088330": {
+                                "item_heading": "Foster Growth Through Innovation"
+                            }
+                        },
+                        "is_array": "1"
+                        },
+                    "home_about_area_phone": {
+                        "value": "+96897002784",
+                        "is_array": "0"
+                    },
+                    "home_about_area_button": {
+                        "value": "More about us",
+                        "is_array": "0"
+                    },
+                    "home_about_area_button_link": {
+                        "value": "aboutus-page",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671ai4i0f": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671ai8066": {
+                "settings": {
+                    "photo_gallery_title": {
+                        "value": "Photo Of Memorable Events",
+                        "is_array": "0"
+                    },
+                    "photo_gallery_sub_title": {
+                        "value": "PHOTO GALLERY",
+                        "is_array": "0"
+                    },
+                    "photo_gallery_count": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "photo_gallery_column": {
+                        "value": "3",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671aia54b": {
+                "settings": {
+                    "video_sub_heading": {
+                        "value": "VIDEO GALLERY",
+                        "is_array": "0"
+                    },
+                    "video_heading": {
+                        "value": "Video of Memorable Events",
+                        "is_array": "0"
+                    },
+                    "video_gallery_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "video_gallery_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671ai96ag": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aibicc": {
+                "settings": {
+                    "teacher_sub_heading": {
+                        "value": "Teachers",
+                        "is_array": "0"
+                    },
+                    "teacher_heading": {
+                        "value": "Our Expart Teachers",
+                        "is_array": "0"
+                    },
+                    "teacher_count": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "teacher_area_column": {
+                        "value": "3",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671aiaj00": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aii3b6": {
+                "settings": {
+                    "course_title": {
+                        "value": "Find What Fascinates you",
+                        "is_array": "0"
+                    },
+                    "course_sub_title": {
+                        "value": "#TOP COURSES",
+                        "is_array": "0"
+                    },
+                    "course_description": {
+                        "value": "Choose the most powerful courses and always be on demand",
+                        "is_array": "0"
+                    },
+                    "course_count": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "course_area_column": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "course_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671aig97h": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aij0id": {
+                "settings": {
+                    "counter_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"cta-bg.png\",\"path\":\"optionbuilder\/uploads\/9011-21-2023_1127amcta-bg.png\",\"mime\":\"png\",\"size\":17282,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/9011-21-2023_1127amcta-bg.png\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "counter_heading": {
+                        "value": "What will you Discover?",
+                        "is_array": "0"
+                    },
+                    "counter_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost in creativity.What you find just might surprise and inspire you. With so much to explore, real projects to create,and the support f fellow-creatives, Turitor empower",
+                        "is_array": "0"
+                    },
+                    "view_course_button": {
+                        "value": "View Course",
+                        "is_array": "0"
+                    },
+                    "view_course_button_link": {
+                        "value": "course",
+                        "is_array": "0"
+                    },
+                    "contact_us_button": {
+                        "value": "Contact Us",
+                        "is_array": "0"
+                    },
+                    "contact_us_button_link": {
+                        "value": "contact-us",
+                        "is_array": "0"
+                    },
+                    "counter_list_items": {
+                        "value": {
+                            "7331698659038": {
+                                "item_number": "649",
+                                "item_heading": "Courses & Videos",
+                                "item_symbol": "+"
+                            },
+                            "1698659260702": {
+                                "item_number": "265",
+                                "item_heading": "Expart teachers",
+                                "item_symbol": "+"
+                            },
+                            "1698659262196": {
+                                "item_number": "4806",
+                                "item_heading": "Total student",
+                                "item_symbol": "+"
+                            },
+                            "1698659263535": {
+                                "item_number": "310",
+                                "item_heading": "Classes complete",
+                                "item_symbol": "+"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "3671aii9c7": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aj1119": {
+                "settings": {
+                    "noticeboard_title": {
+                        "value": "Notice Board",
+                        "is_array": "0"
+                    },
+                    "noticeboard_show_more": {
+                        "value": "View All",
+                        "is_array": "0"
+                    },
+                    "noticeboard_show_more_link": {
+                        "value": "",
+                        "is_array": "0"
+                    },
+                    "notice_gallery_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "notice_gallery_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671aj0243": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aj3gjf": {
+                "settings": {
+                    "event_img": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"event-preview.jpg\",\"path\":\"optionbuilder\/uploads\/705511-10-2023_1207pmevent-preview.jpg\",\"mime\":\"jpg\",\"size\":24146,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/705511-10-2023_1207pmevent-preview.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "event_sub_heading": {
+                        "value": "#JOIN EVENTS",
+                        "is_array": "0"
+                    },
+                    "event_heading": {
+                        "value": "Join Upcoming Events",
+                        "is_array": "0"
+                    },
+                    "event_description": {
+                        "value": "Choose the most powerful courses and always be on demand",
+                        "is_array": "0"
+                    },
+                    "event_count": {
+                        "value": "2",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671ajd9bf": {
+                "settings": {
+                    "testimonial_sub_heading": {
+                        "value": "#CLIENT TESTIMONIAL",
+                        "is_array": "0"
+                    },
+                    "testimonial_heading": {
+                        "value": "What Clients Say About Us",
+                        "is_array": "0"
+                    },
+                    "testionmonial_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "testionmonial_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671ajc7ff": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671ajgb3f": {
+                "settings": {
+                    "news_area_sub_heading": {
+                        "value": "# POPULAR ARTICLES",
+                        "is_array": "0"
+                    },
+                    "news_area_heading": {
+                        "value": "Latest News From Blog",
+                        "is_array": "0"
+                    },
+                    "news_area__description": {
+                        "value": "Choose the most powerful courses and always",
+                        "is_array": "0"
+                    },
+                    "read_more_btn": {
+                        "value": "Read More",
+                        "is_array": "0"
+                    },
+                    "news_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "news_area_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "news_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "3671ajec1j": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671aiebb4": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "3671b6h9e0": {
+                "settings": {
+                    "feature_area_items": {
+                        "value": {
+                            "8111698660302": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-1.png\",\"path\":\"optionbuilder\/uploads\/857511-10-2023_1204pmfeature-icon-1.png\",\"mime\":\"png\",\"size\":2208,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/857511-10-2023_1204pmfeature-icon-1.png\"}"
+                                ],
+                                "item_heading": "Learn New Skills",
+                                "item_description": "Skills deepen existing passions"
+                            },
+                            "1698660320403": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-2.png\",\"path\":\"optionbuilder\/uploads\/200111-10-2023_1204pmfeature-icon-2.png\",\"mime\":\"png\",\"size\":2292,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/200111-10-2023_1204pmfeature-icon-2.png\"}"
+                                ],
+                                "item_heading": "Expert Teacher",
+                                "item_description": "Skills deepen existing passions"
+                            },
+                            "1698660678027": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-3.png\",\"path\":\"optionbuilder\/uploads\/196311-10-2023_1204pmfeature-icon-3.png\",\"mime\":\"png\",\"size\":2057,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/196311-10-2023_1204pmfeature-icon-3.png\"}"
+                                ],
+                                "item_heading": "Online Degrees",
+                                "item_description": "Skills deepen existing passions"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "368e3de051": {
+                "settings": {
+                    "notice_heading": {
+                        "value": "Notice Board",
+                        "is_array": "0"
+                    },
+                    "notice_count": {
+                        "value": "2",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "368e3ddd5e": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "368e3dgiig": {
+                "settings": {
+                    "opening_hour_heading": {
+                        "value": "Opening Hour\u2019s",
+                        "is_array": "0"
+                    },
+                    "opening_hour_description": {
+                        "value": "Choose the most powerful courses and always",
+                        "is_array": "0"
+                    },
+                    "opening_hour_items": {
+                        "value": {
+                            "1321700747817": {
+                                "opening_hour_item_day": "Monday",
+                                "opening_hour_start": "9:30 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747845349": {
+                                "opening_hour_item_day": "Tuesday",
+                                "opening_hour_start": "9:00 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747846079": {
+                                "opening_hour_item_day": "Wednesday",
+                                "opening_hour_start": "9:00 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747846873": {
+                                "opening_hour_item_day": "Thursday",
+                                "opening_hour_start": "9:00 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747847563": {
+                                "opening_hour_item_day": "Friday",
+                                "opening_hour_start": "9:00 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747848846": {
+                                "opening_hour_item_day": "Saturday",
+                                "opening_hour_start": "9:00 AM",
+                                "opening_hour_end": "9:00 PM"
+                            },
+                            "1700747849980": {
+                                "opening_hour_item_day": "Sunday",
+                                "opening_hour_start": "Closed",
+                                "opening_hour_end": ""
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "3671a7ece0": {
+                "settings": {
+                    "about_area_img_medium": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-4.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/867411-10-2023_1155amabout-img-4.jpg\",\"mime\":\"jpg\",\"size\":62937,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/867411-10-2023_1155amabout-img-4.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_3": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/267511-10-2023_1155amabout-img-2.jpg\",\"mime\":\"jpg\",\"size\":37688,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/267511-10-2023_1155amabout-img-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_img_2": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"about-img-3.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/777511-10-2023_1155amabout-img-3.jpg\",\"mime\":\"jpg\",\"size\":6167,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/777511-10-2023_1155amabout-img-3.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "about_area_heading": {
+                        "value": "When Ambition Meets Opportunity.",
+                        "is_array": "0"
+                    },
+                    "about_area_description": {
+                        "value": "Explore new skills, deepen existing passions, and get lost creativity What you find just might surprise and inspire you. With so much to explore isn\u2019t existing passions, and get lost in creativity.",
+                        "is_array": "0"
+                    },
+                    "about_area_list_items": {
+                        "value": {
+                            "3651698657239": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-1.png\",\"path\":\"optionbuilder\\\/uploads\\\/822211-10-2023_1155amfeature-icon-1.png\",\"mime\":\"png\",\"size\":2208,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/822211-10-2023_1155amfeature-icon-1.png\"}"
+                                ],
+                                "item_heading": "International Certification",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            },
+                            "1698657283783": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"feature-icon-2.png\",\"path\":\"optionbuilder\\\/uploads\\\/430711-10-2023_1155amfeature-icon-2.png\",\"mime\":\"png\",\"size\":2292,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/430711-10-2023_1155amfeature-icon-2.png\"}"
+                                ],
+                                "item_heading": "World\u2019s Best Curriculum",
+                                "item_description": "You can start and finish one of these popular courses in under our site"
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "36b934bja4": {
+                "settings": {
+                    "speech_slider_heading": {
+                        "value": "SPEECH",
+                        "is_array": "0"
+                    },
+                    "speech_slider_sub_heading": {
+                        "value": "Speech of honorable members",
+                        "is_array": "0"
+                    },
+                    "speech_slider_count": {
+                        "value": "4",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36b934ac8g": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36b9735g3e": {
+                "settings": {
+                    "app_banner_heading": {
+                        "value": "Ready Flutter Mobile Apps",
+                        "is_array": "0"
+                    },
+                    "app_banner_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"download_app.png\",\"path\":\"optionbuilder\\\/uploads\\\/437301-03-2024_0449pmdownload_app.png\",\"mime\":\"png\",\"size\":879110,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/437301-03-2024_0449pmdownload_app.png\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "app_banner_items": {
+                        "value": {
+                            "1751704278929": {
+                                "item_icon": [
+                                    "{\"type\":\"image\",\"name\":\"circle_check_mark.svg\",\"path\":\"optionbuilder\\\/uploads\\\/701-03-2024_0450pmcircle_check_mark.svg\",\"mime\":\"svg\",\"size\":281,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/701-03-2024_0450pmcircle_check_mark.svg\"}"
+                                ],
+                                "item_heading": "Multilingual Support (8+ Languages)"
+                            },
+                            "1704279048238": {
+                                "item_icon": [
+                                    "{\"type\":\"image\",\"name\":\"circle_check_mark.svg\",\"path\":\"optionbuilder\/uploads\/411501-03-2024_0451pmcircle_check_mark.svg\",\"mime\":\"svg\",\"size\":281,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/411501-03-2024_0451pmcircle_check_mark.svg\"}"
+                                ],
+                                "item_heading": "Perfect RTL Support"
+                            }
+                        },
+                        "is_array": "1"
+                    },
+                    "app_download_items": {
+                        "value": {
+                            "7751704278929": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"playstore.svg\",\"path\":\"optionbuilder\/uploads\/362301-03-2024_0451pmplaystore.svg\",\"mime\":\"svg\",\"size\":7228,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/362301-03-2024_0451pmplaystore.svg\"}"
+                                ],
+                                "item_link": ""
+                            },
+                            "1704279092258": {
+                                "item_image": [
+                                    "{\"type\":\"image\",\"name\":\"appstore.svg\",\"path\":\"optionbuilder\/uploads\/231701-03-2024_0452pmappstore.svg\",\"mime\":\"svg\",\"size\":9268,\"thumbnail\":\"[App_url]/public\/storage\/optionbuilder\/uploads\/231701-03-2024_0452pmappstore.svg\"}"
+                                ],
+                                "item_link": ""
+                            }
+                        },
+                        "is_array": "1"
+                    }
+                }
+            },
+            "36b9734j6b": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36b97d3e6g": {
+                "settings": {
+                    "news_area_sub_heading": {
+                        "value": "# POPULAR ARTICLES",
+                        "is_array": "0"
+                    },
+                    "news_area_heading": {
+                        "value": "Latest News From Blog",
+                        "is_array": "0"
+                    },
+                    "news_area__description": {
+                        "value": "Choose the most powerful courses and always",
+                        "is_array": "0"
+                    },
+                    "read_more_btn": {
+                        "value": "Read More",
+                        "is_array": "0"
+                    },
+                    "news_count": {
+                        "value": "3",
+                        "is_array": "0"
+                    },
+                    "news_area_column": {
+                        "value": "4",
+                        "is_array": "0"
+                    },
+                    "news_sorting": {
+                        "value": "asc",
+                        "is_array": "0"
+                    }
+                }
+            }
+        }
+    }
+}

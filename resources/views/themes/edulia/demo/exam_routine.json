@@ -1,0 +1,142 @@
+{
+    "name": "Exam Routine",
+    "title": "Exam Routine",
+    "description": "Exam Routine",
+    "slug": "exam-routine",
+    "status": "draft",
+    "home_page": 0,
+    "settings": {
+        "grids": [
+            {
+                "grid": "12x1",
+                "position": "0",
+                "grid_id": "366ig6ebjg",
+                "data": [
+                    [
+                        {
+                            "id": "366ig6f2ha",
+                            "section_id": "header-breadcumb",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            },
+            {
+                "grid": "12x1",
+                "position": "1",
+                "grid_id": "366ig6edi2",
+                "data": [
+                    [
+                        {
+                            "id": "366ig6ij00",
+                            "section_id": "front-exam-routine",
+                            "position": "0"
+                        }
+                    ]
+                ]
+            }
+        ],
+        "section_data": {
+            "366ig6f2ha": {
+                "settings": {
+                    "header_bg_image": {
+                        "value": [
+                            "{\"type\":\"image\",\"name\":\"hero-bg-2.jpg\",\"path\":\"optionbuilder\\\/uploads\\\/913111-10-2023_0122pmhero-bg-2.jpg\",\"mime\":\"jpg\",\"size\":90795,\"thumbnail\":\"[App_url]/public\\\/storage\\\/optionbuilder\\\/uploads\\\/913111-10-2023_0122pmhero-bg-2.jpg\"}"
+                        ],
+                        "is_array": "1"
+                    },
+                    "left_title": {
+                        "value": "Exam Routine",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Exam Routine",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366ig6ebjg": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "366ig6ij00": {
+                "settings": {
+                    "front_exam_routine_heading": {
+                        "value": "Exam Routine",
+                        "is_array": "0"
+                    },
+                    "front_exam_routine_sl": {
+                        "value": "SL",
+                        "is_array": "0"
+                    },
+                    "front_exam_routine_title": {
+                        "value": "Title",
+                        "is_array": "0"
+                    },
+                    "front_exam_routine_date": {
+                        "value": "Date",
+                        "is_array": "0"
+                    },
+                    "front_exam_routine_action": {
+                        "value": "Action",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "366ig6edi2": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

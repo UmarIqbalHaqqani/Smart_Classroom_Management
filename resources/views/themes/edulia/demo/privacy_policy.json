@@ -1,0 +1,163 @@
+{
+    "name": "Privacy Policy",
+    "title": "Privacy Policy",
+    "description": "Privacy Policy",
+    "slug": "privacy-policy",
+    "status": "published",
+    "home_page": 0,
+    "settings": {
+        "grids": [{
+            "grid": "12x1",
+            "position": "0",
+            "grid_id": "36df2eg73f",
+            "data": [
+                [{
+                    "id": "36df2egbb4",
+                    "section_id": "header-breadcumb",
+                    "position": "0"
+                }]
+            ]
+        }, {
+            "grid": "12x1",
+            "position": "1",
+            "grid_id": "36df2egfc3",
+            "data": [
+                [{
+                    "id": "36df2ehdf0",
+                    "section_id": "page-heading",
+                    "position": "0"
+                }]
+            ]
+        }, {
+            "grid": "12x1",
+            "position": "2",
+            "grid_id": "36df2f14c2",
+            "data": [
+                [{
+                    "id": "36df2f20b3",
+                    "section_id": "text-editor",
+                    "position": "0"
+                }]
+            ]
+        }],
+        "section_data": {
+            "36df2egbb4": {
+                "settings": {
+                    "left_title": {
+                        "value": "Privacy Policy",
+                        "is_array": "0"
+                    },
+                    "right_home": {
+                        "value": "Home",
+                        "is_array": "0"
+                    },
+                    "right_content_title": {
+                        "value": "Privacy Policy",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36df2eg73f": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36df2ehdf0": {
+                "settings": {
+                    "page_heading_title": {
+                        "value": "Privacy Policy",
+                        "is_array": "0"
+                    },
+                    "page_heading_sub_title": {
+                        "value": "",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36df2egfc3": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            },
+            "36df2f20b3": {
+                "settings": {
+                    "text_editor": {
+                        "value": "<p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">INTRODUCTION<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">This privacypolicy explains how&nbsp;infixEdu&nbsp;use and protect theinformation we hold, whether it relates to the EducationalInstitution, students, parents, its staff and third party serviceproviders in connection with our business and has been developed .This privacy policy does not require any physical, electronic ordigital signature. We are committed to maintaining the privacy of ourstudents, parents, teachers and other users of ourwebsite\/application.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">This privacypolicy governs your use of the application&nbsp;<\/span><span lang=\"en-US\"><span style=\"font-weight: bolder;\">infixEdu<\/span><\/span><span lang=\"en-US\">.By entering to this Website or downloading the app via Play Store\/App Store you agree to be bound by the terms and conditions of thisPrivacy Policy. If you do not agree, please do not use or access ourwebsite\/application. By mere use of the website\/application, youexpressly consent to our use and disclosure of your personalinformation in accordance with this Privacy Policy. It isincorporated into and subject to the Terms and Conditions.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Please readthis privacy policy (\u2018Policy\u2019) carefully before using theApplication, Website and our services along with the Terms andConditions (\u2018TaC\u2019) provided on the Application and the Website.Your use of the Website, Application, or&nbsp; services in connectionwith the Application or Website (\u2018Services\u2019), or registrationswith us through any modes or usage of any products shall signify youracceptance of this Policy and your agreement to be legally bound bythe same.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We maychange this Privacy Policy from time to time. If we make changes, wewill notify you by revising the date at the top of this policy, andin some cases, we may provide you with additional notice (such asadding a statement to the homepages of our websites\/applications orsending you an email notification). We encourage you to review thePrivacy Policy whenever you interact with us to stay informed aboutour information practices and the ways you can help protect yourprivacy.<\/span><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">DEFINITIONOF NEEDED INFORMATION<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Neededinformation means information about an educational institute oridentifiable individual or information that permits an individual tobe identified.&nbsp;<\/span><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">COLLECTIONOF INFORMATION<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">infixEdu isa smart software service, it takes responsibility for maintaining andprotecting the personal information under our control.&nbsp;<\/span><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">USERPROVIDED INFORMATION<\/span><\/span><span lang=\"en-US\">&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">TheApplication\/Website\/Services obtains the information you provide whenyou download and register for the Application or Services. When theeducational institution register with us, generally has to provide(a) Name of the Institution, Registration number, Address,&nbsp;School Landline Phone Number (for verification), Contact Person\u2019sName, position and mobile number, School website, email and password(b) transactions related&nbsp;information, such as when youmake&nbsp;download or use application from us; (c) information youprovide us when you contact us for help; (d) information you enterinto our system when using the Application\/Services, such as whileasking doubts, participating in discussions and taking tests: (f)information of the users of the Application such as students\/parents,teachers and other staff.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">It ispossible to register the individuals (Teachers, Parents\/students orAssistants) in the applications, only after the School\/Institution isregistered with infixEdu. As registration is requested, Users agreeto provide accurate and complete registration information. At thetime of registration Users may be required to provide informationwhich includes your name, address, phone number, and email addresscollectively referred as \u201c<\/span><span lang=\"en-US\"><span style=\"font-weight: bolder;\">Userprofile content<\/span><\/span><span lang=\"en-US\">&nbsp;\u201cUser upon registration.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We onlycollect personal information as required to meet the purposes that wehave identified. We do not indiscriminately collect or retainpersonal information. Our reason for collecting personal informationabout teachers, students, parents and staff is to establish andmaintain communication with that individual.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We will notdifferentiate between who is using the device to access theApplication, Website or Services or products, so long as the login\/access credentials match with yours. In order to make the best useof the Application\/Website\/Services\/products and enable yourInformation to be captured accurately on theApplication\/Website\/Services it is essential that you have logged inusing your own credentials.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Users shalltake reasonable precautions to protect against theft, loss orfraudulent use of such IDs and passwords, and Users are solelyresponsible for any losses arising from another party\u2019s use of suchIDs and passwords, either with or without User\u2019s knowledge.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">AUTOMATICALLYCOLLECTED INFORMATION<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">In addition,the Application\/products\/Services may collect certain informationautomatically, including, but not limited to, the type of mobiledevice you use, your mobile devices unique device ID, the IP addressof your mobile device, your mobile operating system, the type ofmobile Internet browsers you use, and information about the way youuse the Application\/Services. As is true of most Mobile applications,we also collect other relevant information as per the permissionsthat you provide.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">PROVIDESERVICE<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Topersonalize user experience we may use information. We continuallystrive to improve our website\/Application offerings based on theinformation and feedback we receive from you.&nbsp; The User cancompletely customize our service web or application.<\/span><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">CONTACTINGAND CUSTOMER SERVICE<\/span><\/span><span lang=\"en-US\">&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">You will becontacted as necessary to enforce our User Agreement, applicablenational laws, and any agreement we may have with you. It will helpus contact you to notify you regarding your account, to troubleshootproblems with your account, to resolve a dispute, as otherwisenecessary to provide you customer service.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">For thesepurposes we may contact you via email, telephone, text messages,WhatsApp messages and postal mail. When contacting you via telephone,to ensure efficiency, we may use autodialer or pre-recorded calls andtext messages.<\/span><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p lang=\"en-US\" style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><br><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">PREVENTFRAUDULENT AND ILLEGAL ACTIVITIES<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We preserveyour personal information as long as it is necessary and relevant forour operations. In addition, we may retain personal information fromclosed accounts to comply with national laws, prevent fraud, collectany fees owed, resolve disputes, troubleshoot problems, assist withany investigation, enforce our User Agreement and take other actionspermitted or required by applicable national laws. After it is nolonger necessary for us to retain your personal information, wedispose of it in a secure manner according to our data retention anddeletion policies.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">It will helpus prevent, detect, mitigate, and investigate fraud, securitybreaches, potentially prohibited or illegal activities. It will alsobe used to enforce our Privacy Notice, our User Agreement or otherpolicies.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">TOPERSONALIZE THE ADVERTISING AND MARKETING COMMUNICATIONS<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We will usethe contact information you have provided to contact you by e-mail,SMS text, WhatsApp Messages and\/or telephone to deliver targetedmarketing, service updates, and promotional offers based on yourcommunication preferences. To personalize, measure, and improve ouradvertising based on your advertising customization preferences wewill use your institutional\/personal data (such as Schooladministrators, Principals or other responsible persons) to addressyou. We will also contact you, in ways such way of email, telephone,text messages, via WhatsApp or postal mail, so as to keep youinformed about our offers, and promotions, as well as to inform youabout our services, and those of our organization , with a view tofacilitate our mission of imparting education.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">SHARINGTHE PERSONAL INFORMATION<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">When youvisit the website or downloading the application, we collect andstore the name of the domain from which you access the internet, thedate and time you access our site and the internet address of thewebsite from which you link to our site, the search terms you enterinto our search utility, browser software and internet serviceprovider you use and any other relevant information, in order toimprove security, analyse trends and administer the site.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">SECURITY<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We areconcerned about safeguarding the confidentiality of your Information.We take all precautions to protect the Personal Information bothonline and offline. We provide physical, electronic, and proceduralsafeguards to protect Information we process and maintain. We protectthe information using technical and administrative security measuresto reduce the risks of loss, misuse, unauthorized access, disclosureand alteration. If you believe your account has been abused, pleasecontact us<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We do notsell or rent your personal information to third parties for theirmarketing purposes without your explicit consent and we only use yourinformation as described in the Privacy Policy. We view protection ofyour privacy as a very important community principle. We understandclearly that you and Your Information is one of our most importantassets.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Under nocircumstances do we rent, trade or share the institutional\/personalinformation that we have collected with any other company for theirmarketing purposes without your consent. We reserve the right tocommunicate your personal information to any third party that makes alegally-compliant request for its disclosure.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">THEGENERAL DATA PROTECTION REGULATION(GDPR)<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">If you are aresident of the European Economic Area (EEA), you have certain dataprotection rights. InfixEdu to take reasonable steps to allow you tocorrect, amend, delete, or limit the use of your Personal Data.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">If you wishto be informed what Personal Data we hold about you and if you wantit to be removed from our systems, please contact us.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">In certaincircumstances, you have the following data protection rights:<\/span><\/p><ol style=\"color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255);\"><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right to access, update or to delete the information we have on you.<\/span><\/span><span lang=\"en-US\">&nbsp;Whenever made possible, you can access, update or request deletion of your Personal Data directly within your account settings section. If you are unable to perform these actions yourself, please contact us to assist you.\u2028<\/span><\/p><\/li><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right of rectification.&nbsp;<\/span><\/span><span lang=\"en-US\">You have the right to have your information rectified if that information is inaccurate or incomplete.\u2028<\/span><\/p><\/li><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right to object.&nbsp;<\/span><\/span><span lang=\"en-US\">You have the right to object to our processing of your Personal Data.\u2028<\/span><\/p><\/li><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right of restriction.<\/span><\/span><span lang=\"en-US\">&nbsp;You have the right to request that we restrict the processing of your personal information.\u2028<\/span><\/p><\/li><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right to data portability.<\/span><\/span><span lang=\"en-US\">&nbsp;You have the right to be provided with a copy of the information we have on you in a structured, machine-readable and commonly used format.\u2028<\/span><\/p><\/li><li><p style=\"margin-bottom: 0in; line-height: 16px;\"><a name=\"_GoBack\" style=\"color: inherit; text-decoration: none;\"><\/a><span lang=\"en-US\"><span style=\"font-weight: bolder;\">The right to withdraw consent<\/span><\/span><span lang=\"en-US\">. You also have the right to withdraw your consent at any time where Digital Marketer Labs, LLC relied on your consent to process your personal information.\u2028<\/span><\/p><\/li><\/ol><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Please notethat we may ask you to verify your identity before responding to suchrequests.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">You have theright to complain to a Data Protection Authority about our collectionand use of your Personal Data. For more information, please contactyour local data protection authority in the European Economic Area(EEA).<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">CONSENT<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We believethat, every user of our Application\/Services\/Website must be in aposition to provide an informed consent prior to providing anyInformation required for the use of themApplication\/Services\/Website.&nbsp;<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">Byregistering with us , you are expressly consenting to our collection,processing, storing, disclosing and handling of your information asset forth in this Policy now and as amended by us. Processing, yourinformation in any way, including, but not limited to, collecting,storing, deleting, using, combining, sharing, transferring anddisclosing information, all of which activities will take place inBangladesh. If you reside outside Bangladesh your information will betransferred, processed and stored in accordance with the applicabledata protection laws of Bangladesh.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\">&nbsp;<\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\"><span style=\"font-weight: bolder;\">CHANGESTO THIS STATEMENT<\/span><\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">As theCompany evolves, our privacy policy will need to evolve as well tocover new situations.&nbsp; You are advised to review this Policyregularly for any changes, as continued use is deemed approval of allchanges.<\/span><\/p><p style=\"margin-bottom: 0in; color: rgb(85, 85, 85); font-family: Inter, sans-serif; background-color: rgb(255, 255, 255); line-height: 16px;\"><span lang=\"en-US\">We may atany time modify the Terms of our Website without any priornotification to you. Should you wish to terminate your account due toa modification to the Terms or the Privacy Policy, you may do soemail us at&nbsp;<\/span><a href=\"mailto:support@spondonit.com\" style=\"color: rgb(13, 110, 253); text-decoration: none;\"><span lang=\"en-US\">support@spondonit.com<\/span><\/a><\/p>",
+                        "is_array": "0"
+                    }
+                }
+            },
+            "36df2f14c2": {
+                "styles": {
+                    "content_width": "",
+                    "width-height-type": "px",
+                    "width": "",
+                    "height": "",
+                    "min-width": "",
+                    "max-width": "",
+                    "min-height": "",
+                    "max-height": "",
+                    "margin-type": "px",
+                    "margin-top": "",
+                    "margin-right": "",
+                    "margin-bottom": "",
+                    "margin-left": "",
+                    "padding-type": "px",
+                    "padding-top": "",
+                    "padding-right": "",
+                    "padding-bottom": "",
+                    "padding-left": "",
+                    "z-index": "",
+                    "classes": "",
+                    "custom_attributes": "",
+                    "background-size": "",
+                    "background-position": ""
+                }
+            }
+        }
+    }
+}

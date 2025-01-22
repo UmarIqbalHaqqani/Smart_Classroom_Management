@@ -1,0 +1,260 @@
+/*==== GALLERY PAGE CSS ====*/
+
+.gallery {
+    & .mb-minus-24 {
+        margin-bottom: -24px;
+    }
+
+    & .row {
+        & .col-lg-4.col-md-6 {
+            @include Mobile {
+                max-width: 50%;
+                flex: 0 0 50%;
+            }
+
+            @include sMobile {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+    }
+
+    &_item {
+        display: block;
+        margin-bottom: 24px;
+
+        &:hover {
+            & img {
+                transform: scale(1.02);
+            }
+
+            & h4 {
+                color: $naviblue;
+            }
+        }
+
+        &_img {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+
+            @include Laptop {
+                height: 300px;
+            }
+
+            @include Ipad {
+                height: 250px;
+            }
+
+            @include Tablet {
+                height: 270px;
+            }
+
+            @include Mobile {
+                height: 180px;
+            }
+
+            @include sMobile {
+                height: 200px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .4s ease-in-out;
+                transform: scale(1);
+            }
+        }
+
+        &_inner {
+            background-color: $blue;
+            color: $white;
+            padding: 15px 30px;
+
+            @include Ipad {
+                padding: 15px 25px;
+            }
+
+            @include Tablet {
+                padding: 12px 15px;
+            }
+
+            @include Mobile {
+                padding: 10px 15px;
+            }
+
+            & h4 {
+                font-size: 20px;
+                line-height: calc(26px / 20px);
+                margin-bottom: 5px;
+                color: $white;
+                font-weight: 700;
+                transition: all .3s ease-in-out;
+
+                @include Mobile {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+            }
+
+            & p {
+                font-size: 14px;
+                font-weight: 500;
+                color: $white;
+
+                @include Mobile {
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+
+    // gellery details page
+    &_details {
+        & .section_title {
+            margin-bottom: 35px;
+
+            @include Tablet {
+                margin-bottom: 25px;
+            }
+
+            @include Mobile {
+                margin-bottom: 15px;
+            }
+
+            & h2 {
+                margin-bottom: 30px;
+
+                @include Tablet {
+                    margin-bottom: 20px;
+                }
+
+                @include Mobile {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        & .col-md-6 {
+            @include Mobile {
+                max-width: 50%;
+                flex: 0 0 50%;
+            }
+
+            @include sMobile {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+
+        &_item {
+            display: block;
+            margin-top: 24px;
+            width: 100%;
+            height: 420px;
+            cursor: pointer;
+
+            @include Laptop {
+                height: 370px;
+            }
+
+            @include Ipad {
+                height: 300px;
+            }
+
+            @include Tablet {
+                height: 300px;
+            }
+
+            @include Mobile {
+                height: 200px;
+            }
+
+            @include sMobile {
+                height: 220px;
+            }
+
+            & img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        &_img_preview {
+            width: 100%;
+            height: 460px;
+
+            @include Laptop {
+                height: 400px;
+            }
+
+            @include Ipad {
+                height: 350px;
+            }
+
+            @include Tablet {
+                height: 350px;
+            }
+
+            @include Mobile {
+                height: 250px;
+            }
+
+            @include sMobile {
+                height: 200px;
+            }
+        }
+    }
+}
+
+// video gallery
+
+.video-gallery {
+    .single-video-item {
+        position: relative;
+
+        &::before {
+            content: "\f04b";
+            font-family: "Font Awesome 5 Pro";
+            font-weight: 900;
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            z-index: 1;
+            left: 50%;
+            top: 40%;
+            transform: translate(-40%, -50%);
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            opacity: 0.7;
+            font-size: 25px;
+            cursor: pointer;
+            transition: 0.4s all ease-in-out;
+            pointer-events: none;
+        }
+
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+        }
+    }
+    & .row {
+        & .col-lg-4.col-md-6 {
+            @include Mobile {
+                max-width: 50%;
+                flex: 0 0 50%;
+            }
+
+            @include sMobile {
+                max-width: 100%;
+                flex: 0 0 100%;
+            }
+        }
+    }
+}

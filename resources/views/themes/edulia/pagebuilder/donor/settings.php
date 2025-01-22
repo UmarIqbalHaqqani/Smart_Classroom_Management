@@ -1,0 +1,82 @@
+<?php
+
+return [
+    'id' => 'donor',
+    'name' => __('edulia.donor'),
+    'icon' => '<i class="icon-clipboard"></i>',
+    'tab' => "General",
+    'fields' => [
+        [
+            'id'            => 'donor_col_1',
+            'type'          => 'text',
+            'value'         => 'SL',
+            'class'         => '',
+            'label_title'   => __('edulia.column_1'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_2',
+            'type'          => 'text',
+            'value'         => 'Image',
+            'class'         => '',
+            'label_title'   => __('edulia.column_2'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_3',
+            'type'          => 'text',
+            'value'         => 'Name',
+            'class'         => '',
+            'label_title'   => __('edulia.column_3'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_4',
+            'type'          => 'text',
+            'value'         => 'Profession',
+            'class'         => '',
+            'label_title'   => __('edulia.column_4'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_5',
+            'type'          => 'text',
+            'value'         => 'Email',
+            'class'         => '',
+            'label_title'   => __('edulia.column_5'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_6',
+            'type'          => 'text',
+            'value'         => 'Phone',
+            'class'         => '',
+            'label_title'   => __('edulia.column_6'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_7',
+            'type'          => 'text',
+            'value'         => 'Religion',
+            'class'         => '',
+            'label_title'   => __('edulia.column_7'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_8',
+            'type'          => 'text',
+            'value'         => 'Gender',
+            'class'         => '',
+            'label_title'   => __('edulia.column_8'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+        [
+            'id'            => 'donor_col_9',
+            'type'          => 'text',
+            'value'         => 'Blood Group',
+            'class'         => '',
+            'label_title'   => __('edulia.column_9'),
+            'placeholder'   => __('edulia.enter_text'),
+        ],
+    ]
+];

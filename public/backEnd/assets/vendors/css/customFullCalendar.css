@@ -1,0 +1,113 @@
+.fc .fc-button-primary {
+	color: var(--base_color);
+	border: 1px solid var(--gradient_1);
+	border-radius: 30px;
+	background: transparent;
+	transition: all 0.4s ease 0s;
+}
+
+.fc .fc-button-primary:hover{
+	background: linear-gradient(90deg, var(--gradient_1) 0%, var(--gradient_3) 100%);
+}
+.fc .fc-button-primary:disabled {
+  	background: linear-gradient(90deg, var(--gradient_1) 0%, var(--gradient_2) 51%, var(--gradient_3) 100%) !important;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active {
+	border: 1px solid var(--gradient_1);
+	background: linear-gradient(90deg, var(--gradient_1) 0%, var(--gradient_2) 51%, var(--gradient_3) 100%) !important;
+	transition: all 0.4s ease 0s;
+}
+
+.fc .fc-button-primary:focus {
+  	box-shadow: none !important;
+}
+
+.fc .fc-dayGridMonth-button:focus{
+	box-shadow: none !important;
+}
+
+.ti-calendar:before {
+	position: absolute;
+	bottom: 17px !important;
+	right: 18px !important;
+}
+
+table.fc-col-header {
+	width: 100%!important;
+}
+
+table.fc-scrollgrid.fc-scrollgrid-liquid thead th {
+	padding: 0px!important;
+}
+
+.fc .fc-day-today {
+	background: linear-gradient(90deg, var(--gradient_1) 0%, var(--gradient_3) 100%);
+}
+
+.fc .fc-day-today .fc-daygrid-day-number {
+	color: #ffffff;
+}
+
+.mt-20.eventActionCutomButton a span {
+	font-size: 20px;
+}
+
+.mt-20.eventActionCutomButton a {
+	border-radius: 8px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #f0f1f2;
+	background: #fcf9f7;
+	padding: 10px;
+}
+
+.fc .fc-event {
+	padding: 8px 10px;
+	margin-bottom: 10px;
+}
+
+.fc .fc-popover-body {
+	background: #ffffff;
+}
+
+.fc .fc-day-today .fc-daygrid-more-link {
+	color: #ffffff;
+}
+
+.fc .fc-popover-header {
+	background: #eeeeee;
+	padding: 15px;
+	height: 48px;
+}
+
+.fc .fc-popover-header .fc-popover-close {
+	line-height: 5px;
+}
+
+.fc .fc-day-today .fc-scrollgrid-sync-inner a{
+	color: #ffffff;
+}
+
+.fc .fc-list-event td {
+	border-top: none;
+}
+
+.fc .fc-list-event{
+	cursor: pointer;
+}
+
+.fc .fc-list-event:hover td {
+	background: none;
+}
+.fc a {
+    color: var(--text-color);
+}
+
+.fc .fc-daygrid-day-frame {
+    padding: 10px;
+}
+.fc-event > * {
+    color: var(--white);
+}

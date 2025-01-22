@@ -1,0 +1,25 @@
+{
+    "name": "larabuild/pagebuilder",
+    "description": "LaraBuild page builder allows developers to create any type of page based on user-defined blocks and dynamic settings.",
+    "version": "1.1",
+    "autoload": {
+        "psr-4": {
+            "Larabuild\\Pagebuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amentotech",
+            "email": "info@amentotech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larabuild\\Pagebuilder\\ServiceProvider"
+            ]
+        }
+    }
+}

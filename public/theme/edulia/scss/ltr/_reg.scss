@@ -1,0 +1,526 @@
+/*==== REGISTRATION PAGE CSS ====*/
+
+.reg {
+    & #page-width-clearfix {
+        width: 690px;
+
+        @include Ipad {
+            width: 83.3333333333%;
+        }
+
+        @include Tablet {
+            width: 83.3333333333%;
+        }
+
+        @include Mobile {
+            width: 100%;
+        }
+    }
+
+    &_wrapper {
+        position: relative;
+        z-index: 1;
+
+        &_head {
+            & .site_btn_border {
+                font-weight: 600;
+            }
+        }
+
+        &_check {
+            position: absolute;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 9;
+
+            & .reg_wrapper_item {
+                margin-top: 0px;
+            }
+
+            &_btns {
+                @include sMobile {
+                    text-align: center !important;
+                }
+
+                & input {
+                    border-radius: 5px;
+                    font-size: 14px;
+                    line-height: calc(17px / 14px);
+                    font-weight: 600;
+                    color: $white;
+                    padding: 15px 45px;
+
+                    @include sMobile {
+                        padding: 12px 25px;
+                    }
+
+                    &:first-child {
+                        background-color: $light-red;
+
+                        &:hover {
+                            background-color: $red;
+                        }
+                    }
+
+                    &:last-child {
+                        background-color: $blue;
+
+                        &:hover {
+                            background-color: $naviblue;
+                        }
+                    }
+                }
+            }
+        }
+
+        &_item {
+            padding: 30px;
+            padding-bottom: 40px;
+            border: 1px solid $border;
+            box-shadow: 0 0 5px rgba($color: $black, $alpha: .05);
+            margin-top: 20px;
+            background-color: $white;
+
+            @include Tablet {
+                padding: 20px;
+                padding-bottom: 30px;
+            }
+
+            @include Mobile {
+                padding: 20px;
+            }
+
+            & h4 {
+                font-size: 20px;
+                line-height: calc(25px / 20px);
+                margin-bottom: 10px;
+
+                @include Mobile {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                    line-height: calc(27px / 18px);
+                }
+
+                & span {
+                    display: inline-block;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 35px;
+                    border-radius: 100%;
+                    color: $white;
+                    text-align: center;
+                    margin-right: 15px;
+                    font-size: 16px;
+                    background-color: $blue;
+                    font-weight: 700;
+
+                    @include Mobile {
+                        font-size: 14px;
+                        width: 30px;
+                        height: 30px;
+                        line-height: 30px;
+                        border-radius: 100%;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            &_flex {
+                @include d-flex(wrap);
+                margin-left: -10px;
+                margin-right: -10px;
+
+                & .input-control {
+                    max-width: 50%;
+                    flex: 0 0 50%;
+                    padding-left: 10px;
+                    padding-right: 10px;
+
+                    @include sMobile {
+                        max-width: 100%;
+                        flex: 0 0 100%;
+                    }
+                }
+            }
+
+            & .input-control {
+                @include sMobile {
+                    margin-top: 15px;
+                }
+
+                &-input {
+                    padding: 15px 20px !important;
+                    width: 100%;
+                    border-radius: 0 !important;
+                    margin-left: 0px !important;
+
+                    @include sMobile {
+                        padding: 12px !important;
+                    }
+
+                    &[type=submit] {
+                        margin-top: 40px;
+                        background-color: $blue;
+                        color: $white;
+                        font-size: 14px;
+                        line-height: calc(17px / 14px);
+                        font-weight: 600;
+                        border-color: $blue;
+                        text-transform: uppercase;
+                        border-radius: 5px !important;
+
+                        @include Tablet {
+                            margin-top: 30px;
+                        }
+
+                        @include Mobile {
+                            margin-top: 25px;
+                        }
+
+                        &:hover {
+                            background-color: $naviblue;
+                            border-color: $naviblue;
+                        }
+                    }
+                }
+
+                // book and visit page css
+                & textarea {
+                    height: 140px;
+                    resize: none;
+
+                    @include sMobile {
+                        height: 120px;
+                    }
+                }
+
+                & .nice-select {
+                    &::before {
+                        @include Tablet {
+                            right: 20px;
+                        }
+
+                        @include sMobile {
+                            right: 12px;
+                        }
+                    }
+
+                    & .current {
+                        color: $text-color;
+                    }
+                }
+            }
+
+            & .select-guardian {
+                &>span {
+                    font-size: 14px;
+                    line-height: calc(18px / 14px);
+                    font-family: 'Eudoxus Sans', sans-serif;
+                    color: $naviblue;
+                    display: inline-block;
+                    font-weight: 700;
+
+                    @include sMobile {
+                        display: block;
+                        margin-bottom: 5px;
+                    }
+                }
+
+                & .page_radio {
+                    margin-left: 20px;
+
+                    @include Mobile {
+                        margin-left: 10px;
+                    }
+
+                    @include sMobile {
+                        margin-left: 0;
+                        margin-right: 15px;
+                    }
+
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+
+        // checkout page css
+        &_item {
+            & h4 {
+                margin-bottom: 0px;
+            }
+
+            & h6 {
+                font-size: 16px;
+                line-height: calc(21px / 16px);
+                margin-bottom: 5px;
+            }
+
+            & p {
+                font-size: 14px;
+                line-height: calc(17px / 14px);
+                color: $input-text-color;
+                font-weight: 500;
+            }
+
+            &_inner {
+                & h4 {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding-bottom: 12px;
+                    border-bottom: 1px solid $border;
+                    margin-bottom: 20px;
+
+                    @include Mobile {
+                        margin-bottom: 15px;
+                    }
+
+                    @include sMobile {
+                        display: block;
+                        margin-bottom: 0px;
+                    }
+
+                    & em {
+                        @include sMobile {
+                            display: block;
+                            text-align: right;
+                            margin-top: 10px;
+                        }
+
+                        & i {
+                            display: inline-block;
+                            background-color: $light-gray;
+                            border: 1px solid $border;
+                            font-size: 16px;
+                            color: $blue;
+                            padding: 7px;
+                            cursor: pointer;
+                            transition: all .3s ease-in-out;
+                            border-radius: 4px;
+
+                            &:hover {
+                                color: $naviblue;
+                            }
+
+                            &:last-child {
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+                &_card {
+                    display: inline-block;
+                    background-color: $light-gray;
+                    border: 1px solid $border;
+                    padding: 20px;
+                    text-align: center;
+                    border-radius: 5px;
+                    margin-right: 15px;
+
+                    &:last-child {
+                        margin-left: 0;
+                    }
+
+                    @include Mobile {
+                        padding: 12px;
+                        margin-right: 0px
+                    }
+
+                    @include sMobile {
+                        margin-top: 15px;
+                        width: 100%
+                    }
+                }
+            }
+
+            &_flex {
+                @include d-flex(wrap);
+                margin-left: -12px;
+                margin-right: -12px;
+            }
+
+            &_card {
+                margin-top: 30px;
+                max-width: 25%;
+                flex: 0 0 25%;
+                padding-left: 12px;
+                padding-right: 12px;
+
+                @include Mobile {
+                    max-width: 50% !important;
+                    flex: 0 0 50% !important;
+                    margin-top: 20px;
+                }
+
+                @include sMobile {
+                    max-width: 100% !important;
+                    flex: 0 0 100% !important;
+                }
+
+                &:last-child {
+                    max-width: 40%;
+                    flex: 0 0 40%;
+                }
+
+                & h6 {
+                    font-size: 16px;
+                    margin-bottom: 10px;
+
+                    @include sMobile {
+                        margin-bottom: 5px;
+                    }
+                }
+
+                & p {
+                    font-size: 14px;
+                    color: $input-text-color;
+                }
+            }
+
+            &_item {
+                margin-top: 30px;
+
+                @include Mobile {
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        &_bottom {
+            margin-top: 20px;
+            text-align: right;
+
+            @include sMobile {
+                text-align: left !important;
+            }
+
+            & .checkbox {
+                display: inline-block;
+
+                &-title {
+                    font-size: 14px;
+                    font-weight: 400;
+
+                    &::before {
+                        background-color: $white;
+                    }
+                }
+            }
+
+            & .boxed_btn {
+                padding: 13px 35px;
+                margin-left: 30px;
+
+                @include Mobile {
+                    padding: 10px 20px;
+                    margin-left: 0px;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    // online applictions page css
+    &_wrapper {
+        &_item {
+            &_total {
+                &_wrapper {
+                    padding: 30px;
+                    border: 1px solid $border;
+
+                    & li {
+                        font-family: 'Eudoxus Sans', sans-serif;
+                        font-size: 16px;
+                        line-height: calc(26px / 16px);
+                        font-weight: 700;
+                        color: $naviblue;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 5px;
+
+                        @include Mobile {
+                            margin-bottom: 0px;
+                        }
+
+                        & span {
+                            font-size: 14px;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 400;
+                            color: $text-color;
+                        }
+
+                        & strong {
+                            font-weight: 700;
+                        }
+
+                        &:last-child {
+                            border-top: 1px solid $border;
+                            margin-top: 30px;
+                            padding-top: 20px;
+
+                            @include Mobile {
+                                margin-top: 20px;
+                                padding-top: 15px;
+                            }
+
+                            @include sMobile {
+                                margin-top: 15px;
+                                padding-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &_payment_methods {
+                & label {
+                    margin-bottom: 0px;
+                }
+
+                & ul {
+                    & li {
+                        display: inline-block;
+
+                        & a {
+                            margin-top: 10px;
+                            display: block;
+                            border: 1px solid $border;
+                            padding: 6px 15px;
+                            border-radius: 3px;
+
+                            &:hover {
+                                border-color: $naviblue;
+                            }
+
+                            @include Tablet {
+                                padding: 5px 10px;
+                            }
+
+                            @include Mobile {
+                                padding: 5px 10px;
+                            }
+
+                            @include sMobile {
+                                padding: 5px;
+                            }
+
+                            & img {
+                                width: auto;
+                                height: auto;
+
+                                @include Mobile {
+                                    transform: scale(.8);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
